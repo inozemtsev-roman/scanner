@@ -147,9 +147,8 @@
 		display: flex;
 		flex-direction: column;
 		padding: 1rem;
-		width: 100%;
+		width: 50%;
 		left: 0;
-		top: 50;
 		bottom: 0;
 		align-items: stretch;
 		justify-content: center;
