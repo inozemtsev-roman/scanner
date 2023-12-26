@@ -55,7 +55,7 @@
 							{user}
 						/>
 						<span class="username">
-							@{user.firstName}
+							@{user.username}
 						</span>
 						<span class="stats">
 							{#if selectedTop === 'level'}
