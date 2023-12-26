@@ -115,12 +115,12 @@
 	</div>
 {:else if fishingState === 'timeout'}
 	<div class="animation">
-		<LottiePlayer src="/animations/hourglass.json" loop autoplay width={192} />
+		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
 	<div class="fishing-action">Рыбы немного испугались, ждём, когда приплывут назад</div>
 {:else if fishingState === 'waiting'}
 	<div class="animation">
-		<LottiePlayer src="/animations/hourglass.json" loop autoplay width={192} />
+		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
 	<div class="fishing-action">Ждём, когда клюнет</div>
 {:else if fishingState === 'missed'}
