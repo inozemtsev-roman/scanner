@@ -26,7 +26,7 @@ bot.on('message', async (message) => {
 					new InlineKeyboardButton({
 						text: 'Launch Campfire',
 						webApp: {
-							url: 'https://scanner-topaz.vercel.app/'
+							url: 'https://scanner.mir.one/'
 						}
 					})
 				]
@@ -41,7 +41,7 @@ bot.on('message', async (message) => {
 					new InlineKeyboardButton({
 						text: 'Launch SCAN',
 						webApp: {
-							url: 'https://scanner-topaz.vercel.app/'
+							url: 'https://scanner.mir.one/'
 						}
 					})
 				]
