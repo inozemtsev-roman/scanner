@@ -149,7 +149,8 @@
 		padding: 1rem;
 		width: 100%;
 		left: 0;
-		bottom: 20;
+		top: 50;
+		bottom: 0;
 		align-items: stretch;
 		justify-content: center;
 		text-align: center;
