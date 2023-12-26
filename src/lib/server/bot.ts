@@ -33,7 +33,7 @@ bot.on('message', async (message) => {
 			])
 		})
 	}
-	if (message.text?.startsWith('/setup')) {
+	if (message.text?.startsWith('/')) {
 		await message.chat.sendMessage('Hi!', {
 			replyMarkup: new InlineKeyboardMarkup().setKeyboard([
 				[
