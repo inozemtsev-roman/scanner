@@ -24,7 +24,7 @@ bot.on('message', async (message) => {
 			replyMarkup: new InlineKeyboardMarkup().setKeyboard([
 				[
 					new InlineKeyboardButton({
-						text: 'Launch Campfire',
+						text: 'Launch Scanner',
 						webApp: {
 							url: 'https://scanner.mir.one/'
 						}
@@ -34,7 +34,6 @@ bot.on('message', async (message) => {
 		})
 	}
 	if (message.text?.startsWith('/setup')) {
-		await message.chat.sendSticker('CAACAgIAAxkBAAIGB2VG4pG-t0yX8PvBtOQTXPH-pl0nAAJCEAACM8UpSZAO1BGnKkqCMwQ')
 		await message.chat.sendMessage('Hi!', {
 			replyMarkup: new InlineKeyboardMarkup().setKeyboard([
 				[
