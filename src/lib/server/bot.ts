@@ -26,7 +26,7 @@ bot.on('message', async (message) => {
 					new InlineKeyboardButton({
 						text: 'Launch Campfire',
 						webApp: {
-							url: 'https://campfire.sadzep.me/'
+							url: 'https://scanner-topaz.vercel.app/'
 						}
 					})
 				]
@@ -39,9 +39,9 @@ bot.on('message', async (message) => {
 			replyMarkup: new InlineKeyboardMarkup().setKeyboard([
 				[
 					new InlineKeyboardButton({
-						text: 'Launch Scanner',
+						text: 'Launch SCAN',
 						webApp: {
-							url: 'https://scanner.mir.one/'
+							url: 'https://scanner-topaz.vercel.app/'
 						}
 					})
 				]
