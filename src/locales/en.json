@@ -4,7 +4,7 @@
 		"notEnoughCoins": "Not enough coins",
 		"notEnoughOrbs": "Not enough orbs",
 		"catchFish": {
-			"tooFast": "You are fishing too fast!"
+			"tooFast": "You are scanning too fast!"
 		}
 	},
 	"items": {
@@ -61,7 +61,7 @@
 	},
 	"home": {
 		"inventory": "Inventory",
-		"fishing": "Fishing",
+		"fishing": "Scanning",
 		"dailyBonus": "Bonus",
 		"top": "Top",
 		"settings": "Settings",

@@ -42,7 +42,7 @@
 		{$t('home.inventory')}
 	</a>
 	<a class="nav-card" href="/fishing" use:ripple>
-		<img src="/icons/fish.webp" alt="fishing"/>
+		<img src="/icons/scanning.webp" alt="fishing"/>
 		{$t('home.fishing')}
 		<span class="progress" style:width={`${fishingTimeRemained / 30000 * 100}%`}/>
 	</a>
