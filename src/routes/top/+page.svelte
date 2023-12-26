@@ -22,8 +22,8 @@
 			title: 'Level',
 			value: 'level'
 		}, {
-			title: 'Coins',
-			value: 'coins'
+			title: 'Jettons',
+			value: 'jettons'
 		}, {
 			title: 'Orbs',
 			value: 'orbs'
@@ -60,8 +60,8 @@
 						<span class="stats">
 							{#if selectedTop === 'level'}
 								{user.level}
-							{:else if selectedTop === 'coins'}
-								{user.coins} <img src="/icons/coin.webp" width={16} alt="coins"/>
+							{:else if selectedTop === 'jettons'}
+								{user.jettons} <img src="/icons/jetton.webp" width={16} alt="jettons"/>
 							{:else if selectedTop === 'orbs'}
 								{user.orbs} <img src="/icons/orb.webp" width={16} alt="orbs"/>
 							{/if}

@@ -12,15 +12,15 @@ const waitMinTime = 15_000
 export async function POST(event: RequestEvent) {
 	const { t, user, initData } = event.locals
 
-	if(user.lastTimeFished && Date.now() < user.lastTimeFished.getTime() + cooldown + waitMinTime) {
+	if (user.lastTimeFished && Date.now() < user.lastTimeFished.getTime() + cooldown + waitMinTime) {
 		throw error(403, {
 			message: t('api.catchFish.tooFast')
 		})
 	}
 
-	if(user.coins < catchPrice) {
+	if (user.jettons < catchPrice) {
 		throw error(403, {
-			message: t('api.notEnoughCoins')
+			message: t('api.notEnoughJettons')
 		})
 	}
 
@@ -28,8 +28,8 @@ export async function POST(event: RequestEvent) {
 
 	let newLevelData
 
-	if(!itemCatched.isJunk) {
-		giveUserItem(initData.user.id, itemCatched.itemId);
+	if (!itemCatched.isJunk) {
+		giveUserItem(initData.user.id, itemCatched.itemId)
 
 		newLevelData = await giveUserXp(initData.user.id, xpReward)
 	}
@@ -38,7 +38,7 @@ export async function POST(event: RequestEvent) {
 
 	await database.user.update({
 		data: {
-			coins: {
+			jettons: {
 				decrement: 2
 			},
 			lastTimeFished
@@ -51,7 +51,7 @@ export async function POST(event: RequestEvent) {
 	return json({
 		...itemCatched,
 		_updates: {
-			coins: event.locals.user.coins - 2,
+			jettons: event.locals.user.jettons - 2,
 			level: newLevelData?.level,
 			xp: newLevelData?.xp,
 			lastTimeFished

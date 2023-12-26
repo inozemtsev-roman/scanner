@@ -1,7 +1,7 @@
 {
 	"levelPopupTitle": "{{level}} level",
 	"api": {
-		"notEnoughCoins": "Not enough coins",
+		"notEnoughJettons": "Not enough jettons",
 		"notEnoughOrbs": "Not enough orbs",
 		"catchFish": {
 			"tooFast": "You are scanning too fast!"
@@ -67,7 +67,7 @@
 		"settings": "Settings",
 		"dailyBonusMessage": {
 			"collected": {
-				"text": "You received 40 coins! Come back tomorrow for a new reward."
+				"text": "You received 40 jettons! Come back tomorrow for a new reward."
 			},
 			"timeout": {
 				"text": "You have already collected a bonus today. Come back tomorrow for a new reward."

@@ -8,7 +8,7 @@
 	import { t } from '$lib/shared/localization'
 
 	let myData: User = {
-		coins: 0,
+		jettons: 0,
 		id: BigInt(0),
 		joined: new Date(),
 		level: 0,
@@ -24,7 +24,7 @@
 		easing: cubicOut
 	})
 
-	const coinsDisplayValue = tweened(0, {
+	const jettonsDisplayValue = tweened(0, {
 		duration: 500,
 		easing: cubicOut
 	})
@@ -35,7 +35,7 @@
 	})
 
 	$: xpProgress.set(myData?.xp ?? 0)
-	$: coinsDisplayValue.set(myData?.coins ?? 0)
+	$: jettonsDisplayValue.set(myData?.jettons ?? 0)
 	$: orbsDisplayValue.set(myData?.orbs ?? 0)
 
 	userData.subscribe((data) => {
@@ -55,9 +55,9 @@
 		</div>
 	</button>
 	<div class="wallet">
-		<span class="currency" class:negative={myData.coins < 0}>
-			{Math.round($coinsDisplayValue)}
-			<img draggable="false" class="currency-icon" src="/icons/coin.webp" alt="coins"/>
+		<span class="currency" class:negative={myData.jettons < 0}>
+			{Math.round($jettonsDisplayValue)}
+			<img draggable="false" class="currency-icon" src="/icons/jetton.webp" alt="jettons"/>
 		</span>
 		<span class="currency" class:negative={myData.orbs < 0}>
 			{Math.round($orbsDisplayValue)}

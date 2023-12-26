@@ -2,23 +2,26 @@ import { type RequestEvent, json } from '@sveltejs/kit'
 import { database } from '$lib/server/database'
 
 const possibleDrops = [
-	{ coins: 20 },
-	{ coins: 30 },
-	{ coins: 40 },
-	{ coins: 50 },
-	{ coins: 60 },
+	{ jettons: 20 },
+	{ jettons: 30 },
+	{ jettons: 40 },
+	{ jettons: 50 },
+	{ jettons: 60 },
 	{ orbs: 2 },
 	{ orbs: 5 }
 ]
 
 export async function POST(event: RequestEvent) {
 	const { t, initData } = event.locals
-	if(!event.locals.user.inventoryItems.find((item) => item.itemId === 'envelope' && item.quantity > 0)) {
-		return json({
-			message: t('items.envelope.use.absence')
-		}, {
-			status: 400
-		})
+	if (!event.locals.user.inventoryItems.find((item) => item.itemId === 'envelope' && item.quantity > 0)) {
+		return json(
+			{
+				message: t('items.envelope.use.absence')
+			},
+			{
+				status: 400
+			}
+		)
 	}
 
 	const drop = possibleDrops[Math.floor(Math.random() * possibleDrops.length)]
@@ -39,8 +42,8 @@ export async function POST(event: RequestEvent) {
 
 	const updatedUser = await database.user.update({
 		data: {
-			coins: {
-				increment: drop.coins ?? 0
+			jettons: {
+				increment: drop.jettons ?? 0
 			},
 			orbs: {
 				increment: drop.orbs ?? 0
@@ -51,9 +54,9 @@ export async function POST(event: RequestEvent) {
 		}
 	})
 
-    return json({
+	return json({
 		_updates: {
-			coins: updatedUser.coins,
+			jettons: updatedUser.jettons,
 			orbs: updatedUser.orbs
 		}
 	})

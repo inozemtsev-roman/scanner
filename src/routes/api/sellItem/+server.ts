@@ -11,19 +11,19 @@ const sellItemSchema = z.object({
 export async function POST(event: RequestEvent) {
 	const body = sellItemSchema.safeParse(await event.request.json())
 
-	if(!body.success) {
+	if (!body.success) {
 		throw error(402, {
-			message: body.error.errors.map(error => error.message).join('\n')
+			message: body.error.errors.map((error) => error.message).join('\n')
 		})
 	}
 
 	const item = items.get(body.data.item)
 
-	if(!item) {
+	if (!item) {
 		throw error(402, { message: 'This item does not exist' })
 	}
 
-	if(!item.sellable) {
+	if (!item.sellable) {
 		throw error(402, { message: 'This item is not sellable' })
 	}
 
@@ -36,12 +36,12 @@ export async function POST(event: RequestEvent) {
 		}
 	})
 
-	if(!inventoryItem) {
-		throw error(402, { message: 'You don\'t have this item' })
+	if (!inventoryItem) {
+		throw error(402, { message: "You don't have this item" })
 	}
 
-	if(body.data.quantity > inventoryItem.quantity) {
-		throw error(402, { message: 'You don\'t have that many of this item' })
+	if (body.data.quantity > inventoryItem.quantity) {
+		throw error(402, { message: "You don't have that many of this item" })
 	}
 
 	await database.inventoryItem.update({
@@ -60,7 +60,7 @@ export async function POST(event: RequestEvent) {
 
 	await database.user.update({
 		data: {
-			coins: {
+			jettons: {
 				increment: item.price * body.data.quantity
 			}
 		},
@@ -71,7 +71,7 @@ export async function POST(event: RequestEvent) {
 
 	return json({
 		_updates: {
-			coins: event.locals.user.coins + item.price * body.data.quantity
+			jettons: event.locals.user.jettons + item.price * body.data.quantity
 		}
 	})
 }

@@ -5,10 +5,10 @@ export async function POST(event: RequestEvent) {
 	const user = await database.user.findUnique({
 		where: {
 			id: event.locals.initData.user.id
-		}, 
+		},
 		select: {
 			username: true,
-			coins: true,
+			jettons: true,
 			orbs: true,
 			level: true,
 			xp: true,
