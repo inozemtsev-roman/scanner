@@ -40,6 +40,7 @@
 		"@tonconnect/sdk": "^3.0.0-beta.3",
 		"@tonconnect/ui": "^2.0.0-beta.6",
 		"@vercel/analytics": "^1.1.1",
+		"@vercel/speed-insights": "^1.0.2",
 		"crypto-es": ">=2.1.0",
 		"telescript": "^0.1.0",
 		"ton": "^6.13.1",
