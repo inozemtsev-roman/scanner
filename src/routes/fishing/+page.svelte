@@ -67,7 +67,7 @@
 {#if fishingState === 'idle'}
 	<div class="fishing-action">
 		<Button
-			variant="secondary"
+			variant="primary"
 			on:click={() => {
 				fishingState = 'waiting'
 				clearTimeout(timeout)
@@ -149,7 +149,7 @@
 		padding: 1rem;
 		width: 100%;
 		left: 0;
-		bottom: 100;
+		bottom: 20;
 		align-items: stretch;
 		justify-content: center;
 		text-align: center;
