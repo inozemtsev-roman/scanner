@@ -12,7 +12,7 @@ export async function getUserProfilePhoto(userId: number) {
 
 	const res = await fetch(`https://api.telegram.org/file/bot${process.env.TELEGRAM_BOT_TOKEN}/${file.filePath}`)
 	const blob = await res.blob()
-	const buffer = await Buffer.from(await blob.arrayBuffer())
+	const buffer = Buffer.from(await blob.arrayBuffer())
 
 	return buffer.toString('base64')
 }
@@ -24,7 +24,7 @@ bot.on('message', async (message) => {
 			replyMarkup: new InlineKeyboardMarkup().setKeyboard([
 				[
 					new InlineKeyboardButton({
-						text: 'Launch Scanner',
+						text: 'Launch Fingerprints Scanner',
 						webApp: {
 							url: 'https://scanner.mir.one/'
 						}
@@ -38,7 +38,7 @@ bot.on('message', async (message) => {
 			replyMarkup: new InlineKeyboardMarkup().setKeyboard([
 				[
 					new InlineKeyboardButton({
-						text: 'Launch SCAN',
+						text: 'Launch FS',
 						webApp: {
 							url: 'https://scanner.mir.one/'
 						}

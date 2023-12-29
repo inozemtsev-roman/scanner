@@ -88,7 +88,7 @@
 				}, 15_000 + Math.random() * 30_000)
 			}}
 		>
-			Закинуть удочку
+			Fingerprint login
 		</Button>
 	</div>
 {:else if fishingState === 'biting'}
@@ -117,17 +117,17 @@
 	<div class="animation">
 		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">Рыбы немного испугались, ждём, когда приплывут назад</div>
+	<div class="fishing-action">Authentication error: waiting</div>
 {:else if fishingState === 'waiting'}
 	<div class="animation">
 		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">Ждём, когда клюнет</div>
+	<div class="fishing-action">Touch the fingerprint sensor</div>
 {:else if fishingState === 'missed'}
 	<div class="animation">
 		<LottiePlayer src="/animations/rainCloud.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">Рыба сбежала</div>
+	<div class="fishing-action">Authentication failed</div>
 {/if}
 
 <style lang="scss">
