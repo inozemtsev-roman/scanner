@@ -110,7 +110,7 @@
 				}, 5_000)
 			}}
 		>
-			Поймать
+			Fingerprint Verification
 		</Button>
 	</div>
 {:else if fishingState === 'timeout'}
