@@ -39,9 +39,9 @@
 	{#if !userDataLoaded}
 		<div class="loader" out:fade>
 			<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
- width="1000.000000pt" height="1000.000000pt" viewBox="0 0 1000.000000 1000.000000"
+ width="1000.000000pt" height="1000.000000pt" viewBox="0 0 64.000000 64.000000"
  preserveAspectRatio="xMidYMid meet">
-<g transform="translate(0.000000,1000.000000) scale(0.100000,-0.100000)"
+<g transform="translate(0.000000,64.000000) scale(0.100000,-0.100000)"
 fill="#1b1f23" stroke="none">
 <path d="M4631 7709 c-97 -13 -318 -70 -401 -103 -36 -15 -53 -24 -39 -21 28
 5 105 15 279 37 161 20 374 17 433 -5 26 -10 52 -28 58 -39 21 -39 -6 -49
