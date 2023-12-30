@@ -110,14 +110,14 @@
 				}, 5_000)
 			}}
 		>
-			Fingerprint Verification
+			Verification
 		</Button>
 	</div>
 {:else if fishingState === 'timeout'}
 	<div class="animation">
 		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">Authentication error: waiting</div>
+	<div class="fishing-action">Authentication error: timeout</div>
 {:else if fishingState === 'waiting'}
 	<div class="animation">
 		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
