@@ -88,7 +88,7 @@
 				}, 15_000 + Math.random() * 30_000)
 			}}
 		>
-			Fingerprint login
+			Confirm fingerprint to continue
 		</Button>
 	</div>
 {:else if fishingState === 'biting'}
@@ -110,7 +110,7 @@
 				}, 5_000)
 			}}
 		>
-			Verification
+			Authenticate
 		</Button>
 	</div>
 {:else if fishingState === 'timeout'}
