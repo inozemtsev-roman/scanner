@@ -8,6 +8,7 @@
 	import { userData } from '$lib/client/store'
 	import type { User } from '@prisma/client'
 	import { LottiePlayer } from '@lottiefiles/svelte-lottie-player'
+	import { clientLanguage, t, userLanguage } from '$lib/shared/localization'
 
 	const webApp = window.Telegram.WebApp
 
@@ -88,7 +89,7 @@
 				}, 15_000 + Math.random() * 30_000)
 			}}
 		>
-			Confirm fingerprint to continue
+			{$t('button.scan')}
 		</Button>
 	</div>
 {:else if fishingState === 'biting'}

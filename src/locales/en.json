@@ -7,6 +7,9 @@
 			"tooFast": "You are scanning too fast!"
 		}
 	},
+	"button": {
+		"scan": "Confirm fingerprint to continue"
+	},
 	"items": {
 		"crab": {
 			"name": "Crab",
