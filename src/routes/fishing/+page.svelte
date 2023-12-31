@@ -89,7 +89,7 @@
 				}, 15_000 + Math.random() * 30_000)
 			}}
 		>
-			{$t('button.scan')}
+			{$t('button.confirm')}
 		</Button>
 	</div>
 {:else if fishingState === 'biting'}
@@ -111,24 +111,24 @@
 				}, 5_000)
 			}}
 		>
-			Authenticate
+			{$t('button.authenticate')}
 		</Button>
 	</div>
 {:else if fishingState === 'timeout'}
 	<div class="animation">
 		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">Authentication error: timeout</div>
+	<div class="fishing-action">{$t('message.timeout')}</div>
 {:else if fishingState === 'waiting'}
 	<div class="animation">
 		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">Touch the fingerprint sensor</div>
+	<div class="fishing-action">{$t('message.waiting')}</div>
 {:else if fishingState === 'missed'}
 	<div class="animation">
 		<LottiePlayer src="/animations/rainCloud.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">Authentication failed</div>
+	<div class="fishing-action">{$t('message.missed')}</div>
 {/if}
 
 <style lang="scss">

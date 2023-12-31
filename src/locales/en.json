@@ -8,7 +8,13 @@
 		}
 	},
 	"button": {
-		"scan": "Confirm fingerprint to continue"
+		"confirm": "Confirm fingerprint to continue",
+		"authenticate": "Authenticate"
+	},
+	"message": {
+		"timeout": "Authentication error: timeout",
+		"waiting": "Touch the fingerprint sensor",
+		"missed": "Authentication failed"
 	},
 	"items": {
 		"crab": {
