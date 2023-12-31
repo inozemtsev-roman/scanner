@@ -21,15 +21,15 @@
 	<Tabs
 		tabs={[
 			{
-				title: $t('tops.level'),
+				title: $t('top.level'),
 				value: 'level'
 			},
 			{
-				title: 'Jettons',
+				title: $t('top.jettons'),
 				value: 'jettons'
 			},
 			{
-				title: 'Orbs',
+				title: $t('top.orbs'),
 				value: 'orbs'
 			}
 		]}

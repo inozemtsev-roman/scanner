@@ -29,7 +29,7 @@
 			"description": "Enable forest background"
 		}
 	},
-	"tops": {
+	"top": {
 		"level": "Level",
 		"jettons": "Jettons",
 		"orbs": "Orbs"
