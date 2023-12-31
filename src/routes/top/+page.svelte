@@ -21,7 +21,7 @@
 	<Tabs
 		tabs={[
 			{
-				title: {$t('tops.level')},
+				title: "{$t('tops.level')}",
 				value: 'level'
 			},
 			{
