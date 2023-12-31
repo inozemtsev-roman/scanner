@@ -16,6 +16,19 @@
 		"waiting": "Touch the fingerprint sensor",
 		"missed": "Authentication failed"
 	},
+	"settings": {
+		"username": {
+			"description": "Username"
+		},
+		"contrast": {
+			"name": "Contrast mode",
+			"description": "Enable borders to increase visibility"
+		},
+		"cozy": {
+			"name": "Cozy Mode",
+			"description": "Enable forest background"
+		}
+	},
 	"items": {
 		"crab": {
 			"name": "Crab",

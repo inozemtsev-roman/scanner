@@ -3,6 +3,7 @@
 	import { localSettings, userData } from '$lib/client/store'
 	import { ripple } from '$lib/client/actions'
 	import Toggle from '../../lib/client/components/Toggle.svelte'
+	import { clientLanguage, t, userLanguage } from '$lib/shared/localization'
 
 	const webApp = window.Telegram.WebApp
 	webApp.BackButton.show()
@@ -14,22 +15,22 @@
 	<a href="/settings/username" class="cell" use:ripple>
 		<div class="cell-text">
 			<span class="cell-name">@{$userData.username}</span>
-			<span class="cell-description">Username</span>
+			<span class="cell-description">{$t('settings.username.description')}</span>
 		</div>
 	</a>
 	<label for="contrastMode" class="cell" use:ripple>
 		<div class="cell-text">
-			<span class="cell-name">Contrast mode</span>
-			<span class="cell-description">Enable borders to increase visibility</span>
+			<span class="cell-name">{$t('settings.contrast.name')}</span>
+			<span class="cell-description">{$t('settings.contrast.description')}</span>
 		</div>
-		<Toggle id="contrastMode" bind:checked={$localSettings.contrastMode}/>
+		<Toggle id="contrastMode" bind:checked={$localSettings.contrastMode} />
 	</label>
 	<label for="cozyMode" class="cell" use:ripple>
 		<div class="cell-text">
-			<span class="cell-name">Cozy mode</span>
-			<span class="cell-description">Enable forest background</span>
+			<span class="cell-name">{$t('settings.cozy.name')}</span>
+			<span class="cell-description">{$t('settings.cozy.description')}</span>
 		</div>
-		<Toggle id="cozyMode" bind:checked={$localSettings.cozyMode}/>
+		<Toggle id="cozyMode" bind:checked={$localSettings.cozyMode} />
 	</label>
 </div>
 
@@ -38,7 +39,7 @@
 
 	.block {
 		background: var(--background);
-		box-shadow:0px 0.5px 0px 0px rgba(0, 0, 0, 0.07);
+		box-shadow: 0px 0.5px 0px 0px rgba(0, 0, 0, 0.07);
 	}
 
 	.cell {

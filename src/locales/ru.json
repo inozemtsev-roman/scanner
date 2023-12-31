@@ -16,6 +16,19 @@
 		"waiting": "Нажмите на сканер отпечатков пальцев",
 		"missed": "Ошибка"
 	},
+	"settings": {
+		"username": {
+			"description": "Имя"
+		},
+		"contrast": {
+			"name": "Режим контраста",
+			"description": "Линия borders to increase visibility"
+		},
+		"cozy": {
+			"name": "Обои Mode",
+			"description": "Включить секретные обои"
+		}
+	},
 	"items": {
 		"crab": {
 			"name": "Краб",
