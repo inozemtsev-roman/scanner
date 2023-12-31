@@ -29,6 +29,11 @@
 			"description": "Enable forest background"
 		}
 	},
+	"tops": {
+		"level": "Level",
+		"jettons": "Jettons",
+		"orbs": "Orbs"
+	},
 	"items": {
 		"crab": {
 			"name": "Crab",

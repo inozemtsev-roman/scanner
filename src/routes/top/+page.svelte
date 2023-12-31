@@ -6,6 +6,7 @@
 	import { goto } from '$app/navigation'
 	import Tabs from '../../lib/client/components/Tabs.svelte'
 	import ProfilePhoto from '../../lib/client/components/ProfilePhoto.svelte'
+	import { clientLanguage, t, userLanguage } from '$lib/shared/localization'
 
 	const webApp = window.Telegram.WebApp
 	webApp.BackButton.show()
@@ -18,29 +19,33 @@
 
 <div class="top">
 	<Tabs
-		tabs={[{
-			title: 'Level',
-			value: 'level'
-		}, {
-			title: 'Jettons',
-			value: 'jettons'
-		}, {
-			title: 'Orbs',
-			value: 'orbs'
-		}]}
+		tabs={[
+			{
+				title: '<h2>{$t('tops.level')}</h2>',
+				value: 'level'
+			},
+			{
+				title: 'Jettons',
+				value: 'jettons'
+			},
+			{
+				title: 'Orbs',
+				value: 'orbs'
+			}
+		]}
 		bind:selected={selectedTop}
 	/>
-	
+
 	<div class="list">
 		<Await promise={topPromise} once>
 			<svelte:fragment slot="await">
 				{#each new Array(20) as _}
 					<div class="user skeleton">
-						<span class="place"/>
-						<span class="profile-photo"/>
-						<span class="username" style:width={Math.random() * 5 + 3 + 'rem'}/>
-						<span class="stats" style:width={Math.random() + 1 + 'rem'}/>
-						<div class="divider"/>
+						<span class="place" />
+						<span class="profile-photo" />
+						<span class="username" style:width={Math.random() * 5 + 3 + 'rem'} />
+						<span class="stats" style:width={Math.random() + 1 + 'rem'} />
+						<div class="divider" />
 					</div>
 				{/each}
 			</svelte:fragment>
@@ -51,9 +56,7 @@
 							{i + 1}
 						</span>
 						<!-- svelte-ignore a11y-img-redundant-alt -->
-						<ProfilePhoto
-							{user}
-						/>
+						<ProfilePhoto {user} />
 						<span class="username">
 							@{user.username}
 						</span>
@@ -61,12 +64,12 @@
 							{#if selectedTop === 'level'}
 								{user.level}
 							{:else if selectedTop === 'jettons'}
-								{user.jettons} <img src="/icons/jetton.webp" width={16} alt="jettons"/>
+								{user.jettons} <img src="/icons/jetton.webp" width={16} alt="jettons" />
 							{:else if selectedTop === 'orbs'}
-								{user.orbs} <img src="/icons/orb.webp" width={16} alt="orbs"/>
+								{user.orbs} <img src="/icons/orb.webp" width={16} alt="orbs" />
 							{/if}
 						</span>
-						<div class="divider"/>
+						<div class="divider" />
 					</div>
 				{/each}
 			</svelte:fragment>
@@ -91,7 +94,8 @@
 			animation: skeleton 1s infinite;
 		}
 
-		.username, .stats {
+		.username,
+		.stats {
 			height: 1.5rem;
 			border-radius: 0.25rem;
 		}
@@ -123,7 +127,6 @@
 		&:last-child .divider {
 			display: none;
 		}
-
 
 		&:nth-child(1) .place {
 			background: rgb(240, 197, 90);
