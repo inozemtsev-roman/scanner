@@ -6,7 +6,7 @@
 	import { goto } from '$app/navigation'
 	import Tabs from '../../lib/client/components/Tabs.svelte'
 	import ProfilePhoto from '../../lib/client/components/ProfilePhoto.svelte'
-	import { clientLanguage, t, userLanguage } from '$lib/shared/localization'
+	import { t } from '$lib/shared/localization'
 
 	const webApp = window.Telegram.WebApp
 	webApp.BackButton.show()
@@ -21,7 +21,7 @@
 	<Tabs
 		tabs={[
 			{
-				title: "{$t('tops.level')}",
+				title: $t('tops.level'),
 				value: 'level'
 			},
 			{
