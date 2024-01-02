@@ -25,8 +25,8 @@
 			"description": "Enable borders to increase visibility"
 		},
 		"cozy": {
-			"name": "Cozy Mode",
-			"description": "Enable forest background"
+			"name": "Fingerprints Mode",
+			"description": "Enable fingerprints background"
 		}
 	},
 	"top": {
@@ -94,14 +94,15 @@
 		"settings": "Settings",
 		"dailyBonusMessage": {
 			"collected": {
-				"text": "You received 40 jettons! Come back tomorrow for a new reward. https://www.w3schools.com"
+				"text": "You received 40 jettons! Come back tomorrow for a new reward."
 			},
 			"timeout": {
-				"text": "You have already collected a free daily jettons today. Come back tomorrow for a new reward https://www.w3schools.com "
+				"text": "You have already collected a free daily jettons today. Come back tomorrow for a new reward. "
 			}
 		},
 		"links": {
-			"getgems": "Getgems"
+			"getgems": "Getgems",
+			"vote": "Vote"
 		}
 	}
 }

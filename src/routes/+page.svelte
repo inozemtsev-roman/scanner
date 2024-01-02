@@ -52,6 +52,10 @@
 		<img src="/icons/gg.webp" alt="getgems" />
 		{$t('home.links.getgems')}
 	</a>
+	<a class="nav-card small" href="https://ton.vote/EQD1PIvZLeDmgICYjkzEbvyIZRWNQNS6izrxQJuoXZk_uF2y" use:ripple>
+		<img src="/icons/vote.webp" alt="vote" />
+		{$t('home.links.vote')}
+	</a>
 	<a class="nav-card small" href="/top" use:ripple>
 		<img src="/icons/clipboard.webp" alt="top" />
 		{$t('home.top')}
