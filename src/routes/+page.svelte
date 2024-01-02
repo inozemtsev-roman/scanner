@@ -49,8 +49,8 @@
 		{$t('home.dailyBonus')}
 	</button>
 	<a class="nav-card small" href="https://getgems.io/collection/fingerprints" target="_blank" use:ripple>
-		<img src="/icons/mcu.webp" alt="inventory" />
-		{$t('home.inventory')}
+		<img src="/icons/gg.webp" alt="getgems" />
+		{$t('home.links.getgems')}
 	</a>
 	<a class="nav-card small" href="/top" use:ripple>
 		<img src="/icons/clipboard.webp" alt="top" />
