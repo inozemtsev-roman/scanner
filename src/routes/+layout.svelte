@@ -148,7 +148,23 @@
 	}
 
 	@keyframes loading {
-		100% {
+		0% {
+			fill: var(--background-secondary);
+		}
+
+		10% {
+			fill: var(--background);
+		}
+
+		20% {
+			fill: var(--background-secondary);
+		}
+
+		30% {
+			fill: var(--background);
+		}
+
+		40% {
 			fill: var(--background-secondary);
 		}
 
@@ -156,7 +172,7 @@
 			fill: var(--background);
 		}
 
-		25% {
+		60% {
 			fill: var(--background-secondary);
 		}
 	}
