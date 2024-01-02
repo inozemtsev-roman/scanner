@@ -125,16 +125,16 @@
 		justify-content: center;
 
 		svg path {
-			animation: loading 10s infinite;
+			animation: loading 3s infinite;
 		}
 	}
 
 	@keyframes loading {
-		25% {
+		50% {
 			fill: var(--background-secondary);
 		}
 
-		50% {
+		75% {
 			fill: var(--background);
 		}
 
