@@ -48,6 +48,11 @@
 		<img src="/icons/jetton.webp" alt="daily bonus" />
 		{$t('home.dailyBonus')}
 	</button>
+	<button class="nav-card small">
+		<a href="https://svelte.dev" target="_blank">New Tab Link To Svelte</a>
+		<img src="/icons/jetton.webp" alt="daily bonus" />
+		{$t('home.dailyBonus')}
+	</button>
 	<a class="nav-card small" href="/top" use:ripple>
 		<img src="/icons/clipboard.webp" alt="top" />
 		{$t('home.top')}
