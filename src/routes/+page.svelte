@@ -90,7 +90,8 @@
 		border: none;
 
 		&.small {
-			grid-column: span 1;
+			grid-column: span 6;
+			aspect-ratio: 1/6;
 			gap: 1rem;
 
 			img {
