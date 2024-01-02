@@ -36,7 +36,7 @@
 
 <div class="nav-card-list">
 	<a class="nav-card" href="/inventory" use:ripple>
-		<img src="/icons/bag.webp" alt="inventory" />
+		<img src="/icons/mcu.webp" alt="inventory" />
 		{$t('home.inventory')}
 	</a>
 	<a class="nav-card" href="/fishing" use:ripple>
