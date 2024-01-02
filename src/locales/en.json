@@ -94,7 +94,7 @@
 		"settings": "Settings",
 		"dailyBonusMessage": {
 			"collected": {
-				"text": "You received 40 jettons! Come back tomorrow for a new reward."
+				"text": "You received 40 jettons! Come back tomorrow for a new reward. <a href='https://www.w3schools.com/'>Visit W3Schools.com!</a>"
 			},
 			"timeout": {
 				"text": "You have already collected a free daily jettons today. Come back tomorrow for a new reward."

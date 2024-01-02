@@ -159,21 +159,5 @@
 		60% {
 			fill: var(--background-secondary);
 		}
-
-		70% {
-			fill: var(--background);
-		}
-
-		80% {
-			fill: var(--background-secondary);
-		}
-
-		90% {
-			fill: var(--background);
-		}
-
-		100% {
-			fill: var(--background-secondary);
-		}
 	}
 </style>
