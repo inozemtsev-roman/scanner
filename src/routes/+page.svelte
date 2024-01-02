@@ -45,7 +45,7 @@
 		<span class="progress" style:width={`${(fishingTimeRemained / 30000) * 100}%`} />
 	</a>
 	<button class="nav-card small" use:ripple on:click={handleBonusCardClick}>
-		<img src="/icons/leaves.webp" alt="daily bonus" />
+		<img src="/icons/jetton.webp" alt="daily bonus" />
 		{$t('home.dailyBonus')}
 	</button>
 	<a class="nav-card small" href="/top" use:ripple>
