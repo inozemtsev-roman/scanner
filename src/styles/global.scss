@@ -26,6 +26,7 @@ html, body {
 body {
 	&.contrast {
 		--border-width: 5px;
+		--border-color: white;
 	}
 
 	&.cozy {
