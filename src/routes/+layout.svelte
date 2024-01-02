@@ -148,23 +148,7 @@
 	}
 
 	@keyframes loading {
-		0% {
-			fill: var(--background-secondary);
-		}
-
-		10% {
-			fill: var(--background);
-		}
-
-		20% {
-			fill: var(--background-secondary);
-		}
-
-		30% {
-			fill: var(--background);
-		}
-
-		40% {
+		4% {
 			fill: var(--background-secondary);
 		}
 
@@ -173,6 +157,22 @@
 		}
 
 		60% {
+			fill: var(--background-secondary);
+		}
+
+		70% {
+			fill: var(--background);
+		}
+
+		80% {
+			fill: var(--background-secondary);
+		}
+
+		90% {
+			fill: var(--background);
+		}
+
+		100% {
 			fill: var(--background-secondary);
 		}
 	}
