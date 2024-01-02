@@ -25,7 +25,7 @@
 		sellQuantity = Math.floor(sellQuantity)
 	}
 
-	$: if(!sellPageOpened) {
+	$: if (!sellPageOpened) {
 		sellQuantity = 1
 	}
 
@@ -117,7 +117,7 @@
 								<Button square on:click={() => (sellQuantity += 1)}>+</Button>
 							</div>
 							<div class="item-actions">
-								<Button on:click={() => sellPageOpened = false}>
+								<Button on:click={() => (sellPageOpened = false)}>
 									{$t('inventory.back')}
 								</Button>
 								<Button
@@ -147,6 +147,7 @@
 
 	.item-list {
 		display: grid;
+		aspect-ratio: 1/1;
 		grid-template-columns: repeat(2, 1fr);
 		padding: 1rem;
 		gap: 1rem;
