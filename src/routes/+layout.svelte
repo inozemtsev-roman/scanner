@@ -108,11 +108,11 @@
 			fill: var(--background-secondary);
 		}
 
-		50% {
+		25% {
 			fill: var(--background);
 		}
 
-		100% {
+		50% {
 			fill: var(--background-secondary);
 		}
 	}
