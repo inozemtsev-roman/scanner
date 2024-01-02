@@ -90,7 +90,7 @@
 		border: none;
 
 		&.small {
-			grid-column: span 1
+			grid-column: span 2;
 			gap: 1rem;
 
 			img {
