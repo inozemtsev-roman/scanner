@@ -77,7 +77,7 @@
 		border: none;
 
 		&.small {
-			grid-column: span 3;
+			grid-column: span 2;
 			gap: 1rem;
 
 			img {
