@@ -89,7 +89,7 @@
 	"home": {
 		"inventory": "Inventory",
 		"fishing": "Scanning",
-		"dailyBonus": "Bonus",
+		"dailyBonus": "Earn",
 		"top": "Top",
 		"settings": "Settings",
 		"dailyBonusMessage": {
@@ -97,7 +97,7 @@
 				"text": "You received 40 jettons! Come back tomorrow for a new reward."
 			},
 			"timeout": {
-				"text": "You have already collected a bonus today. Come back tomorrow for a new reward."
+				"text": "You have already collected a free daily jettons today. Come back tomorrow for a new reward."
 			}
 		}
 	}
