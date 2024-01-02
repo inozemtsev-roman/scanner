@@ -99,7 +99,7 @@
 		justify-content: center;
 
 		svg path {
-			animation: loading 1s infinite;
+			animation: loading 10s infinite;
 		}
 	}
 
