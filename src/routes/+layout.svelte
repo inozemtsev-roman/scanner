@@ -104,15 +104,15 @@
 	}
 
 	@keyframes loading {
-		0% {
+		25% {
 			fill: var(--background-secondary);
 		}
 
-		25% {
+		50% {
 			fill: var(--background);
 		}
 
-		50% {
+		100% {
 			fill: var(--background-secondary);
 		}
 	}
