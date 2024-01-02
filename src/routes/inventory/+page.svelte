@@ -147,7 +147,6 @@
 
 	.item-list {
 		display: grid;
-		aspect-ratio: 1/1;
 		grid-template-columns: repeat(2, 1fr);
 		padding: 1rem;
 		gap: 1rem;
@@ -163,6 +162,7 @@
 
 	.item-card {
 		@include card;
+		aspect-ratio: 1/1;
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
