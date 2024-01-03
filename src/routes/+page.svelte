@@ -91,7 +91,7 @@
 
 		&.small {
 			grid-column: span 6;
-			aspect-ratio: 1/6;
+			aspect-ratio: 6/2;
 			gap: 1rem;
 
 			img {
