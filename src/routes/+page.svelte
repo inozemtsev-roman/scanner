@@ -48,7 +48,7 @@
 		<img src="/icons/jetton.webp" alt="daily bonus" />
 		{$t('home.dailyBonus')}
 	</button>
-	<a class="nav-card small" href="https://mir.one/spatial" use:ripple>
+	<a class="nav-card small" href="https://spatial.mir.one" use:ripple>
 		<img src="/icons/gg.webp" alt="Spatial" />
 		{$t('home.links.spatial')}
 	</a>
