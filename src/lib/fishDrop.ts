@@ -17,97 +17,97 @@ export const fishDrop: FishDrop[] = [
 	},
 	{
 		itemId: 'Uncommon',
-		weight: 0.02,
+		weight: 0.01,
 		isJunk: false
 	},
 	{
 		itemId: 'Scarce',
-		weight: 0.07,
+		weight: 0.01,
 		isJunk: false
 	},
 	{
 		itemId: 'Amazing',
-		weight: 0.08,
+		weight: 0.02,
 		isJunk: false
 	},
 	{
 		itemId: 'Exceptional',
-		weight: 0.12,
+		weight: 0.07,
 		isJunk: false
 	},
 	{
 		itemId: 'Unusual',
-		weight: 0.13,
+		weight: 0.08,
 		isJunk: false
 	},
 	{
 		itemId: 'Singular',
-		weight: 0.19,
+		weight: 0.12,
 		isJunk: false
 	},
 	{
 		itemId: 'Unprecedented',
-		weight: 0.21,
+		weight: 0.13,
 		isJunk: false
 	},
 	{
 		itemId: 'Exclusive',
-		weight: 0.31,
+		weight: 0.19,
 		isJunk: false
 	},
 	{
 		itemId: 'Precious',
-		weight: 0.34,
+		weight: 0.21,
 		isJunk: false
 	},
 	{
 		itemId: 'Distinctive',
-		weight: 0.5,
+		weight: 0.31,
 		isJunk: false
 	},
 	{
 		itemId: 'Unmatched',
-		weight: 0.55,
+		weight: 0.34,
 		isJunk: false
 	},
 	{
 		itemId: 'Peculiar',
-		weight: 0.81,
+		weight: 0.5,
 		isJunk: false
 	},
 	{
 		itemId: 'Exceptionable',
-		weight: 0.89,
+		weight: 0.55,
 		isJunk: false
 	},
 	{
 		itemId: 'Curious',
-		weight: 1.31,
+		weight: 0.81,
 		isJunk: false
 	},
 	{
 		itemId: 'Abnormal',
-		weight: 1.44,
+		weight: 0.89,
 		isJunk: false
 	},
 	{
 		itemId: 'Outstanding',
-		weight: 2.12,
+		weight: 1.31,
 		isJunk: false
 	},
 	{
 		itemId: 'Rarefied',
-		weight: 2.33,
+		weight: 1.44,
 		isJunk: false
 	},
 	{
 		itemId: 'Remarkable',
-		weight: 2.38,
+		weight: 2.12,
 		isJunk: false
 	},
 	{
 		itemId: 'Unparalleled',
-		weight: 3.43,
+		weight: 2.33,
 		isJunk: false
 	},
 	{
