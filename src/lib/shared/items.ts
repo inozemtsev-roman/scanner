@@ -34,47 +34,129 @@ export class Item {
 
 const itemsData: ItemData[] = [
 	{
-		id: 'fish',
-		price: 4
-	},
-	{
-		id: 'tropicalFish',
-		price: 8
-	},
-	{
-		id: 'pufferfish',
-		price: 10
-	},
-	{
-		id: 'squid',
-		price: 50
-	},
-	{
-		id: 'octopus',
-		price: 55
-	},
-	{
 		id: 'envelope',
 		useable: true
 	},
 	{
-		id: 'shrimp',
-		price: 16
+		id: 'Unique',
+		price: 25
 	},
 	{
-		id: 'goldenFish',
-		price: 120
+		id: 'Rare',
+		price: 25
 	},
 	{
-		id: 'crab',
-		price: 16
+		id: 'Uncommon',
+		price: 25
 	},
 	{
-		id: 'diamond',
-		price: 1000
+		id: 'Scarce',
+		price: 25
+	},
+	{
+		id: 'Amazing',
+		price: 25
+	},
+	{
+		id: 'Exceptional',
+		price: 25
+	},
+	{
+		id: 'Unusual',
+		price: 25
+	},
+	{
+		id: 'Singular',
+		price: 25
+	},
+	{
+		id: 'Unprecedented',
+		price: 25
+	},
+	{
+		id: 'Exclusive',
+		price: 25
+	},
+	{
+		id: 'Precious',
+		price: 25
+	},
+	{
+		id: 'Distinctive',
+		price: 25
+	},
+	{
+		id: 'Unmatched',
+		price: 25
+	},
+	{
+		id: 'Peculiar',
+		price: 25
+	},
+	{
+		id: 'Exceptionable',
+		price: 25
+	},
+	{
+		id: 'Curious',
+		price: 25
+	},
+	{
+		id: 'Abnormal',
+		price: 25
+	},
+	{
+		id: 'Outstanding',
+		price: 25
+	},
+	{
+		id: 'Rarefied',
+		price: 25
+	},
+	{
+		id: 'Remarkable',
+		price: 25
+	},
+	{
+		id: 'Unparalleled',
+		price: 25
+	},
+	{
+		id: 'Uncommonplace',
+		price: 25
+	},
+	{
+		id: 'Unconventional',
+		price: 25
+	},
+	{
+		id: 'Inimitable',
+		price: 25
+	},
+	{
+		id: 'Unheard',
+		price: 25
+	},
+	{
+		id: 'Quirky',
+		price: 25
+	},
+	{
+		id: 'Specialized',
+		price: 25
+	},
+	{
+		id: 'Extraordinary',
+		price: 25
+	},
+	{
+		id: 'Infrequent',
+		price: 25
+	},
+	{
+		id: 'Common',
+		price: 25
 	}
 ]
 
-export const items = new Map<string, Item>(
-	itemsData.map((data) => [data.id, new Item(data)])
-)
+export const items = new Map<string, Item>(itemsData.map((data) => [data.id, new Item(data)]))

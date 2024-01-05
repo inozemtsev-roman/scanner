@@ -1,1 +1,32 @@
 # scanner
+
+1. Unique
+2. Rare
+3. Uncommon
+4. Scarce
+5. Extraordinary
+6. Exceptional
+7. Unusual
+8. Singular
+9. Unprecedented
+10. Exclusive
+11. Precious
+12. Distinctive
+13. Unmatched
+14. Peculiar
+15. Exceptional
+16. Curious
+17. Abnormal
+18. Outstanding
+19. Rarefied
+20. Remarkable
+21. Unparalleled
+22. UncommonPlace
+23. Unconventional
+24. Inimitable
+25. Unheard of
+26. Quirky
+27. Specialized
+28. Extraordinary
+29. Infrequent
+30. Common
