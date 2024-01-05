@@ -39,123 +39,123 @@ const itemsData: ItemData[] = [
 	},
 	{
 		id: 'Unique',
-		price: 25
+		price: 274.89
 	},
 	{
 		id: 'Rare',
-		price: 25
+		price: 274.89
 	},
 	{
 		id: 'Uncommon',
-		price: 25
+		price: 274.89
 	},
 	{
 		id: 'Scarce',
-		price: 25
+		price: 274.89
 	},
 	{
 		id: 'Amazing',
-		price: 25
+		price: 183.223
 	},
 	{
 		id: 'Exceptional',
-		price: 25
+		price: 157.033
 	},
 	{
 		id: 'Unusual',
-		price: 25
+		price: 99.89
 	},
 	{
 		id: 'Singular',
-		price: 25
+		price: 84.505
 	},
 	{
 		id: 'Unprecedented',
-		price: 25
+		price: 54.89
 	},
 	{
 		id: 'Exclusive',
-		price: 25
+		price: 40.631
 	},
 	{
 		id: 'Precious',
-		price: 25
+		price: 30.446
 	},
 	{
 		id: 'Distinctive',
-		price: 25
+		price: 17.923
 	},
 	{
 		id: 'Unmatched',
-		price: 25
+		price: 11.978
 	},
 	{
 		id: 'Peculiar',
-		price: 25
+		price: 11.847
 	},
 	{
 		id: 'Exceptionable',
-		price: 25
+		price: 26.644
 	},
 	{
 		id: 'Curious',
-		price: 25
+		price: 24.325
 	},
 	{
 		id: 'Abnormal',
-		price: 25
+		price: 18.228
 	},
 	{
 		id: 'Outstanding',
-		price: 25
+		price: 16.091
 	},
 	{
 		id: 'Rarefied',
-		price: 25
+		price: 10.926
 	},
 	{
 		id: 'Remarkable',
-		price: 25
+		price: 9.613
 	},
 	{
 		id: 'Unparalleled',
-		price: 25
+		price: 8.977
 	},
 	{
 		id: 'Uncommonplace',
-		price: 25
+		price: 8.679
 	},
 	{
 		id: 'Unconventional',
-		price: 25
+		price: 8.089
 	},
 	{
 		id: 'Inimitable',
-		price: 25
+		price: 6.507
 	},
 	{
 		id: 'Unheard',
-		price: 25
+		price: 5.148
 	},
 	{
 		id: 'Quirky',
-		price: 25
+		price: 4.768
 	},
 	{
 		id: 'Specialized',
-		price: 25
+		price: 4.756
 	},
 	{
 		id: 'Extraordinary',
-		price: 25
+		price: 4.681
 	},
 	{
 		id: 'Infrequent',
-		price: 25
+		price: 3.826
 	},
 	{
 		id: 'Common',
-		price: 25
+		price: 3.809
 	}
 ]
 
