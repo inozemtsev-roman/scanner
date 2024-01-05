@@ -43,129 +43,129 @@
 			}
 		},
 		"Unique": {
-			"name": "Unique",
+			"name": "Unique fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Rare": {
-			"name": "Rare",
+			"name": "Rare fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Uncommon": {
-			"name": "Uncommon",
+			"name": "Uncommon fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Scarce": {
-			"name": "Scarce",
+			"name": "Scarce fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Amazing": {
-			"name": "Amazing",
+			"name": "Amazing fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Exceptional": {
-			"name": "Exceptional",
+			"name": "Exceptional fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Unusual": {
-			"name": "Unusual",
+			"name": "Unusual fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Singular": {
-			"name": "Singular",
+			"name": "Singular fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Unprecedented": {
-			"name": "Unprecedented",
+			"name": "Unprecedented fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Exclusive": {
-			"name": "Exclusive",
+			"name": "Exclusive fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Precious": {
-			"name": "Precious",
+			"name": "Precious fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Distinctive": {
-			"name": "Distinctive",
+			"name": "Distinctive fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Unmatched": {
-			"name": "Unmatched",
+			"name": "Unmatched fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Peculiar": {
-			"name": "Peculiar",
+			"name": "Peculiar fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Exceptionable": {
-			"name": "Exceptionable",
+			"name": "Exceptionable fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Curious": {
-			"name": "Curious",
+			"name": "Curious fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Abnormal": {
-			"name": "Abnormal",
+			"name": "Abnormal fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Outstanding": {
-			"name": "Outstanding",
+			"name": "Outstanding fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Rarefied": {
-			"name": "Rarefied",
+			"name": "Rarefied fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Remarkable": {
-			"name": "Remarkable",
+			"name": "Remarkable fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Unparalleled": {
-			"name": "Unparalleled",
+			"name": "Unparalleled fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Uncommonplace": {
-			"name": "Uncommonplace",
+			"name": "Uncommonplace fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Unconventional": {
-			"name": "Unconventional",
+			"name": "Unconventional fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Inimitable": {
-			"name": "Inimitable",
+			"name": "Inimitable fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Unheard": {
-			"name": "Unheard",
+			"name": "Unheard fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Quirky": {
-			"name": "Quirky",
+			"name": "Quirky fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Specialized": {
-			"name": "Specialized",
+			"name": "Specialized fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Extraordinary": {
-			"name": "Extraordinary",
+			"name": "Extraordinary fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Infrequent": {
-			"name": "Infrequent",
+			"name": "Infrequent fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		},
 		"Common": {
-			"name": "Common",
+			"name": "Common fingerprint",
 			"description": "description <a href='https://www.google.com'>Google</a>"
 		}
 	},
 	"inventory": {
 		"sell": "Sell",
-		"sellItem": "Sell item",
+		"sellItem": "Sell fingerprint",
 		"sellFor": "Sell for",
 		"back": "Back",
 		"use": "Use"
