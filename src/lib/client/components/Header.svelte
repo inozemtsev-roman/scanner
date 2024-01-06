@@ -35,7 +35,7 @@
 	})
 
 	$: xpProgress.set(myData?.xp ?? 0)
-	$: bulbsDisplayValue.set(myData?.bulbs ?? 0)
+	$: bulbsDisplayValue.set(myData?.bulbs ?? 2)
 	$: keysDisplayValue.set(myData?.keys ?? 0)
 
 	userData.subscribe((data) => {
