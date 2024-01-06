@@ -126,7 +126,7 @@
 	<div class="fishing-action">{$t('message.waiting')}</div>
 {:else if fishingState === 'missed'}
 	<div class="animation">
-		<LottiePlayer src="/animations/rainCloud.json" loop autoplay width={192} />
+		<LottiePlayer src="/animations/error.json" loop autoplay width={192} />
 	</div>
 	<div class="fishing-action">{$t('message.missed')}</div>
 {/if}
