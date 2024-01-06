@@ -36,11 +36,11 @@
 
 <div class="nav-card-list">
 	<a class="nav-card" href="/inventory" use:ripple>
-		<img src="/icons/mcu.webp" alt="inventory" />
+		<img src="/icons/id.webp" alt="inventory" />
 		{$t('home.inventory')}
 	</a>
 	<a class="nav-card" href="/fishing" use:ripple>
-		<img src="/icons/scanner.webp" alt="fishing" />
+		<img src="/icons/finger.webp" alt="fishing" />
 		{$t('home.fishing')}
 		<span class="progress" style:width={`${(fishingTimeRemained / 30000) * 100}%`} />
 	</a>
