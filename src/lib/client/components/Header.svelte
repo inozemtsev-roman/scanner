@@ -8,11 +8,11 @@
 	import { t } from '$lib/shared/localization'
 
 	let myData: User = {
-		jettons: 0,
+		bulbs: 0,
 		id: BigInt(0),
 		joined: new Date(),
 		level: 0,
-		gems: 0,
+		keys: 0,
 		xp: 0,
 		lastTimeFished: null,
 		username: '',
@@ -24,19 +24,19 @@
 		easing: cubicOut
 	})
 
-	const jettonsDisplayValue = tweened(0, {
+	const bulbsDisplayValue = tweened(0, {
 		duration: 500,
 		easing: cubicOut
 	})
 
-	const gemsDisplayValue = tweened(0, {
+	const keysDisplayValue = tweened(0, {
 		duration: 500,
 		easing: cubicOut
 	})
 
 	$: xpProgress.set(myData?.xp ?? 0)
-	$: jettonsDisplayValue.set(myData?.jettons ?? 0)
-	$: gemsDisplayValue.set(myData?.gems ?? 0)
+	$: bulbsDisplayValue.set(myData?.bulbs ?? 0)
+	$: keysDisplayValue.set(myData?.keys ?? 0)
 
 	userData.subscribe((data) => {
 		if (!data) return
@@ -60,13 +60,13 @@
 		</div>
 	</button>
 	<div class="wallet">
-		<span class="currency" class:negative={myData.jettons < 0}>
-			{Math.round($jettonsDisplayValue)}
-			<img draggable="false" class="currency-icon" src="/icons/jetton.webp" alt="jettons" />
+		<span class="currency" class:negative={myData.bulbs < 0}>
+			{Math.round($bulbsDisplayValue)}
+			<img draggable="false" class="currency-icon" src="/icons/bulb.webp" alt="bulbs" />
 		</span>
-		<span class="currency" class:negative={myData.gems < 0}>
-			{Math.round($gemsDisplayValue)}
-			<img draggable="false" class="currency-icon" src="/icons/gem.webp" alt="gems" />
+		<span class="currency" class:negative={myData.keys < 0}>
+			{Math.round($keysDisplayValue)}
+			<img draggable="false" class="currency-icon" src="/icons/key.webp" alt="keys" />
 		</span>
 	</div>
 	{#if $activeRequests.length}

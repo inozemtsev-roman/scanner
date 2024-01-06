@@ -14,8 +14,8 @@ datasource db {
 model User {
     id              BigInt          @id
     username        String          @unique
-    jettons         Int             @default(100)
-    gems            Int             @default(0)
+    bulbs           Int             @default(100)
+    keys            Int             @default(0)
     xp              Int             @default(0)
     level           Int             @default(0)
     joined          DateTime        @default(now())

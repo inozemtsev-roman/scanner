@@ -2,13 +2,13 @@ import { type RequestEvent, json } from '@sveltejs/kit'
 import { database } from '$lib/server/database'
 
 const possibleDrops = [
-	{ jettons: 20 },
-	{ jettons: 30 },
-	{ jettons: 40 },
-	{ jettons: 50 },
-	{ jettons: 60 },
-	{ gems: 2 },
-	{ gems: 5 }
+	{ bulbs: 20 },
+	{ bulbs: 30 },
+	{ bulbs: 40 },
+	{ bulbs: 50 },
+	{ bulbs: 60 },
+	{ keys: 2 },
+	{ keys: 5 }
 ]
 
 export async function POST(event: RequestEvent) {
@@ -42,11 +42,11 @@ export async function POST(event: RequestEvent) {
 
 	const updatedUser = await database.user.update({
 		data: {
-			jettons: {
-				increment: drop.jettons ?? 0
+			bulbs: {
+				increment: drop.bulbs ?? 0
 			},
-			gems: {
-				increment: drop.gems ?? 0
+			keys: {
+				increment: drop.keys ?? 0
 			}
 		},
 		where: {
@@ -56,8 +56,8 @@ export async function POST(event: RequestEvent) {
 
 	return json({
 		_updates: {
-			jettons: updatedUser.jettons,
-			gems: updatedUser.gems
+			bulbs: updatedUser.bulbs,
+			keys: updatedUser.keys
 		}
 	})
 }

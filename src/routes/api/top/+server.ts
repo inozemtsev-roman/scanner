@@ -3,7 +3,7 @@ import { database } from '$lib/server/database'
 import type { Prisma } from '@prisma/client'
 
 export async function POST(event: RequestEvent) {
-	const [levelTop, jettonsTop, gemsTop] = await Promise.all([
+	const [levelTop, bulbsTop, keysTop] = await Promise.all([
 		getTopByFilter([
 			{
 				level: 'desc'
@@ -12,14 +12,14 @@ export async function POST(event: RequestEvent) {
 				xp: 'desc'
 			}
 		]),
-		getTopByFilter({ jettons: 'desc' }),
-		getTopByFilter({ gems: 'desc' })
+		getTopByFilter({ bulbs: 'desc' }),
+		getTopByFilter({ keys: 'desc' })
 	])
 
 	return json({
 		level: levelTop,
-		jettons: jettonsTop,
-		gems: gemsTop
+		bulbs: bulbsTop,
+		keys: keysTop
 	})
 }
 
@@ -31,8 +31,8 @@ async function getTopByFilter(orderBy: Prisma.UserFindManyArgs['orderBy']) {
 			username: true,
 			level: true,
 			xp: true,
-			jettons: true,
-			gems: true,
+			bulbs: true,
+			keys: true,
 			profilePhoto: true
 		}
 	})

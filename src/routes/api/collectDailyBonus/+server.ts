@@ -2,7 +2,7 @@ import { json, type RequestEvent } from '@sveltejs/kit'
 import { database } from '$lib/server/database'
 import { usernameSchema } from '$lib/shared/zodSchemas'
 
-const dailyBonusJettons = 40
+const dailyBonusBulbs = 40
 
 export async function POST(event: RequestEvent) {
 	const lastTimeCollected = event.locals.user.lastDailyBonus
@@ -21,8 +21,8 @@ export async function POST(event: RequestEvent) {
 				id: event.locals.user.id
 			},
 			data: {
-				jettons: {
-					increment: dailyBonusJettons
+				bulbs: {
+					increment: dailyBonusBulbs
 				},
 				lastDailyBonus: new Date()
 			}
@@ -32,7 +32,7 @@ export async function POST(event: RequestEvent) {
 			{
 				collected: true,
 				_updates: {
-					jettons: event.locals.user.jettons + dailyBonusJettons
+					bulbs: event.locals.user.bulbs + dailyBonusBulbs
 				}
 			},
 			{

@@ -18,9 +18,9 @@ export async function POST(event: RequestEvent) {
 		})
 	}
 
-	if (user.jettons < catchPrice) {
+	if (user.bulbs < catchPrice) {
 		throw error(403, {
-			message: t('api.notEnoughJettons')
+			message: t('api.notEnoughBulbs')
 		})
 	}
 
@@ -38,7 +38,7 @@ export async function POST(event: RequestEvent) {
 
 	await database.user.update({
 		data: {
-			jettons: {
+			bulbs: {
 				decrement: 2
 			},
 			lastTimeFished
@@ -51,7 +51,7 @@ export async function POST(event: RequestEvent) {
 	return json({
 		...itemCatched,
 		_updates: {
-			jettons: event.locals.user.jettons - 2,
+			bulbs: event.locals.user.bulbs - 2,
 			level: newLevelData?.level,
 			xp: newLevelData?.xp,
 			lastTimeFished

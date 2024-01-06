@@ -131,7 +131,7 @@
 								>
 									{$t('inventory.sellFor')}
 									{itemSelected.price * sellQuantity}
-									<img src="/icons/jetton.webp" width={16} alt="jettons" /></Button
+									<img src="/icons/bulb.webp" width={16} alt="bulbs" /></Button
 								>
 							</div>
 						{/if}

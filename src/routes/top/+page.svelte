@@ -25,12 +25,12 @@
 				value: 'level'
 			},
 			{
-				title: $t('top.jettons'),
-				value: 'jettons'
+				title: $t('top.bulbs'),
+				value: 'bulbs'
 			},
 			{
-				title: $t('top.gems'),
-				value: 'gems'
+				title: $t('top.keys'),
+				value: 'keys'
 			}
 		]}
 		bind:selected={selectedTop}
@@ -63,10 +63,10 @@
 						<span class="stats">
 							{#if selectedTop === 'level'}
 								{user.level}
-							{:else if selectedTop === 'jettons'}
-								{user.jettons} <img src="/icons/jetton.webp" width={16} alt="jettons" />
-							{:else if selectedTop === 'gems'}
-								{user.gems} <img src="/icons/gem.webp" width={16} alt="gems" />
+							{:else if selectedTop === 'bulbs'}
+								{user.bulbs} <img src="/icons/bulb.webp" width={16} alt="bulbs" />
+							{:else if selectedTop === 'keys'}
+								{user.keys} <img src="/icons/key.webp" width={16} alt="keys" />
 							{/if}
 						</span>
 						<div class="divider" />

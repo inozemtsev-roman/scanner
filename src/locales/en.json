@@ -1,8 +1,8 @@
 {
 	"levelPopupTitle": "{{level}} level",
 	"api": {
-		"notEnoughJettons": "Not enough jettons",
-		"notEnoughGems": "Not enough gems",
+		"notEnoughBulbs": "Not enough bulbs",
+		"notEnoughKeys": "Not enough keys",
 		"catchFish": {
 			"tooFast": "You are scanning too fast!"
 		}
@@ -31,8 +31,8 @@
 	},
 	"top": {
 		"level": "Level",
-		"jettons": "Jettons",
-		"gems": "Gems"
+		"bulbs": "Bulbs",
+		"keys": "Keys"
 	},
 	"items": {
 		"envelope": {
@@ -178,10 +178,10 @@
 		"settings": "Settings",
 		"dailyBonusMessage": {
 			"collected": {
-				"text": "You received 40 jettons! Come back tomorrow for a new reward."
+				"text": "You received 40 bulbs! Come back tomorrow for a new reward."
 			},
 			"timeout": {
-				"text": "You have already collected a free daily jettons today. Come back tomorrow for a new reward. "
+				"text": "You have already collected a free daily bulbs today. Come back tomorrow for a new reward. "
 			}
 		},
 		"links": {

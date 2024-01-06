@@ -8,8 +8,8 @@ export async function POST(event: RequestEvent) {
 		},
 		select: {
 			username: true,
-			jettons: true,
-			gems: true,
+			bulbs: true,
+			keys: true,
 			level: true,
 			xp: true,
 			lastTimeFished: true,

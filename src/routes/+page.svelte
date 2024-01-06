@@ -56,20 +56,11 @@
 		<img src="/icons/gg.webp" alt="getgems" />
 		{$t('home.links.getgems')}
 	</a>
-	<a
-		class="nav-card small"
-		href="https://ton.vote/EQD1PIvZLeDmgICYjkzEbvyIZRWNQNS6izrxQJuoXZk_uF2y"
-		target="_blank"
-		use:ripple
-	>
-		<img src="/icons/vote.webp" alt="vote" />
-		{$t('home.links.vote')}
-	</a>
-	<a class="nav-card long" href="/top" use:ripple>
+	<a class="nav-card small" href="/top" use:ripple>
 		<img src="/icons/trophy.webp" alt="top" />
 		{$t('home.top')}
 	</a>
-	<a class="nav-card long" href="/settings" use:ripple>
+	<a class="nav-card small" href="/settings" use:ripple>
 		<img src="/icons/gear.webp" alt="settings" />
 		{$t('home.settings')}
 	</a>

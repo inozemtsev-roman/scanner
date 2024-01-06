@@ -60,7 +60,7 @@ export async function POST(event: RequestEvent) {
 
 	await database.user.update({
 		data: {
-			jettons: {
+			bulbs: {
 				increment: item.price * body.data.quantity
 			}
 		},
@@ -71,7 +71,7 @@ export async function POST(event: RequestEvent) {
 
 	return json({
 		_updates: {
-			jettons: event.locals.user.jettons + item.price * body.data.quantity
+			bulbs: event.locals.user.bulbs + item.price * body.data.quantity
 		}
 	})
 }
