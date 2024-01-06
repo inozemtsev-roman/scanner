@@ -12,7 +12,7 @@
 		"authenticate": "Authenticate"
 	},
 	"message": {
-		"timeout": "Authentication error: timeout",
+		"timeout": "Authentication in progress",
 		"waiting": "Touch the fingerprint sensor",
 		"missed": "Authentication failed"
 	},
