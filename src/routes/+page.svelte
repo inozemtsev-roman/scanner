@@ -48,10 +48,6 @@
 		<img src="/icons/rocket.webp" alt="daily bonus" />
 		{$t('home.dailyBonus')}
 	</button>
-	<a class="nav-card small" href="https://getgems.io/collection/fingerprints" target="_blank" use:ripple>
-		<img src="/icons/gg.webp" alt="getgems" />
-		{$t('home.links.getgems')}
-	</a>
 	<a class="nav-card small" href="/top" use:ripple>
 		<img src="/icons/trophy.webp" alt="top" />
 		{$t('home.top')}
@@ -59,6 +55,14 @@
 	<a class="nav-card small" href="/settings" use:ripple>
 		<img src="/icons/gear.webp" alt="settings" />
 		{$t('home.settings')}
+	</a>
+	<a class="nav-card small" href="https://getgems.io/collection/fingerprints" target="_blank" use:ripple>
+		<img src="/icons/gg.webp" alt="getgems" />
+		{$t('home.links.getgems')}
+	</a>
+	<a class="nav-card small" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
+		<img src="/icons/github.webp" alt="github" />
+		{$t('home.links.github')}
 	</a>
 </div>
 

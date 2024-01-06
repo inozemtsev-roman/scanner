@@ -187,7 +187,8 @@
 		"links": {
 			"getgems": "Getgems",
 			"vote": "Vote",
-			"spatial": "Hands"
+			"spatial": "Hands",
+			"github": "Github"
 		}
 	}
 }
