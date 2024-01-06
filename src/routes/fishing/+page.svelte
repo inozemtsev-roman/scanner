@@ -59,7 +59,7 @@
 		out:caughtItemTransition
 	>
 		{#if !currentDrop?.isJunk}
-			<img class="shine" src="shine.webp" alt="" />
+			<img class="rays" src="rays.webp" alt="" />
 		{/if}
 		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} width="160" loading="lazy" />
 	</button>
@@ -163,7 +163,7 @@
 		translate: -50% -50%;
 	}
 
-	.shine {
+	.rays {
 		position: absolute;
 		left: calc(50% - 8rem);
 		top: calc(50% - 8rem);
