@@ -26,7 +26,7 @@
 
 	$: if (myData) {
 		console.log(myData)
-		const timeUntilCanFish = new Date(myData.lastTimeFished ?? 0).getTime() + 30_000 - new Date().getTime()
+		const timeUntilCanFish = new Date(myData.lastTimeFished ?? 0).getTime() + 10_000 - new Date().getTime()
 		setTimeout(
 			() => {
 				fishingState = 'idle'
@@ -83,10 +83,10 @@
 
 							timeout = setTimeout(() => {
 								fishingState = 'idle'
-							}, 30_000)
+							}, 10_000)
 						}, 5_000)
 					}, 5_000)
-				}, 15_000 + Math.random() * 30_000)
+				}, 5_000 + Math.random() * 10_000)
 			}}
 		>
 			{$t('button.confirm')}
@@ -107,7 +107,7 @@
 					catchButtonPressed = false
 					timeout = setTimeout(() => {
 						fishingState = 'idle'
-					}, 30_000)
+					}, 10_000)
 				}, 5_000)
 			}}
 		>

@@ -22,7 +22,7 @@
 	updateFishingProgress()
 
 	userData.subscribe((value) => {
-		fishingTimeRemained = new Date(value?.lastTimeFished ?? 0).getTime() + 30_000 - new Date().getTime()
+		fishingTimeRemained = new Date(value?.lastTimeFished ?? 0).getTime() + 10_000 - new Date().getTime()
 		if (fishingTimeRemained < 0) fishingTimeRemained = 0
 	})
 
@@ -42,7 +42,7 @@
 	<a class="nav-card" href="/fishing" use:ripple>
 		<img src="/icons/finger.webp" alt="fishing" />
 		{$t('home.fishing')}
-		<span class="progress" style:width={`${(fishingTimeRemained / 30000) * 100}%`} />
+		<span class="progress" style:width={`${(fishingTimeRemained / 10000) * 100}%`} />
 	</a>
 	<button class="nav-card small" use:ripple on:click={handleBonusCardClick}>
 		<img src="/icons/rocket.webp" alt="daily bonus" />
