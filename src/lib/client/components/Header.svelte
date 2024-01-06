@@ -24,7 +24,7 @@
 		easing: cubicOut
 	})
 
-	const bulbsDisplayValue = tweened(0, {
+	const bulbsDisplayValue = tweened(2, {
 		duration: 500,
 		easing: cubicOut
 	})
@@ -35,7 +35,7 @@
 	})
 
 	$: xpProgress.set(myData?.xp ?? 0)
-	$: bulbsDisplayValue.set(myData?.bulbs ?? 2)
+	$: bulbsDisplayValue.set(myData?.bulbs ?? 0)
 	$: keysDisplayValue.set(myData?.keys ?? 0)
 
 	userData.subscribe((data) => {
