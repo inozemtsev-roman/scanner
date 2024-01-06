@@ -29,8 +29,8 @@
 				value: 'jettons'
 			},
 			{
-				title: $t('top.orbs'),
-				value: 'orbs'
+				title: $t('top.gems'),
+				value: 'gems'
 			}
 		]}
 		bind:selected={selectedTop}
@@ -65,8 +65,8 @@
 								{user.level}
 							{:else if selectedTop === 'jettons'}
 								{user.jettons} <img src="/icons/jetton.webp" width={16} alt="jettons" />
-							{:else if selectedTop === 'orbs'}
-								{user.orbs} <img src="/icons/orb.webp" width={16} alt="orbs" />
+							{:else if selectedTop === 'gems'}
+								{user.gems} <img src="/icons/orb.webp" width={16} alt="gems" />
 							{/if}
 						</span>
 						<div class="divider" />

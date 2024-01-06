@@ -7,8 +7,8 @@ const possibleDrops = [
 	{ jettons: 40 },
 	{ jettons: 50 },
 	{ jettons: 60 },
-	{ orbs: 2 },
-	{ orbs: 5 }
+	{ gems: 2 },
+	{ gems: 5 }
 ]
 
 export async function POST(event: RequestEvent) {
@@ -45,8 +45,8 @@ export async function POST(event: RequestEvent) {
 			jettons: {
 				increment: drop.jettons ?? 0
 			},
-			orbs: {
-				increment: drop.orbs ?? 0
+			gems: {
+				increment: drop.gems ?? 0
 			}
 		},
 		where: {
@@ -57,7 +57,7 @@ export async function POST(event: RequestEvent) {
 	return json({
 		_updates: {
 			jettons: updatedUser.jettons,
-			orbs: updatedUser.orbs
+			gems: updatedUser.gems
 		}
 	})
 }
