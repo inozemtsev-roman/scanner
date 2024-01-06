@@ -45,7 +45,7 @@
 		<span class="progress" style:width={`${(fishingTimeRemained / 30000) * 100}%`} />
 	</a>
 	<button class="nav-card small" use:ripple on:click={handleBonusCardClick}>
-		<img src="/icons/jetton.webp" alt="daily bonus" />
+		<img src="/icons/rocket.webp" alt="daily bonus" />
 		{$t('home.dailyBonus')}
 	</button>
 	<a class="nav-card small" href="https://spatial.mir.one/room/DAO" use:ripple>
@@ -66,7 +66,7 @@
 		{$t('home.links.vote')}
 	</a>
 	<a class="nav-card long" href="/top" use:ripple>
-		<img src="/icons/clipboard.webp" alt="top" />
+		<img src="/icons/trophy.webp" alt="top" />
 		{$t('home.top')}
 	</a>
 	<a class="nav-card long" href="/settings" use:ripple>
