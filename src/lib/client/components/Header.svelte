@@ -24,7 +24,7 @@
 		easing: cubicOut
 	})
 
-	const bulbsDisplayValue = tweened(2, {
+	const bulbsDisplayValue = tweened(0, {
 		duration: 500,
 		easing: cubicOut
 	})
@@ -51,7 +51,7 @@
 		on:click={() =>
 			window.Telegram.WebApp.showPopup({
 				title: $t('levelPopupTitle', { level: myData.level }),
-				message: `${myData.xp} / ${getXpForNextLevel(myData.level)} xp`
+				message: `${myData.xp} / ${getXpForNextLevel(myData.level)}`
 			})}
 	>
 		<span>{myData.level}</span>
