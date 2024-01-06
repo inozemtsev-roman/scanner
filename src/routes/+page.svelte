@@ -49,7 +49,7 @@
 		{$t('home.dailyBonus')}
 	</button>
 	<a class="nav-card small" href="https://spatial.mir.one/room/DAO" use:ripple>
-		<img src="/icons/fingerprint_0.svg" alt="Spatial" />
+		<img src="/icons/hands.webp" alt="Spatial" />
 		{$t('home.links.spatial')}
 	</a>
 	<a class="nav-card small" href="https://getgems.io/collection/fingerprints" target="_blank" use:ripple>
