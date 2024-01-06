@@ -66,7 +66,7 @@
 		</span>
 		<span class="currency" class:negative={myData.gems < 0}>
 			{Math.round($gemsDisplayValue)}
-			<img draggable="false" class="currency-icon" src="/icons/orb.webp" alt="gems" />
+			<img draggable="false" class="currency-icon" src="/icons/gem.webp" alt="gems" />
 		</span>
 	</div>
 	{#if $activeRequests.length}
