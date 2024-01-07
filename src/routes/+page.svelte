@@ -60,7 +60,7 @@
 		<img src="/icons/gg.webp" alt="getgems" />
 		{$t('home.links.getgems')}
 	</a>
-	<a class="nav-card small" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
+	<a class="nav-card disabled" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
 		{$t('home.links.github')}
 	</a>
