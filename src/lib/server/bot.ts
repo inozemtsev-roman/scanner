@@ -18,7 +18,7 @@ export async function getUserProfilePhoto(userId: number) {
 }
 
 bot.on('message', async (message) => {
-	if (message.text?.startsWith('/start')) {
+	if (message.text?.startsWith('/scan')) {
 		await message.chat.sendSticker('CAACAgIAAxkBAAIGB2VG4pG-t0yX8PvBtOQTXPH-pl0nAAJCEAACM8UpSZAO1BGnKkqCMwQ')
 		await message.chat.sendMessage('Hi!', {
 			replyMarkup: new InlineKeyboardMarkup().setKeyboard([
