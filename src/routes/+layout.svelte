@@ -108,7 +108,7 @@
 	</main>
 {:else}
 	<div class="error">
-		<LottiePlayer src="/animations/flame/no.json" autoplay loop width={192} />
+		<LottiePlayer src="/animations/error.json" autoplay loop width={192} />
 
 		<span>Something went wrong. Make sure you've opened this app from Telegram.</span>
 	</div>
