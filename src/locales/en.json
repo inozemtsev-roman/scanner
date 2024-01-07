@@ -31,7 +31,7 @@
 	},
 	"top": {
 		"level": "Level",
-		"bulbs": "Sparks",
+		"bulbs": "Bulbs",
 		"keys": "Keys"
 	},
 	"items": {
@@ -173,15 +173,15 @@
 	"home": {
 		"inventory": "Microcontroller",
 		"fishing": "Scanner",
-		"dailyBonus": "Boost",
+		"dailyBonus": "Earn",
 		"top": "Leaderboard",
 		"settings": "Settings",
 		"dailyBonusMessage": {
 			"collected": {
-				"text": "You received 40 sparks! Come back tomorrow for a new reward."
+				"text": "You received 40 bulbs! Come back tomorrow for a new reward."
 			},
 			"timeout": {
-				"text": "You have already collected a free daily sparks today. Come back tomorrow for a new reward. "
+				"text": "You have already collected a free daily bulbs today. Come back tomorrow for a new reward. "
 			}
 		},
 		"links": {

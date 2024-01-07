@@ -62,7 +62,7 @@
 	<div class="wallet">
 		<span class="currency" class:negative={myData.bulbs < 0}>
 			{Math.round($bulbsDisplayValue)}
-			<img draggable="false" class="currency-icon" src="/icons/spark.webp" alt="bulbs" />
+			<img draggable="false" class="currency-icon" src="/icons/bulb.webp" alt="bulbs" />
 		</span>
 		<span class="currency" class:negative={myData.keys < 0}>
 			{Math.round($keysDisplayValue)}
