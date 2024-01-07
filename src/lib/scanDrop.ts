@@ -1,10 +1,10 @@
-export interface FishDrop {
+export interface ScanDrop {
 	itemId: string
 	weight: number
 	isJunk: boolean
 }
 
-export const fishDrop: FishDrop[] = [
+export const scanDrop: ScanDrop[] = [
 	{
 		itemId: 'Unique',
 		weight: 0.01,

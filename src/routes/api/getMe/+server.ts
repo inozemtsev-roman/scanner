@@ -12,7 +12,7 @@ export async function POST(event: RequestEvent) {
 			keys: true,
 			level: true,
 			xp: true,
-			lastTimeFished: true,
+			lastTimeScanned: true,
 			profilePhoto: true
 		}
 	})

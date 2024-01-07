@@ -14,7 +14,7 @@
 		level: 0,
 		keys: 0,
 		xp: 0,
-		lastTimeFished: null,
+		lastTimeScanned: null,
 		username: '',
 		profilePhoto: ''
 	}

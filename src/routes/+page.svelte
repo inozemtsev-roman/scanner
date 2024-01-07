@@ -7,23 +7,23 @@
 	window.Telegram.WebApp.BackButton.hide()
 	window.Telegram.WebApp.MainButton.hide()
 
-	let fishingTimeRemained: number
+	let scanningTimeRemained: number
 	let frame
 	let lastTime = window.performance.now()
 
-	function updateFishingProgress() {
-		frame = requestAnimationFrame(updateFishingProgress)
+	function updateScanProgress() {
+		frame = requestAnimationFrame(updateScanProgress)
 
 		const time = window.performance.now()
-		fishingTimeRemained -= time - lastTime
+		scanningTimeRemained -= time - lastTime
 
 		lastTime = time
 	}
-	updateFishingProgress()
+	updateScanProgress()
 
 	userData.subscribe((value) => {
-		fishingTimeRemained = new Date(value?.lastTimeFished ?? 0).getTime() + 10_000 - new Date().getTime()
-		if (fishingTimeRemained < 0) fishingTimeRemained = 0
+		scanningTimeRemained = new Date(value?.lastTimeScanned ?? 0).getTime() + 10_000 - new Date().getTime()
+		if (scanningTimeRemained < 0) scanningTimeRemained = 0
 	})
 
 	async function handleBonusCardClick() {
@@ -39,10 +39,10 @@
 		<img src="/icons/id.webp" alt="inventory" />
 		{$t('home.inventory')}
 	</a>
-	<a class="nav-card" href="/fishing" use:ripple>
-		<img src="/icons/finger.webp" alt="fishing" />
-		{$t('home.fishing')}
-		<span class="progress" style:width={`${(fishingTimeRemained / 10000) * 100}%`} />
+	<a class="nav-card" href="/scanning" use:ripple>
+		<img src="/icons/finger.webp" alt="scanning" />
+		{$t('home.scanning')}
+		<span class="progress" style:width={`${(scanningTimeRemained / 10000) * 100}%`} />
 	</a>
 	<button class="nav-card small" use:ripple on:click={handleBonusCardClick}>
 		<img src="/icons/rocket.webp" alt="daily bonus" />

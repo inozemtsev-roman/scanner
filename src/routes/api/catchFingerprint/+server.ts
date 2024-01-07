@@ -1,7 +1,7 @@
 import { error, json, type RequestEvent } from '@sveltejs/kit'
 import { database } from '$lib/server/database'
 import { getWeightedRandomItem } from '$lib/weightedRandom'
-import { fishDrop } from '$lib/fishDrop'
+import { scanDrop } from '$lib/scanDrop'
 import { giveUserItem, giveUserXp } from '$lib/server/user'
 
 const xpReward = 2
@@ -12,9 +12,9 @@ const waitMinTime = 5_000
 export async function POST(event: RequestEvent) {
 	const { t, user, initData } = event.locals
 
-	if (user.lastTimeFished && Date.now() < user.lastTimeFished.getTime() + cooldown + waitMinTime) {
+	if (user.lastTimeScanned && Date.now() < user.lastTimeScanned.getTime() + cooldown + waitMinTime) {
 		throw error(403, {
-			message: t('api.catchFish.tooFast')
+			message: t('api.catchFingerprint.tooFast')
 		})
 	}
 
@@ -24,7 +24,7 @@ export async function POST(event: RequestEvent) {
 		})
 	}
 
-	const itemCatched = getWeightedRandomItem(fishDrop)
+	const itemCatched = getWeightedRandomItem(scanDrop)
 
 	let newLevelData
 
@@ -34,14 +34,14 @@ export async function POST(event: RequestEvent) {
 		newLevelData = await giveUserXp(initData.user.id, xpReward)
 	}
 
-	const lastTimeFished = new Date()
+	const lastTimeScanned = new Date()
 
 	await database.user.update({
 		data: {
 			bulbs: {
 				decrement: 2
 			},
-			lastTimeFished
+			lastTimeScanned
 		},
 		where: {
 			id: event.locals.initData.user.id
@@ -54,7 +54,7 @@ export async function POST(event: RequestEvent) {
 			bulbs: event.locals.user.bulbs - 2,
 			level: newLevelData?.level,
 			xp: newLevelData?.xp,
-			lastTimeFished
+			lastTimeScanned
 		}
 	})
 }

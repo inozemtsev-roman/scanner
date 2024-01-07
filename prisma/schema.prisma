@@ -21,7 +21,7 @@ model User {
     joined          DateTime        @default(now())
     inventoryItems  InventoryItem[]
     profilePhoto    String?
-    lastTimeFished  DateTime?
+    lastTimeScanned DateTime?
 	lastDailyBonus	DateTime?
 }
 

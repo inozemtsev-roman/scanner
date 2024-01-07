@@ -3,7 +3,7 @@
 	"api": {
 		"notEnoughBulbs": "Not enough bulbs",
 		"notEnoughKeys": "Not enough keys",
-		"catchFish": {
+		"catchFingerprint": {
 			"tooFast": "You are scanning too fast!"
 		}
 	},
@@ -172,7 +172,7 @@
 	},
 	"home": {
 		"inventory": "Microcontroller",
-		"fishing": "Scanner",
+		"scanning": "Scanner",
 		"dailyBonus": "Earn",
 		"top": "Leaderboard",
 		"settings": "Settings",

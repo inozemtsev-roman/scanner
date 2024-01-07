@@ -2,7 +2,7 @@
 	import { goto } from '$app/navigation'
 	import Button from '$lib/client/components/Button.svelte'
 	import { fetchData } from '$lib/client/fetchData'
-	import type { FishDrop } from '$lib/fishDrop'
+	import type { ScanDrop } from '$lib/scanDrop'
 	import { fly } from 'svelte/transition'
 	import { flyIntoInventory } from '$lib/client/transitions'
 	import { userData } from '$lib/client/store'
@@ -17,21 +17,21 @@
 	webApp.BackButton.onClick(() => goto('/'))
 	webApp.MainButton.hide()
 
-	let currentDrop: FishDrop | null = null
+	let currentDrop: ScanDrop | null = null
 
 	let myData: User | undefined = undefined
-	let fishingState: 'timeout' | 'idle' | 'waiting' | 'biting' | 'caught' | 'missed' = 'timeout'
+	let scanningState: 'timeout' | 'idle' | 'waiting' | 'biting' | 'caught' | 'missed' = 'timeout'
 	let timeout: NodeJS.Timeout
 	let catchButtonPressed = false
 
 	$: if (myData) {
 		console.log(myData)
-		const timeUntilCanFish = new Date(myData.lastTimeFished ?? 0).getTime() + 10_000 - new Date().getTime()
+		const timeUntilCanScan = new Date(myData.lastTimeScanned ?? 0).getTime() + 10_000 - new Date().getTime()
 		setTimeout(
 			() => {
-				fishingState = 'idle'
+				scanningState = 'idle'
 			},
-			timeUntilCanFish > 0 ? timeUntilCanFish : 0
+			timeUntilCanScan > 0 ? timeUntilCanScan : 0
 		)
 	}
 
@@ -48,10 +48,10 @@
 	})
 </script>
 
-{#if fishingState === 'caught' && currentDrop}
+{#if scanningState === 'caught' && currentDrop}
 	<button
 		on:click={() => {
-			fishingState = 'timeout'
+			scanningState = 'timeout'
 			clearTimeout(timeout)
 		}}
 		class="drop"
@@ -65,24 +65,24 @@
 	</button>
 {/if}
 
-{#if fishingState === 'idle'}
-	<div class="fishing-action">
+{#if scanningState === 'idle'}
+	<div class="scanning-action">
 		<Button
 			variant="primary"
 			on:click={() => {
-				fishingState = 'waiting'
+				scanningState = 'waiting'
 				clearTimeout(timeout)
 				timeout = setTimeout(() => {
-					fishingState = 'biting'
+					scanningState = 'biting'
 
 					timeout = setTimeout(() => {
-						fishingState = 'missed'
+						scanningState = 'missed'
 
 						timeout = setTimeout(() => {
-							fishingState = 'timeout'
+							scanningState = 'timeout'
 
 							timeout = setTimeout(() => {
-								fishingState = 'idle'
+								scanningState = 'idle'
 							}, 10_000)
 						}, 5_000)
 					}, 5_000)
@@ -92,21 +92,21 @@
 			{$t('button.confirm')}
 		</Button>
 	</div>
-{:else if fishingState === 'biting'}
-	<div class="fishing-action">
+{:else if scanningState === 'biting'}
+	<div class="scanning-action">
 		<Button
 			variant="primary"
 			disabled={catchButtonPressed}
 			on:click={async () => {
 				catchButtonPressed = true
-				currentDrop = await fetchData('catchFish')
-				fishingState = 'caught'
+				currentDrop = await fetchData('catchFingerprint')
+				scanningState = 'caught'
 				clearTimeout(timeout)
 				timeout = setTimeout(() => {
-					fishingState = 'timeout'
+					scanningState = 'timeout'
 					catchButtonPressed = false
 					timeout = setTimeout(() => {
-						fishingState = 'idle'
+						scanningState = 'idle'
 					}, 10_000)
 				}, 5_000)
 			}}
@@ -114,21 +114,21 @@
 			{$t('button.authenticate')}
 		</Button>
 	</div>
-{:else if fishingState === 'timeout'}
+{:else if scanningState === 'timeout'}
 	<div class="animation">
 		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">{$t('message.timeout')}</div>
-{:else if fishingState === 'waiting'}
+	<div class="scanning-action">{$t('message.timeout')}</div>
+{:else if scanningState === 'waiting'}
 	<div class="animation">
 		<LottiePlayer src="/animations/scan.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">{$t('message.waiting')}</div>
-{:else if fishingState === 'missed'}
+	<div class="scanning-action">{$t('message.waiting')}</div>
+{:else if scanningState === 'missed'}
 	<div class="animation">
 		<LottiePlayer src="/animations/error.json" loop autoplay width={192} />
 	</div>
-	<div class="fishing-action">{$t('message.missed')}</div>
+	<div class="scanning-action">{$t('message.missed')}</div>
 {/if}
 
 <style lang="scss">
@@ -143,7 +143,7 @@
 		transition: 0.5s ease-in;
 	}
 
-	.fishing-action {
+	.scanning-action {
 		position: absolute;
 		display: flex;
 		flex-direction: column;
