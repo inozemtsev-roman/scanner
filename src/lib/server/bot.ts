@@ -33,18 +33,4 @@ bot.on('message', async (message) => {
 			])
 		})
 	}
-	if (message.text?.startsWith('/')) {
-		await message.chat.sendMessage('Hi!', {
-			replyMarkup: new InlineKeyboardMarkup().setKeyboard([
-				[
-					new InlineKeyboardButton({
-						text: 'Launch FS',
-						webApp: {
-							url: 'https://scanner.mir.one/'
-						}
-					})
-				]
-			])
-		})
-	}
 })
