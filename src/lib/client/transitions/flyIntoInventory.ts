@@ -9,10 +9,10 @@ export function flyIntoInventory(node: HTMLElement, params?: { delay?: number; d
 		delay: params?.delay ?? 0,
 		duration: params?.duration ?? 500,
 		css: (t: number) => `
-			right: ${(right - 64) * sineIn(t) + 64}px;
-			top: ${(top + 0) * t - 0}px;
+			right: ${(right - 0) * sineIn(t) + 0}px;
+			top: ${(top + 16) * t - 16}px;
 			opacity: ${t};
-			scale: ${0.75 * t + 0.25};
+			scale: ${0.75 * t + 0.1};
 			rotate: ${-rotation * t + rotation}deg;
 		`
 	}
