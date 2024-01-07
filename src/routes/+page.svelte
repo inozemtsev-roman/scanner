@@ -45,7 +45,7 @@
 		<span class="progress" style:width={`${(scanningTimeRemained / 10000) * 100}%`} />
 	</a>
 	<button class="nav-card small" use:ripple on:click={handleBonusCardClick}>
-		<img src="/icons/rocket.webp" alt="daily bonus" />
+		<img src="/icons/jetton.webp" alt="daily bonus" />
 		{$t('home.dailyBonus')}
 	</button>
 	<a class="nav-card small" href="/top" use:ripple>
@@ -60,7 +60,7 @@
 		<img src="/icons/gg.webp" alt="getgems" />
 		{$t('home.links.getgems')}
 	</a>
-	<a class="nav-card disabled" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
+	<a class="nav-card small" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
 		{$t('home.links.github')}
 	</a>
