@@ -14,7 +14,7 @@
 	"message": {
 		"timeout": "Authentication in progress",
 		"waiting": "Touch the fingerprint sensor",
-		"missed": "Authentication failed"
+		"missed": "Fingerprint not recognized, try again."
 	},
 	"settings": {
 		"username": {
