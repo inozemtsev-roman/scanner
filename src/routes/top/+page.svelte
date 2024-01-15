@@ -129,19 +129,30 @@
 		}
 
 		&:nth-child(1) .place {
-			background: rgb(240, 197, 90);
+			background: #b9f2ff;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
 		}
 
 		&:nth-child(2) .place {
-			background: #9ea8b6;
+			background: #e5e4e2;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
 		}
 
 		&:nth-child(3) .place {
-			background: #df8a49;
+			background: rgb(255, 215, 0);
+			border: 1px solid rgba(0, 0, 0, 0.05);
+			color: white;
+		}
+
+		&:nth-child(4) .place {
+			background: #9ea8b6;
+			border: 1px solid rgba(192, 192, 192, 0.05);
+			color: white;
+		}
+		&:nth-child(5) .place {
+			background: #cd7f32;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
 		}
