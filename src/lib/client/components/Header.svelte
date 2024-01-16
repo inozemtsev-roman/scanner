@@ -140,7 +140,7 @@
 
 	.loading-indicator {
 		width: 100%;
-		height: 1px;
+		height: 5px;
 		background: linear-gradient(to right, var(--accent), var(--background), var(--accent));
 		background-size: 200%;
 		position: absolute;
