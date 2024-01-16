@@ -30,7 +30,7 @@
 	.button {
 		height: 3rem;
 		background: var(--accent);
-		padding: 0 3rem;
+		padding: 0 2rem;
 		font-size: 14px;
 		line-height: 1.4;
 		font-weight: 500;
