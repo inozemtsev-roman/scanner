@@ -29,7 +29,7 @@
 <style lang="scss">
 	.button {
 		height: 3rem;
-		width: 10rem;
+		width: 50%;
 		background: var(--accent);
 		padding: 0 3rem;
 		font-size: 14px;
