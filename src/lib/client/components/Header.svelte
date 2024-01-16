@@ -102,10 +102,10 @@
 
 	.progress {
 		width: 8rem;
-		height: 2rem;
+		height: 1rem;
 		border-radius: 0.25rem;
 		background: var(--background-secondary);
-		box-shadow: 0 0 0 1 rgba(0, 0, 0, 0.07) inset;
+		box-shadow: 0 0 0 1 rgba(92, 92, 92, 0.07) inset;
 		overflow: hidden;
 
 		&-value {
