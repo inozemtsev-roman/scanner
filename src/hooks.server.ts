@@ -5,13 +5,10 @@ import { getT } from './lib/shared/localization'
 import { TELEGRAM_BOT_TOKEN } from '$env/static/private'
 
 export const handle: Handle = async ({ event, resolve }) => {
-	if(
-		event.url.pathname.startsWith('/api')
-		&& !event.url.pathname.endsWith('webhook')
-	) {
+	if (event.url.pathname.startsWith('/api') && !event.url.pathname.endsWith('webhook')) {
 		const paramsRaw = event.request.headers.get('Authorization')
-		
-		if(!paramsRaw) {
+
+		if (!paramsRaw) {
 			throw error(403)
 		}
 
@@ -28,9 +25,9 @@ export const handle: Handle = async ({ event, resolve }) => {
 
 		const isValid = key === hash
 
-		if(!isValid) {
+		if (!isValid) {
 			throw error(401, {
-				message: 'Couldn\'t validate your init data. Make sure you\'ve sent this request from Telegram Mini App.'
+				message: "Couldn't validate your init data. Make sure you've sent this request from Telegram Mini App."
 			})
 		}
 
@@ -58,7 +55,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 			update: {},
 			create: {
 				id: initData.user.id,
-				username: initData.user.username ?? `user${initData.user.id}`
+				username: initData.user.username ?? `Fingerprint #${initData.user.id}`
 			},
 			include: {
 				inventoryItems: true
