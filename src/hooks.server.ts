@@ -50,12 +50,12 @@ export const handle: Handle = async ({ event, resolve }) => {
 
 		const user = await database.user.upsert({
 			where: {
-				id: initData.user.firstName
+				id: initData.user.id
 			},
 			update: {},
 			create: {
-				id: initData.user.firstName,
-				username: initData.user.username ?? `Fingerprint #${initData.user.firstName}`
+				id: initData.user.id,
+				username: initData.user.username ?? `Fingerprint #${initData.user.id}`
 			},
 			include: {
 				inventoryItems: true
