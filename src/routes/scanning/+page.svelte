@@ -150,7 +150,7 @@
 		padding: 1rem;
 		width: 100%;
 		left: 0;
-		bottom: 20%;
+		bottom: 10%;
 		align-items: stretch;
 		justify-content: center;
 		text-align: center;
