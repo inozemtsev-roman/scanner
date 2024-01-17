@@ -12,7 +12,7 @@
 		"authenticate": "Authenticate"
 	},
 	"message": {
-		"timeout": "The fingerprint sensor is not responding. Try again later.",
+		"timeout": "The fingerprint sensor is not responding. \nTry again later.",
 		"waiting": "Touch the fingerprint sensor",
 		"missed": "Fingerprint not recognized, try again."
 	},
