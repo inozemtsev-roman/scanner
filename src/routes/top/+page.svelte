@@ -51,14 +51,14 @@
 			</svelte:fragment>
 			<svelte:fragment slot="then" let:then={result}>
 				{#each result[selectedTop] as user, i}
-					<div class="user" class:self={user.username === $userData.username} use:ripple>
+					<div class="user" class:self={user.firstName === $userData.username} use:ripple>
 						<span class="place">
 							{i + 1}
 						</span>
 						<!-- svelte-ignore a11y-img-redundant-alt -->
 						<ProfilePhoto {user} />
 						<span class="username">
-							{user.username}
+							{user.firstName}
 						</span>
 						<span class="stats">
 							{#if selectedTop === 'level'}
