@@ -58,7 +58,7 @@
 						<!-- svelte-ignore a11y-img-redundant-alt -->
 						<ProfilePhoto {user} />
 						<span class="username">
-							{user.firstName}
+							{user.username}
 						</span>
 						<span class="stats">
 							{#if selectedTop === 'level'}
