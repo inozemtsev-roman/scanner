@@ -129,7 +129,7 @@
 		}
 
 		&:nth-child(1) .place {
-			background: #b9f2ff;
+			background-image: url(/icons/bulb.webp);
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
 		}
