@@ -102,7 +102,7 @@
 
 	.progress {
 		width: 8rem;
-		height: 1rem;
+		height: 0.33rem;
 		border-radius: 0.25rem;
 		background: var(--background-secondary);
 		box-shadow: 0 0 0 1 rgba(92, 92, 92, 0.07) inset;
@@ -140,7 +140,7 @@
 
 	.loading-indicator {
 		width: 100%;
-		height: 5px;
+		height: 3px;
 		background: linear-gradient(to right, var(--accent), var(--background), var(--accent));
 		background-size: 200%;
 		position: absolute;
