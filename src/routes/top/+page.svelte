@@ -129,7 +129,7 @@
 		}
 
 		&:nth-child(1) .place {
-			background-image: url(https://scanner.mir.one/icons/bulb.webp);
+			background-image: url($lib/icons/bulb.webp);
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
 		}
