@@ -1,7 +1,7 @@
 {
 	"name": "scanner",
 	"version": "0.0.1",
-	"private": true,
+	"private": false,
 	"scripts": {
 		"dev": "vite dev --port 1808",
 		"build": "vite build",
