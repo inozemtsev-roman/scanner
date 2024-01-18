@@ -20,11 +20,11 @@ export async function POST(event: RequestEvent) {
 	const item = items.get(body.data.item)
 
 	if (!item) {
-		throw error(402, { message: 'This item does not exist' })
+		throw error(402, { message: 'This fingerprint does not exist' })
 	}
 
 	if (!item.sellable) {
-		throw error(402, { message: 'This item is not sellable' })
+		throw error(402, { message: 'This fingerprint is not sellable' })
 	}
 
 	const inventoryItem = await database.inventoryItem.findUnique({
@@ -37,11 +37,11 @@ export async function POST(event: RequestEvent) {
 	})
 
 	if (!inventoryItem) {
-		throw error(402, { message: "You don't have this item" })
+		throw error(402, { message: "You don't have this fingerprint" })
 	}
 
 	if (body.data.quantity > inventoryItem.quantity) {
-		throw error(402, { message: "You don't have that many of this item" })
+		throw error(402, { message: "You don't have that many of this fingerprint" })
 	}
 
 	await database.inventoryItem.update({

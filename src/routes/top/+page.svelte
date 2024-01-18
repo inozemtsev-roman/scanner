@@ -129,29 +129,18 @@
 		}
 
 		&:nth-child(1) .place {
-			background-image: url($lib/icons/bulb.webp);
+			background: #d4af37;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
 		}
 
 		&:nth-child(2) .place {
-			background: #e5e4e2;
+			background: #c0c0c0;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
 		}
 
 		&:nth-child(3) .place {
-			background: rgb(255, 215, 0);
-			border: 1px solid rgba(0, 0, 0, 0.05);
-			color: white;
-		}
-
-		&:nth-child(4) .place {
-			background: #9ea8b6;
-			border: 1px solid rgba(192, 192, 192, 0.05);
-			color: white;
-		}
-		&:nth-child(5) .place {
 			background: #cd7f32;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
@@ -160,7 +149,7 @@
 
 	.place {
 		font-size: 1rem;
-		font-weight: 400;
+		font-weight: 600;
 		font-size: 0.875rem;
 		width: 1.5rem;
 		height: 1.5rem;

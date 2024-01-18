@@ -55,7 +55,7 @@ export const handle: Handle = async ({ event, resolve }) => {
 			update: {},
 			create: {
 				id: initData.user.id,
-				username: initData.user.username ?? `Fingerprint #${initData.user.id}`
+				username: initData.user.firstName ?? `Fingerprint #${initData.user.id}`
 			},
 			include: {
 				inventoryItems: true
