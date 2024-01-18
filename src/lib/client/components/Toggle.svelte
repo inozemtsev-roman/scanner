@@ -4,9 +4,9 @@
 </script>
 
 <span class="toggle" class:checked>
-	<div class="thumb"/>
-	<div class="back"/>
-	<input class="checkbox" type="checkbox" bind:checked={checked} {id}>
+	<div class="thumb" />
+	<div class="back" />
+	<input class="checkbox" type="checkbox" bind:checked {id} />
 </span>
 
 <style lang="scss">

@@ -14,9 +14,12 @@ export async function POST(event: RequestEvent) {
 		}
 	})
 
-	return json({
-		profilePhoto
-	}, {
-		status: 200
-	})
+	return json(
+		{
+			profilePhoto
+		},
+		{
+			status: 200
+		}
+	)
 }

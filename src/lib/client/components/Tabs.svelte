@@ -4,7 +4,7 @@
 	import { crossfade } from 'svelte/transition'
 
 	interface Tab {
-		title: string,
+		title: string
 		value: string
 	}
 
@@ -28,16 +28,11 @@
 
 <div class="tabs">
 	{#each tabs as tab}
-		<button
-			class="tab"
-			class:active={selected === tab.value}
-			on:click={() => selected = tab.value}
-			use:ripple
-		>
+		<button class="tab" class:active={selected === tab.value} on:click={() => (selected = tab.value)} use:ripple>
 			<span>{tab.title}</span>
 		</button>
 	{/each}
-	<div class="active-indicator" style="--width: {indicatorWidth}px; --offset: {indicatorOffset}px"/>
+	<div class="active-indicator" style="--width: {indicatorWidth}px; --offset: {indicatorOffset}px" />
 </div>
 
 <style lang="scss">

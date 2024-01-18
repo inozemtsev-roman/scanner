@@ -17,7 +17,7 @@ export async function fetchData(method: string, body?: any) {
 
 	const data = await res.json()
 
-	if(!res.ok) {
+	if (!res.ok) {
 		window.Telegram.WebApp.showPopup({
 			title: 'An error has occured',
 			message: data.message ?? res.statusText
@@ -26,7 +26,7 @@ export async function fetchData(method: string, body?: any) {
 		throw new Error(data.message)
 	}
 
-	if(data._updates) {
+	if (data._updates) {
 		userData.update((user) => ({
 			...user,
 			...data._updates

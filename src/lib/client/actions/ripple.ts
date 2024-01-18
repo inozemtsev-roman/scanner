@@ -1,26 +1,18 @@
 const downEvents = ['pointerdown']
-const upEvents = [
-	'pointerup',
-	'mouseleave',
-	'dragleave',
-	'toucmmove',
-	'touchend',
-	'touchcancel'
-]
+const upEvents = ['pointerup', 'mouseleave', 'dragleave', 'toucmmove', 'touchend', 'touchcancel']
 
 export function ripple(element: HTMLElement) {
 	if (!element.classList.contains('with-ripple')) {
-		element.classList.add('with-ripple');
+		element.classList.add('with-ripple')
 	}
-	
+
 	downEvents.forEach((event) => {
 		element.addEventListener(event, (e) => {
 			// e.preventDefault()
 			createRipple(e as PointerEvent, element)
 		})
-	});
+	})
 }
-
 
 function createRipple(event: PointerEvent, parentElement: HTMLElement) {
 	const rect = parentElement.getBoundingClientRect()
@@ -54,13 +46,7 @@ function createRipple(event: PointerEvent, parentElement: HTMLElement) {
 	})
 }
 
-
-function findDistanceToFurthestPoint(
-	elementWidth: number,
-	elementHeight: number,
-	clickX: number,
-	clickY: number,
-) {
+function findDistanceToFurthestPoint(elementWidth: number, elementHeight: number, clickX: number, clickY: number) {
 	const x = clickX > elementWidth / 2 ? 0 : elementWidth
 	const y = clickY > elementHeight / 2 ? 0 : elementHeight
 	return Math.hypot(x - clickX, y - clickY)

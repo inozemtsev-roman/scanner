@@ -21,15 +21,19 @@
 	}}
 	on:click|self={() => {
 		isBeingClosed = true
-		dialog.addEventListener('animationend', () => {
-			isBeingClosed = false
-			dialog.close()
-		}, {
-			once: true
-		})
+		dialog.addEventListener(
+			'animationend',
+			() => {
+				isBeingClosed = false
+				dialog.close()
+			},
+			{
+				once: true
+			}
+		)
 	}}
 >
-<!-- svelte-ignore a11y-no-static-element-interactions -->
+	<!-- svelte-ignore a11y-no-static-element-interactions -->
 	<div class="content" on:click|stopPropagation>
 		<slot />
 	</div>
@@ -71,7 +75,7 @@
 				animation: backdrop-exit 0.5s;
 			}
 		}
- 	}
+	}
 
 	@keyframes drawer-in {
 		from {

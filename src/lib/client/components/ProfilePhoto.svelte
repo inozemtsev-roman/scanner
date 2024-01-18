@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { ripple } from '$lib/client/actions/ripple';
+	import { ripple } from '$lib/client/actions/ripple'
 	import type { User } from '@prisma/client'
 
 	export let user: User
@@ -15,10 +15,7 @@
 		style:--size={size}
 	/>
 {:else}
-	<div 
-		class="profile-photo"
-		style:--size={size}
-	>
+	<div class="profile-photo" style:--size={size}>
 		{user?.username ? user?.username[0] : 'u'}
 	</div>
 {/if}
@@ -29,7 +26,7 @@
 		height: var(--size, 2rem);
 		border-radius: 50%;
 	}
-	
+
 	div.profile-photo {
 		background: var(--muted);
 		font-weight: 500;

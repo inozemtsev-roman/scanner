@@ -13,9 +13,7 @@ export async function POST(event: RequestEvent) {
 		}
 	})
 
-	items = items
-		.sort((itemA, itemB) => itemB.quantity - itemA.quantity)
-		.filter((item) => item.quantity > 0)
+	items = items.sort((itemA, itemB) => itemB.quantity - itemA.quantity).filter((item) => item.quantity > 0)
 
 	return json(items)
 }

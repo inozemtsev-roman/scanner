@@ -6,16 +6,16 @@ export const activeRequests = writable<number[]>([])
 export const userData = writable<User>(undefined)
 
 interface LocalSettings {
-	contrastMode: boolean,
+	contrastMode: boolean
 	cozyMode: boolean
 }
 
 let localSettingsInitialValue: LocalSettings = localStorage.getItem('localSettings')
 	? JSON.parse(localStorage.getItem('localSettings')!)
 	: {
-		contrastMode: false,
-		cozyMode: false
-	}
+			contrastMode: false,
+			cozyMode: false
+	  }
 
 export const localSettings = writable<LocalSettings>(localSettingsInitialValue)
 

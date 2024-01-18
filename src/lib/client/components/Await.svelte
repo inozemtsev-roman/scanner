@@ -16,10 +16,9 @@
 </script>
 
 {#await once ? firstPromise : promise}
-	<slot name="await"/>
-{:then} 
-	<slot name="then" then={result} {pending}/>
+	<slot name="await" />
+{:then}
+	<slot name="then" then={result} {pending} />
 {:catch error}
-	<slot name="error" {error}/>
+	<slot name="error" {error} />
 {/await}
-

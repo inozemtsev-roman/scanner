@@ -13,6 +13,6 @@ const config = {
 	adapter: adapter({
 		runtime: 'edge'
 	})
-};
+}
 
 export default config

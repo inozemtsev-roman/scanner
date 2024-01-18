@@ -6,7 +6,7 @@ export async function POST(event: RequestEvent) {
 	const { t, initData } = event.locals
 	const body = usernameSchema.safeParse(await event.request.json())
 
-	if(!body.success) {
+	if (!body.success) {
 		throw error(403, {
 			message: t('api.changeUsername.invalid')
 		})

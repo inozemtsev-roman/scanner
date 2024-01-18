@@ -12,7 +12,7 @@ export async function giveUserXp(userId: number, xp: number) {
 		}
 	})
 
-	if(!user) return
+	if (!user) return
 
 	let newLevel = user.level
 	let newXp = user.xp + xp
@@ -46,11 +46,14 @@ export async function giveUserItem(userId: number, itemId: string, quantity: num
 	return await database.inventoryItem.upsert({
 		where: {
 			userId_itemId: {
-				userId, itemId
+				userId,
+				itemId
 			}
 		},
 		create: {
-			userId, itemId, quantity
+			userId,
+			itemId,
+			quantity
 		},
 		update: {
 			quantity: {
