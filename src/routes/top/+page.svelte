@@ -39,7 +39,7 @@
 	<div class="list">
 		<Await promise={topPromise} once>
 			<svelte:fragment slot="await">
-				{#each new Array(20) as _}
+				{#each new Array(100) as _}
 					<div class="user skeleton">
 						<span class="place" />
 						<span class="profile-photo" />
