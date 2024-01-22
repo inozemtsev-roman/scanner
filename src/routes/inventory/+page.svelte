@@ -84,7 +84,7 @@
 								<h2 class="item-selected-name">{$t(`items.${itemSelected.id}.name`)}</h2>
 								<p class="item-selected-description">{$t(`items.${itemSelected.id}.description`)}</p>
 								<p class="item-selected-price">
-									{$t(`items.${itemSelected.id}.price`)} <img src="/icons/bulb.webp" width={16} alt="bulbs" />
+									{$t(`items.${itemSelected.id}.price`)} <img src="/icons/ton_symbol.png" width={16} alt="ton" />
 								</p>
 							</div>
 
