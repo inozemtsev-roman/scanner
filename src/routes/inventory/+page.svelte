@@ -84,7 +84,12 @@
 								<h2 class="item-selected-name">{$t(`items.${itemSelected.id}.name`)}</h2>
 								<p class="item-selected-description">{$t(`items.${itemSelected.id}.description`)}</p>
 								<p class="item-selected-price">
-									{$t(`items.${itemSelected.id}.price`)} <img src="/icons/ton_symbol.png" width={16} alt="ton" />
+									{$t(`items.${itemSelected.id}.price`)}
+									<img
+										src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp"
+										width={16}
+										alt="ton"
+									/>
 								</p>
 							</div>
 
@@ -233,7 +238,7 @@
 	}
 
 	.item-selected-price {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		font-weight: 900;
 		line-height: 130%;
 		margin-top: 2rem;
