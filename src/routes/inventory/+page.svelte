@@ -93,7 +93,7 @@
 								</p>
 							</div>
 							<div class="item-getgems">
-								<Button variant="link" onclick="location.href='https://getgems.io/'">{$t('home.links.getgems')}</Button>
+								<Button variant="link" href="https://getgems.io/">{$t('home.links.getgems')}</Button>
 							</div>
 							<div class="item-actions">
 								{#if itemSelected.sellable}
@@ -256,7 +256,7 @@
 		display: grid;
 		margin-top: 2rem;
 		grid-auto-flow: column;
-		grid-auto-columns: minmax(0, 1fr);
+		grid-auto-columns: minmax(0, 2fr);
 		gap: 1rem;
 	}
 
