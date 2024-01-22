@@ -92,6 +92,11 @@
 									/>
 								</p>
 							</div>
+							<div class="item-getgems">
+								<Button variant="link" onclick="location.href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
+									>{$t('home.links.getgems')}</Button
+								>
+							</div>
 							<div class="item-actions">
 								{#if itemSelected.sellable}
 									<Button
@@ -115,11 +120,6 @@
 										{$t('inventory.use')}
 									</Button>
 								{/if}
-							</div>
-							<div>
-								<Button size="small" variant="link" href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
-									>{$t('home.links.getgems')}</Button
-								>
 							</div>
 						{:else}
 							<h2>{$t('inventory.sellItem')}</h2>
@@ -250,7 +250,7 @@
 	}
 
 	.item-getgems {
-		text-decoration: dotted;
+		text-decoration: solid;
 		gap: 1rem;
 	}
 
