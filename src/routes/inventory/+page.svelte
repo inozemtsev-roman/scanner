@@ -175,7 +175,7 @@
 	.item-card {
 		@include card;
 		aspect-ratio: 1/1;
-		display: table;
+		display: flex;
 		flex-direction: column;
 		gap: 1rem;
 		align-items: center;
@@ -215,6 +215,7 @@
 		align-items: center;
 		flex-direction: column;
 		width: 100%;
+		height: 80%;
 		margin-bottom: 4.5rem;
 		margin-top: 4rem;
 		text-align: center;
