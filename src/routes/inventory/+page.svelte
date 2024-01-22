@@ -93,7 +93,9 @@
 								</p>
 							</div>
 							<div class="item-getgems">
-								<Button href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}">Getgems</Button>
+								<Button href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}" style="text-decoration:" none;
+									>Getgems</Button
+								>
 							</div>
 
 							<div class="item-actions">
