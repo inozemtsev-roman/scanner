@@ -93,8 +93,10 @@
 								</p>
 							</div>
 							<div class="item-getgems">
-								<Button variant="primary" href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
-									>{$t('home.links.getgems')}</Button
+								<Button
+									variant="primary"
+									href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
+									target="_blank">{$t('home.links.getgems')}</Button
 								>
 							</div>
 
