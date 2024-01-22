@@ -92,7 +92,7 @@
 									/>
 								</p>
 							</div>
-							<div class="item-actions">
+							<div class="item-getgems">
 								<Button href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}">Getgems</Button>
 							</div>
 
@@ -248,8 +248,17 @@
 		color: var(--text);
 	}
 
+	.item-getgems {
+		display: grid;
+		grid-auto-flow: column;
+		margin-top: 2rem;
+		grid-auto-columns: minmax(0, 1fr);
+		gap: 1rem;
+	}
+
 	.item-actions {
 		display: grid;
+		margin-top: 2rem;
 		grid-auto-flow: column;
 		grid-auto-columns: minmax(0, 1fr);
 		gap: 1rem;
