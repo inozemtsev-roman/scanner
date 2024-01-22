@@ -233,12 +233,11 @@
 	}
 
 	.item-selected-price {
-		font-size: 1rem;
+		font-size: 1.3rem;
 		font-weight: 900;
 		line-height: 130%;
 		margin-top: 2rem;
 		color: var(--text);
-		vertical-align: middle;
 	}
 
 	.item-actions {
