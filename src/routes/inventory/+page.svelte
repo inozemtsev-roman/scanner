@@ -91,12 +91,13 @@
 										alt="ton"
 									/>
 								</p>
+								<div class="item-getgems">
+									<Button variant="link" href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
+										>{$t('home.links.getgems')}</Button
+									>
+								</div>
 							</div>
-							<div class="item-getgems">
-								<Button variant="link" href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
-									>{$t('home.links.getgems')}</Button
-								>
-							</div>
+
 							<div class="item-actions">
 								{#if itemSelected.sellable}
 									<Button
@@ -215,7 +216,6 @@
 		align-items: center;
 		flex-direction: column;
 		width: 100%;
-		height: 80%;
 		margin-bottom: 4.5rem;
 		margin-top: 4rem;
 		text-align: center;
