@@ -83,6 +83,7 @@
 								</span>
 								<h2 class="item-selected-name">{$t(`items.${itemSelected.id}.name`)}</h2>
 								<p class="item-selected-description">{$t(`items.${itemSelected.id}.description`)}</p>
+								<p class="item-selected-price">{$t(`items.${itemSelected.id}.price`)}</p>
 							</div>
 
 							<div class="item-actions">
@@ -226,6 +227,13 @@
 		font-size: 0.875rem;
 		line-height: 130%;
 		margin-top: 1rem;
+		color: var(--text);
+	}
+
+	.item-selected-price {
+		font-size: 1rem;
+		line-height: 130%;
+		margin-top: 2rem;
 		color: var(--text);
 	}
 
