@@ -93,7 +93,9 @@
 								</p>
 							</div>
 							<div class="item-getgems">
-								<Button variant="link" onclick="location.href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
+								<Button
+									variant="link"
+									onclick="location.href='https://getgems.io/{$t(`items.${itemSelected.id}.link`)}'"
 									>{$t('home.links.getgems')}</Button
 								>
 							</div>
