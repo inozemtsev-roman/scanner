@@ -93,11 +93,7 @@
 								</p>
 							</div>
 							<div class="item-getgems">
-								<Button
-									variant="link"
-									onclick="location.href='https://getgems.io/{$t(`items.${itemSelected.id}.link`)}'"
-									>{$t('home.links.getgems')}</Button
-								>
+								<Button variant="link" onclick="location.href='https://getgems.io/'">{$t('home.links.getgems')}</Button>
 							</div>
 							<div class="item-actions">
 								{#if itemSelected.sellable}
