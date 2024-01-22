@@ -92,8 +92,9 @@
 									/>
 								</p>
 							</div>
-
-							<Button href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}">Getgems</Button>
+							<div class="item-actions">
+								<Button href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}">Getgems</Button>
+							</div>
 
 							<div class="item-actions">
 								{#if itemSelected.sellable}
