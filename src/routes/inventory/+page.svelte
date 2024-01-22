@@ -116,8 +116,8 @@
 									</Button>
 								{/if}
 							</div>
-							<div class="item-getgems">
-								<Button variant="link" href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
+							<div>
+								<Button size="small" variant="link" href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
 									>{$t('home.links.getgems')}</Button
 								>
 							</div>
