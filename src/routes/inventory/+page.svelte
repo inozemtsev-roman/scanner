@@ -116,6 +116,11 @@
 									</Button>
 								{/if}
 							</div>
+							<div class="item-getgems">
+								<Button variant="link" href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
+									>{$t('home.links.getgems')}</Button
+								>
+							</div>
 						{:else}
 							<h2>{$t('inventory.sellItem')}</h2>
 							<div class="price-input">
@@ -139,11 +144,6 @@
 									{$t('inventory.sellFor')}
 									{itemSelected.price * sellQuantity}
 									<img src="/icons/bulb.webp" width={16} alt="bulbs" /></Button
-								>
-							</div>
-							<div class="item-getgems">
-								<Button variant="link" href="https://getgems.io/{$t(`items.${itemSelected.id}.link`)}"
-									>{$t('home.links.getgems')}</Button
 								>
 							</div>
 						{/if}
