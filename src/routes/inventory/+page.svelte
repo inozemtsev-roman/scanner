@@ -97,7 +97,6 @@
 									>{$t('home.links.getgems')}</Button
 								>
 							</div>
-
 							<div class="item-actions">
 								{#if itemSelected.sellable}
 									<Button
@@ -251,9 +250,6 @@
 	}
 
 	.item-getgems {
-		display: grid;
-		grid-auto-flow: column;
-		grid-auto-columns: minmax(0, 1fr);
 		text-decoration: none;
 		gap: 1rem;
 	}
