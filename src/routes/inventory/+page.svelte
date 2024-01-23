@@ -85,7 +85,7 @@
 								<p class="item-selected-description">{$t(`items.${itemSelected.id}.description`)}</p>
 								<p class="item-selected-price">
 									{$t(`items.${itemSelected.id}.price`)}
-									<img src="/icons/magnifying.webp" width={16} alt="ton" />
+									<img src="/icons/bulb.webp" width={16} alt="bulb" />
 								</p>
 							</div>
 							<div class="item-getgems">
@@ -137,7 +137,7 @@
 								>
 									{$t('inventory.sellFor')}
 									{itemSelected.price * sellQuantity}
-									<img src="/icons/magnifying.webp" width={16} alt="magnifying" /></Button
+									<img src="/icons/bulb.webp" width={16} alt="bulb" /></Button
 								>
 							</div>
 						{/if}
