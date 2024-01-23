@@ -63,8 +63,8 @@
 						<span class="stats">
 							{#if selectedTop === 'level'}
 								{user.level}
-							{:else if selectedTop === 'bulbs'}
-								{user.bulbs} <img src="/icons/bulb.webp" width={16} alt="bulbs" />
+							{:else if selectedTop === 'magnifying'}
+								{user.bulbs} <img src="/icons/magnifying.webp" width={16} alt="magnifying" />
 							{:else if selectedTop === 'keys'}
 								{user.keys} <img src="/icons/key.webp" width={16} alt="keys" />
 							{/if}

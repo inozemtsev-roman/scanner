@@ -85,11 +85,7 @@
 								<p class="item-selected-description">{$t(`items.${itemSelected.id}.description`)}</p>
 								<p class="item-selected-price">
 									{$t(`items.${itemSelected.id}.price`)}
-									<img
-										src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Light%20Bulb.webp"
-										width={16}
-										alt="ton"
-									/>
+									<img src="/icons/magnifying.webp" width={16} alt="ton" />
 								</p>
 							</div>
 							<div class="item-getgems">
@@ -141,7 +137,7 @@
 								>
 									{$t('inventory.sellFor')}
 									{itemSelected.price * sellQuantity}
-									<img src="/icons/bulb.webp" width={16} alt="bulbs" /></Button
+									<img src="/icons/magnifying.webp" width={16} alt="magnifying" /></Button
 								>
 							</div>
 						{/if}
