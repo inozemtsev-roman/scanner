@@ -16,7 +16,8 @@
 		xp: 0,
 		lastTimeScanned: null,
 		username: '',
-		profilePhoto: ''
+		profilePhoto: '',
+		lastDailyBonus: null
 	}
 
 	const xpProgress = tweened(0, {
