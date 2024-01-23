@@ -56,7 +56,7 @@
 		<img src="/icons/gear.webp" alt="settings" />
 		{$t('home.settings')}
 	</a>
-	<a class="nav-card small" href="https://getgems.io/collection/fingerprints" target="_blank" use:ripple>
+	<a class="nav-card small" href="https://getgems.io/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/gg.webp" alt="getgems" />
 		{$t('home.links.getgems')}
 	</a>
