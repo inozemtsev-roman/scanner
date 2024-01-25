@@ -88,9 +88,6 @@
 									<img src="/icons/bulb.webp" width={16} alt="bulb" />
 								</p>
 							</div>
-							<div class="item-getgems">
-								<Button variant="link" href="https://getgems.io/">{$t('home.links.getgems')}</Button>
-							</div>
 							<div class="item-actions">
 								{#if itemSelected.sellable}
 									<Button
