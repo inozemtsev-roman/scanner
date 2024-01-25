@@ -61,7 +61,7 @@
 		{#if !currentDrop?.isJunk}
 			<img class="rays" src="rays.webp" alt="" />
 		{/if}
-		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} width="160" loading="lazy" />
+		<img src={`items/${currentDrop.itemId}.svg`} alt={currentDrop.itemId} width="160" loading="lazy" />
 	</button>
 {/if}
 
