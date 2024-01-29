@@ -60,7 +60,7 @@
 	>
 		{#if !currentDrop?.isJunk}
 			<img class="rays" src="rays.webp" alt="" />
-			<img class="rays" src="rays2.webp" alt="" />
+			<img class="rays2" src="rays2.webp" alt="" />
 		{/if}
 		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} width="140" loading="lazy" />
 	</button>
@@ -178,6 +178,23 @@
 		}
 		to {
 			rotate: 360deg;
+		}
+	}
+
+	.rays2 {
+		position: absolute;
+		left: calc(50% - 8rem);
+		top: calc(50% - 8rem);
+		z-index: -1;
+		animation: rotate 8s linear infinite;
+	}
+
+	@keyframes rotate {
+		from {
+			rotate: 0deg;
+		}
+		to {
+			rotate: -360deg;
 		}
 	}
 </style>
