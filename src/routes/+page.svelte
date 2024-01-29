@@ -83,6 +83,7 @@
 		line-height: 1rem;
 		grid-column: span 3;
 		border: none;
+		font-weight: 800;
 
 		&.small {
 			grid-column: span 2;

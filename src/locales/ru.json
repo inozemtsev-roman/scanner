@@ -38,7 +38,7 @@
 		"Gift": {
 			"name": "Gift",
 			"description": "An Gift with goodies received for reaching a new level.",
-			"price": "2-5🔑 or 20-60",
+			"price": "Keys or 20-60",
 			"use": {
 				"absence": "You don't have any Gift"
 			}
