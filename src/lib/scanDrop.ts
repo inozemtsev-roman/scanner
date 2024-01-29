@@ -156,21 +156,6 @@ export const scanDrop: ScanDrop[] = [
 		isJunk: false
 	},
 	{
-		itemId: 'fdetect',
-		weight: 20,
-		isJunk: true
-	},
-	{
-		itemId: 'fcapture',
-		weight: 20,
-		isJunk: true
-	},
-	{
-		itemId: 'fprocess',
-		weight: 20,
-		isJunk: true
-	},
-	{
 		itemId: 'facquire',
 		weight: 20,
 		isJunk: true
