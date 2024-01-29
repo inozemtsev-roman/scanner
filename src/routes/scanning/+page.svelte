@@ -60,7 +60,9 @@
 	>
 		{#if !currentDrop?.isJunk}
 			<img class="rays" src="rays.webp" alt="" />
+			<img class="rays1" src="rays1.webp" alt="" />
 			<img class="rays2" src="rays2.webp" alt="" />
+			<img class="rays3" src="rays3.webp" alt="" />
 		{/if}
 		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} width="140" loading="lazy" />
 	</button>
@@ -181,15 +183,49 @@
 		}
 	}
 
+	.rays1 {
+		position: absolute;
+		left: calc(50% - 8rem);
+		top: calc(50% - 8rem);
+		z-index: -1;
+		animation: rotate1 8s linear infinite;
+	}
+
+	@keyframes rotate1 {
+		from {
+			rotate: 0deg;
+		}
+		to {
+			rotate: -360deg;
+		}
+	}
+
 	.rays2 {
 		position: absolute;
 		left: calc(50% - 8rem);
 		top: calc(50% - 8rem);
 		z-index: -1;
-		animation: rotate2 8s linear infinite;
+		animation: rotate2 4s linear infinite;
 	}
 
 	@keyframes rotate2 {
+		from {
+			rotate: 0deg;
+		}
+		to {
+			rotate: 360deg;
+		}
+	}
+
+	.rays3 {
+		position: absolute;
+		left: calc(50% - 8rem);
+		top: calc(50% - 8rem);
+		z-index: -1;
+		animation: rotate3 15s linear infinite;
+	}
+
+	@keyframes rotate3 {
 		from {
 			rotate: 0deg;
 		}
