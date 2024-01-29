@@ -42,185 +42,155 @@
 				"absence": "You don't have any Ballot"
 			}
 		},
-		"Unique": {
-			"name": "Unique",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Rare": {
-			"name": "Rare",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Uncommon": {
-			"name": "Uncommon",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Scarce": {
-			"name": "Scarce",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Amazing": {
-			"name": "Amazing",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Exceptional": {
-			"name": "Exceptional",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Unusual": {
-			"name": "Unusual",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Singular": {
-			"name": "Singular",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Unprecedented": {
-			"name": "Unprecedented",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Exclusive": {
-			"name": "Exclusive",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Precious": {
-			"name": "Precious",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Distinctive": {
-			"name": "Distinctive",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Unmatched": {
-			"name": "Unmatched",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Peculiar": {
-			"name": "Peculiar",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Exceptionable": {
-			"name": "Exceptionable",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Curious": {
-			"name": "Curious",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Abnormal": {
-			"name": "Abnormal",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Outstanding": {
-			"name": "Outstanding",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Rarefied": {
-			"name": "Rarefied",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Remarkable": {
-			"name": "Remarkable",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Unparalleled": {
-			"name": "Unparalleled",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Uncommonplace": {
-			"name": "Uncommonplace",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Unconventional": {
-			"name": "Unconventional",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Inimitable": {
-			"name": "Inimitable",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Unheard": {
-			"name": "Unheard",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Quirky": {
-			"name": "Quirky",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Specialized": {
-			"name": "Specialized",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
-		},
-		"Extraordinary": {
-			"name": "Extraordinary",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
+		"Common": {
+			"name": "Common fingerprint",
+			"description": "Counter 15 Rarity 23,51%",
+			"price": "3.809"
 		},
 		"Infrequent": {
-			"name": "Infrequent",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
+			"name": "Infrequent fingerprint",
+			"description": "Counter 16 Rarity 15,97%",
+			"price": "3.826"
 		},
-		"Common": {
-			"name": "Common",
-			"description": "Counter: 30 \nAmount:1 \nPrice: 249.900TON",
-			"price": "249.900",
-			"link": "collection\/fingerprints?filter=%7B\"attributes\"%3A%7B\"Count\"%3A%5B\"30\"%5D%7D%7D"
+		"Extraordinary": {
+			"name": "Extraordinary fingerprint",
+			"description": "Counter 14 Rarity 14,53%",
+			"price": "4.681"
+		},
+		"Specialized": {
+			"name": "Specialized fingerprint",
+			"description": "Counter 17 Rarity 9,87%",
+			"price": "4.756"
+		},
+		"Quirky": {
+			"name": "Quirky fingerprint",
+			"description": "Counter 13 Rarity 8,98%",
+			"price": "4.768"
+		},
+		"Unheard": {
+			"name": "Unheard fingerprint",
+			"description": "Counter 18 Rarity 6,1%",
+			"price": "5.148"
+		},
+		"Inimitable": {
+			"name": "Inimitable fingerprint",
+			"description": "Counter 19 Rarity 3,77%",
+			"price": "6.507"
+		},
+		"Unconventional": {
+			"name": "Unconventional fingerprint",
+			"description": "Counter 12 Rarity 3,43%",
+			"price": "8.089"
+		},
+		"Uncommonplace": {
+			"name": "Uncommonplace fingerprint",
+			"description": "Counter 11 Rarity 2,38%",
+			"price": "8.679"
+		},
+		"Unparalleled": {
+			"name": "Unparalleled fingerprint",
+			"description": "Counter 20 Rarity 2,33%",
+			"price": "8.977"
+		},
+		"Remarkable": {
+			"name": "Remarkable fingerprint",
+			"description": "Counter 10 Rarity 2,12%",
+			"price": "9.613"
+		},
+		"Rarefied": {
+			"name": "Rarefied fingerprint",
+			"description": "Counter 21 Rarity 1,44%",
+			"price": "10.926"
+		},
+		"Outstanding": {
+			"name": "Outstanding fingerprint",
+			"description": "Counter 9 Rarity 1,31%",
+			"price": "16.091"
+		},
+		"Abnormal": {
+			"name": "Abnormal fingerprint",
+			"description": "Counter 22 Rarity 0,89%",
+			"price": "18.228"
+		},
+		"Curious": {
+			"name": "Curious fingerprint",
+			"description": "Counter 8 Rarity 0,81%",
+			"price": "24.325"
+		},
+		"Exceptionable": {
+			"name": "Exceptionable fingerprint",
+			"description": "Counter 23 Rarity 0,55%",
+			"price": "26.644"
+		},
+		"Peculiar": {
+			"name": "Peculiar fingerprint",
+			"description": "Counter 7 Rarity 0,5%",
+			"price": "11.847"
+		},
+		"Unmatched": {
+			"name": "Unmatched fingerprint",
+			"description": "Counter 24 Rarity 0,34%",
+			"price": "11.978"
+		},
+		"Distinctive": {
+			"name": "Distinctive fingerprint",
+			"description": "Counter 6 Rarity 0,31%",
+			"price": "17.923"
+		},
+		"Precious": {
+			"name": "Precious fingerprint",
+			"description": "Counter 25 Rarity 0,21%",
+			"price": "3.446"
+		},
+		"Exclusive": {
+			"name": "Exclusive fingerprint",
+			"description": "Counter 5 Rarity 0,19%",
+			"price": "40.631"
+		},
+		"Unprecedented": {
+			"name": "Unprecedented fingerprint",
+			"description": "Counter 26 Rarity 0,13%",
+			"price": "54.89"
+		},
+		"Singular": {
+			"name": "Singular fingerprint",
+			"description": "Counter 4 Rarity 0,12%",
+			"price": "84.505"
+		},
+		"Unusual": {
+			"name": "Unusual fingerprint",
+			"description": "Counter 27 Rarity 0,08%",
+			"price": "99.89"
+		},
+		"Exceptional": {
+			"name": "Exceptional fingerprint",
+			"description": "Counter 3 Rarity 0,07%",
+			"price": "157.033"
+		},
+		"Amazing": {
+			"name": "Amazing fingerprint",
+			"description": "Counter 28 Rarity 0,02%",
+			"price": "183.223"
+		},
+		"Scarce": {
+			"name": "Scarce fingerprint",
+			"description": "Counter 1 Rarity 0,01%",
+			"price": "274.89"
+		},
+		"Uncommon": {
+			"name": "Uncommon fingerprint",
+			"description": "Counter 2 Rarity 0,01%",
+			"price": "274.89"
+		},
+		"Rare": {
+			"name": "Rare fingerprint",
+			"description": "Counter 29 Rarity 0,01%",
+			"price": "274.89"
+		},
+		"Unique": {
+			"name": "Unique fingerprint",
+			"description": "Counter 30 Rarity 0,01%",
+			"price": "274.89"
 		}
 	},
 	"inventory": {
