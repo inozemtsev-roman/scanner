@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="560pt"
-   height="560pt"
-   viewBox="0 0 560 560"
+   width="800pt"
+   height="800pt"
+   viewBox="0 0 800 800"
    preserveAspectRatio="xMidYMid meet"
    id="svg36"
    sodipodi:docname="Extraordinary.svg"
@@ -20,7 +20,6 @@
   <sodipodi:namedview
      id="namedview38"
      pagecolor="#505050"
-     
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
@@ -28,14 +27,15 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.58875"
-     inkscape:cx="569.00212"
-     inkscape:cy="523.14225"
+     inkscape:cx="769.42675"
+     inkscape:cy="587.68577"
      inkscape:window-width="1920"
      inkscape:window-height="957"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg36" />
+     inkscape:current-layer="svg36"
+     bordercolor="#ffffff" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -61,7 +61,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0.1,0,0,-0.1,-219.14664,779.49811)"
+     transform="matrix(0.1,0,0,-0.1,-99.14665,899.49811)"
      fill="#949494"
      stroke="none"
      id="g34">
@@ -107,5 +107,15 @@
     <path
        d="m 5625,2634 c -286,-176 -433,-238 -745,-314 -69,-17 -161,-42 -205,-55 -80,-26 -80,-26 30,-20 344,19 645,99 869,232 100,60 179,134 174,166 -5,37 -53,34 -123,-9 z"
        id="path32" />
+  </g>
+  <g
+     id="g959">
+    <rect
+       style="fill:none;stroke-width:2.74636;stroke-linecap:round;stop-color:#000000"
+       id="rect871"
+       width="800"
+       height="800"
+       x="2.8421709e-14"
+       y="0" />
   </g>
 </svg>

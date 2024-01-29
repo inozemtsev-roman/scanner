@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="560pt"
-   height="560pt"
-   viewBox="0 0 560 560"
+   width="800pt"
+   height="800pt"
+   viewBox="0 0 800 800"
    preserveAspectRatio="xMidYMid meet"
    id="svg28"
    sodipodi:docname="Remarkable.svg"
@@ -20,7 +20,6 @@
   <sodipodi:namedview
      id="namedview30"
      pagecolor="#505050"
-     
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
@@ -28,14 +27,15 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.58875"
-     inkscape:cx="569.00212"
-     inkscape:cy="519.74522"
+     inkscape:cx="726.96391"
+     inkscape:cy="703.18471"
      inkscape:window-width="1920"
      inkscape:window-height="957"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg28" />
+     inkscape:current-layer="svg28"
+     bordercolor="#ffffff" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -61,7 +61,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0.1,0,0,-0.1,-220.9065,775.3718)"
+     transform="matrix(0.1,0,0,-0.1,-100.9065,895.3718)"
      fill="#949494"
      stroke="none"
      id="g26">
@@ -95,5 +95,15 @@
     <path
        d="m 4995,2231 c -3,-11 -15,-23 -26,-26 -11,-4 -18,-9 -16,-12 12,-11 66,29 67,50 0,15 -19,6 -25,-12 z"
        id="path24" />
+  </g>
+  <g
+     id="g959">
+    <rect
+       style="fill:none;stroke-width:2.74636;stroke-linecap:round;stop-color:#000000"
+       id="rect871"
+       width="800"
+       height="800"
+       x="2.8421709e-14"
+       y="0" />
   </g>
 </svg>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="560pt"
-   height="560pt"
-   viewBox="0 0 560 560"
+   width="800pt"
+   height="800pt"
+   viewBox="0 0 800 800"
    preserveAspectRatio="xMidYMid meet"
    id="svg46"
    sodipodi:docname="Inimitable.svg"
@@ -20,7 +20,6 @@
   <sodipodi:namedview
      id="namedview48"
      pagecolor="#505050"
-     
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
@@ -28,14 +27,15 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.58875"
-     inkscape:cx="569.00212"
-     inkscape:cy="524.84076"
+     inkscape:cx="706.58174"
+     inkscape:cy="676.00849"
      inkscape:window-width="1920"
      inkscape:window-height="957"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg46" />
+     inkscape:current-layer="svg46"
+     bordercolor="#ffffff" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -61,7 +61,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0.1,0,0,-0.1,-218.2875,781.60027)"
+     transform="matrix(0.1,0,0,-0.1,-98.2875,901.60027)"
      fill="#949494"
      stroke="none"
      id="g44">
@@ -122,5 +122,15 @@
     <path
        d="m 5683,2466 c -4,-8 -46,-56 -93,-107 -85,-93 -85,-93 -13,-41 82,60 133,114 133,142 0,23 -15,26 -27,6 z"
        id="path42" />
+  </g>
+  <g
+     id="g959">
+    <rect
+       style="fill:none;stroke-width:2.74636;stroke-linecap:round;stop-color:#000000"
+       id="rect871"
+       width="800"
+       height="800"
+       x="2.8421709e-14"
+       y="0" />
   </g>
 </svg>

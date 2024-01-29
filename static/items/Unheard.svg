@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="560pt"
-   height="560pt"
-   viewBox="0 0 560 560"
+   width="800pt"
+   height="800pt"
+   viewBox="0 0 800 800"
    preserveAspectRatio="xMidYMid meet"
    id="svg44"
    sodipodi:docname="Unheard.svg"
@@ -20,7 +20,6 @@
   <sodipodi:namedview
      id="namedview46"
      pagecolor="#505050"
-     
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
@@ -28,14 +27,15 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.58875"
-     inkscape:cx="567.30361"
-     inkscape:cy="521.44374"
+     inkscape:cx="947.7707"
+     inkscape:cy="618.25902"
      inkscape:window-width="1920"
      inkscape:window-height="957"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg44" />
+     inkscape:current-layer="svg44"
+     bordercolor="#ffffff" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -61,7 +61,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0.1,0,0,-0.1,-220.452,780.83501)"
+     transform="matrix(0.1,0,0,-0.1,-100.45199,900.83501)"
      fill="#949494"
      stroke="none"
      id="g42">
@@ -119,5 +119,15 @@
     <path
        d="m 4880,3186 c -30,-13 -92,-42 -137,-64 -194,-99 -429,-175 -643,-211 -98,-16 -363,-39 -470,-41 -8,0 23,-14 70,-31 272,-99 350,-101 651,-13 227,66 430,158 562,255 69,50 94,85 84,113 -9,22 -52,19 -117,-8 z"
        id="path40" />
+  </g>
+  <g
+     id="g959">
+    <rect
+       style="fill:none;stroke-width:2.74636;stroke-linecap:round;stop-color:#000000"
+       id="rect871"
+       width="800"
+       height="800"
+       x="2.8421709e-14"
+       y="0" />
   </g>
 </svg>

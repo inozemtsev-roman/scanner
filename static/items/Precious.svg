@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.0"
-   width="560pt"
-   height="560pt"
-   viewBox="0 0 560 560"
+   width="800pt"
+   height="800pt"
+   viewBox="0 0 800 800"
    preserveAspectRatio="xMidYMid meet"
    id="svg58"
    sodipodi:docname="Precious.svg"
@@ -20,7 +20,6 @@
   <sodipodi:namedview
      id="namedview60"
      pagecolor="#505050"
-     
      borderopacity="1"
      inkscape:pageshadow="0"
      inkscape:pageopacity="0"
@@ -28,14 +27,15 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.58875"
-     inkscape:cx="567.30361"
-     inkscape:cy="523.14225"
+     inkscape:cx="738.8535"
+     inkscape:cy="655.62633"
      inkscape:window-width="1920"
      inkscape:window-height="957"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg58" />
+     inkscape:current-layer="svg58"
+     bordercolor="#ffffff" />
   <metadata
      id="metadata2">
     <rdf:RDF>
@@ -61,7 +61,7 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="matrix(0.1,0,0,-0.1,-218.42213,782.98896)"
+     transform="matrix(0.1,0,0,-0.1,-98.42213,902.98896)"
      fill="#949494"
      stroke="none"
      id="g56">
@@ -140,5 +140,15 @@
     <path
        d="m 6040,2663 c -14,-3 -97,-22 -185,-44 -312,-78 -473,-136 -583,-212 -31,-21 -72,-39 -100,-44 -54,-9 -393,-7 -587,5 -71,4 -177,5 -235,2 -105,-5 -105,-5 65,-37 253,-48 386,-63 640,-72 128,-5 242,-13 258,-20 42,-16 52,-14 32,9 -20,22 -15,80 9,99 7,6 132,53 277,105 232,82 463,174 516,205 14,8 7,10 -32,9 -27,0 -61,-3 -75,-5 z"
        id="path54" />
+  </g>
+  <g
+     id="g959">
+    <rect
+       style="fill:none;stroke-width:2.74636;stroke-linecap:round;stop-color:#000000"
+       id="rect871"
+       width="800"
+       height="800"
+       x="2.8421709e-14"
+       y="0" />
   </g>
 </svg>
