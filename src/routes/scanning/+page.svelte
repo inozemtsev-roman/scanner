@@ -111,7 +111,7 @@
 					timeout = setTimeout(() => {
 						scanningState = 'idle'
 					}, 10_000)
-				}, 5_000)
+				}, 15_000)
 			}}
 		>
 			{$t('button.authenticate')}
