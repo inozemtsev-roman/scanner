@@ -34,7 +34,7 @@ export async function giveUserXp(userId: number, xp: number) {
 		}
 	})
 
-	await giveUserItem(userId, 'gift', newLevel - user.level)
+	await giveUserItem(userId, 'giftp', newLevel - user.level)
 
 	return {
 		level: newLevel,
