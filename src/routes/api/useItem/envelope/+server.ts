@@ -13,10 +13,10 @@ const possibleDrops = [
 
 export async function POST(event: RequestEvent) {
 	const { t, initData } = event.locals
-	if (!event.locals.user.inventoryItems.find((item) => item.itemId === 'Ballot' && item.quantity > 0)) {
+	if (!event.locals.user.inventoryItems.find((item) => item.itemId === 'Gift' && item.quantity > 0)) {
 		return json(
 			{
-				message: t('items.Ballot.use.absence')
+				message: t('items.Gift.use.absence')
 			},
 			{
 				status: 400
@@ -35,7 +35,7 @@ export async function POST(event: RequestEvent) {
 		where: {
 			userId_itemId: {
 				userId: initData.user.id,
-				itemId: 'Ballot'
+				itemId: 'Gift'
 			}
 		}
 	})

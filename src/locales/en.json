@@ -35,11 +35,11 @@
 		"keys": "Keys"
 	},
 	"items": {
-		"Ballot": {
-			"name": "Ballot",
-			"description": "An Ballot with goodies received for reaching a new level.",
+		"Gift": {
+			"name": "Gift",
+			"description": "An Gift with goodies received for reaching a new level.",
 			"use": {
-				"absence": "You don't have any Ballot"
+				"absence": "You don't have any Gift"
 			}
 		},
 		"Common": {
