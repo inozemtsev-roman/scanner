@@ -186,10 +186,10 @@
 		left: calc(50% - 8rem);
 		top: calc(50% - 8rem);
 		z-index: -1;
-		animation: rotate 8s linear infinite;
+		animation: rotate2 8s linear infinite;
 	}
 
-	@keyframes rotate {
+	@keyframes rotate2 {
 		from {
 			rotate: 0deg;
 		}
