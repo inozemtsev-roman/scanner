@@ -88,8 +88,8 @@
 								scanningState = 'idle'
 							}, 15_000)
 						}, 10_000)
-					}, 5_000)
-				}, 5_000 + Math.random() * 10_000)
+					}, 15_000)
+				}, 15_000 + Math.random() * 10_000)
 			}}
 		>
 			{$t('button.confirm')}
