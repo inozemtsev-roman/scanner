@@ -35,7 +35,7 @@
 		"keys": "Keys"
 	},
 	"items": {
-		"Gift": {
+		"gift": {
 			"name": "Gift",
 			"description": "An Gift with goodies received for reaching a new level.",
 			"price": "Keys or 20-60",
