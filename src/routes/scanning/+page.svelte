@@ -60,6 +60,7 @@
 	>
 		{#if !currentDrop?.isJunk}
 			<img class="rays" src="rays.webp" alt="" />
+			<img class="rays" src="rays2.webp" alt="" />
 		{/if}
 		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} width="140" loading="lazy" />
 	</button>
