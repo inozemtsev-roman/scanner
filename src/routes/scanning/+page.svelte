@@ -119,7 +119,7 @@
 	</div>
 {:else if scanningState === 'timeout'}
 	<div class="animation">
-		<LottiePlayer src="/animations/time.json" loop autoplay width={192} />
+		<LottiePlayer src="/animations/time2.json" loop autoplay width={192} />
 	</div>
 	<div class="scanning-action">{$t('message.timeout')}</div>
 {:else if scanningState === 'waiting'}
