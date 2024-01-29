@@ -129,7 +129,7 @@
 	<div class="scanning-action">{$t('message.waiting')}</div>
 {:else if scanningState === 'missed'}
 	<div class="animation">
-		<LottiePlayer src="/animations/er.json" loop autoplay width={192} />
+		<LottiePlayer src="/animations/er2.json" loop autoplay width={192} />
 	</div>
 	<div class="scanning-action">{$t('message.missed')}</div>
 {/if}
