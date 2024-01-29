@@ -25,7 +25,7 @@
 		easing: cubicOut
 	})
 
-	const bulbsDisplayValue = tweened(3, {
+	const bulbsDisplayValue = tweened(0, {
 		duration: 500,
 		easing: cubicOut
 	})
