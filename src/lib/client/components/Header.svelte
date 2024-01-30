@@ -110,7 +110,7 @@
 		overflow: hidden;
 
 		&-value {
-			background: white;
+			background: #2188ff;
 			height: 100%;
 		}
 	}
