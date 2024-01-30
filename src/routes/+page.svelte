@@ -86,6 +86,7 @@
 		&.gg {
 			grid-column: span 1;
 			gap: 1rem;
+			padding: 2px;
 			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
 
 			img {
