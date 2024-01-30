@@ -64,7 +64,7 @@
 			<img class="rays2" src="rays2.webp" alt="" />
 			<img class="rays3" src="rays3.webp" alt="" />
 		{/if}
-		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} height="130" loading="lazy" />
+		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} height="110" loading="lazy" />
 	</button>
 {/if}
 
