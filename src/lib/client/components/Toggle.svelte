@@ -25,7 +25,7 @@
 			}
 
 			.back {
-				background: var(--accent);
+				background: #2188ff;
 			}
 		}
 	}
