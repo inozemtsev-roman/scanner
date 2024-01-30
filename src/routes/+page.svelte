@@ -56,7 +56,7 @@
 		<img src="/icons/gear.webp" alt="settings" />
 		{$t('home.settings')}
 	</a>
-	<a class="nav-card small" href="https://getgems.io/fingerprints" target="_blank" use:ripple>
+	<a class="nav-card gg" href="https://getgems.io/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/gg.webp" alt="getgems" />
 		{$t('home.links.getgems')}
 	</a>
@@ -84,6 +84,16 @@
 		grid-column: span 3;
 		border: none;
 		font-weight: 500;
+
+		&.gg {
+			grid-column: span 2;
+			gap: 1rem;
+			color: #2188ff;
+
+			img {
+				width: 2rem;
+			}
+		}
 
 		&.small {
 			grid-column: span 2;
