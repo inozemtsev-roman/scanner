@@ -52,7 +52,7 @@
 		on:click={() =>
 			window.Telegram.WebApp.showPopup({
 				title: $t('levelPopupTitle', { level: myData.level }),
-				message: `$t('status') ${myData.xp} / ${getXpForNextLevel(myData.level)}`
+				message: $t('status')`${myData.xp} / ${getXpForNextLevel(myData.level)}`
 			})}
 	>
 		<span>{myData.level}</span>
