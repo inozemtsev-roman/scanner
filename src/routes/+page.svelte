@@ -59,9 +59,8 @@
 	<a class="nav-card gg" href="https://getgems.io/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/gg.webp" alt="getgems" />
 	</a>
-	<a class="nav-card small" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
+	<a class="nav-card gh" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
-		{$t('home.links.github')}
 	</a>
 </div>
 
@@ -88,6 +87,16 @@
 			grid-column: span 1;
 			gap: 1rem;
 			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
+
+			img {
+				width: 2rem;
+			}
+		}
+
+		&.gh {
+			grid-column: span 1;
+			gap: 1rem;
+			background: #24292f;
 
 			img {
 				width: 2rem;
