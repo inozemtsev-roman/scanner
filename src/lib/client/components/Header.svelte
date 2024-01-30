@@ -105,12 +105,12 @@
 		width: 8rem;
 		height: 0.33rem;
 		border-radius: 0.25rem;
-		background: white;
+		background: var(--background-secondary);
 		box-shadow: 0 0 0 1 rgba(92, 92, 92, 0.07) inset;
 		overflow: hidden;
 
 		&-value {
-			background: var(--accent);
+			background: white;
 			height: 100%;
 		}
 	}
