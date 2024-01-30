@@ -1,5 +1,6 @@
 {
 	"levelPopupTitle": "{{level}} level",
+	"status": "status",
 	"api": {
 		"notEnoughBulbs": "Not enough bulbs",
 		"notEnoughKeys": "Not enough keys",
