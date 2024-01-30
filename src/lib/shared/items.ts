@@ -34,7 +34,7 @@ export class Item {
 
 const itemsData: ItemData[] = [
 	{
-		id: 'Up',
+		id: 'gift',
 		useable: true
 	},
 	{
