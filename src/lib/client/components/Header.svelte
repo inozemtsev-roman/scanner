@@ -141,13 +141,13 @@
 
 	.loading-indicator {
 		width: 100%;
-		height: 5px;
+		height: 4px;
 		background: linear-gradient(to right, #2188ff, var(--background), #2188ff);
 		background-size: 200%;
 		position: absolute;
 		left: 0;
 		bottom: 0;
-		animation: loading 1s linear infinite;
+		animation: loading 3s linear infinite;
 	}
 
 	@keyframes loading {
