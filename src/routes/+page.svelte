@@ -89,6 +89,7 @@
 			grid-column: span 2;
 			gap: 1rem;
 			color: #2188ff;
+			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
 
 			img {
 				width: 2rem;
