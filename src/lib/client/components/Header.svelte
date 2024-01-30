@@ -102,6 +102,7 @@
 	}
 
 	.progress {
+		color: white;
 		width: 8rem;
 		height: 0.33rem;
 		border-radius: 0.25rem;
