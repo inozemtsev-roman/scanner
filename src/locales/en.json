@@ -37,7 +37,7 @@
 	"items": {
 		"gift": {
 			"name": "Gift",
-			"description": "An Gift with goodies received for reaching a new level.",
+			"description": "Is a special item that players can receive when they move to a new level. This gift is a nice bonus that allows players to choose between digital keys or digital light bulbs as a reward.",
 			"price": "Keys or 20-60",
 			"use": {
 				"absence": "You don't have any Gift"
