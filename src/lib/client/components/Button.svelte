@@ -29,7 +29,7 @@
 <style lang="scss">
 	.button {
 		height: 3rem;
-		background: var(--accent);
+		background: #2188ff;
 		padding: 0 rem;
 		font-size: 14px;
 		line-height: 1.4;

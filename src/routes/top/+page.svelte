@@ -116,11 +116,11 @@
 		gap: 1rem;
 
 		&.self {
-			color: var(--accent);
-			--ripple-color: color-mix(in srgb, var(--accent) 15%, transparent);
+			color: #2188ff;
+			--ripple-color: color-mix(in srgb, #2188ff 15%, transparent);
 
 			.place {
-				color: var(--accent);
+				color: #2188ff;
 			}
 		}
 

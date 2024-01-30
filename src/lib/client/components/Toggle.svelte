@@ -20,7 +20,7 @@
 
 		&.checked {
 			.thumb {
-				border-color: var(--accent);
+				border-color: #2188ff;
 				left: calc(100% - 1.25rem);
 			}
 

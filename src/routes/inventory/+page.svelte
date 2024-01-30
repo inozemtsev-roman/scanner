@@ -271,7 +271,7 @@
 			transition: 0.2s;
 
 			&:focus {
-				border-color: var(--accent);
+				border-color: #2188ff;
 			}
 
 			// Hide spin buttons

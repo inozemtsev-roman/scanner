@@ -124,7 +124,7 @@
 		position: absolute;
 		bottom: 0;
 		left: 0;
-		background: var(--accent);
+		background: #2188ff;
 		height: 0.25rem;
 		border-radius: 0.125rem;
 	}

@@ -65,14 +65,14 @@
 		border-radius: 0.5rem 0.5rem 0 0;
 
 		&.active {
-			color: var(--accent);
+			color: #2188ff;
 		}
 	}
 
 	.active-indicator {
 		position: absolute;
 		height: 0.25rem;
-		background: var(--accent);
+		background: #2188ff;
 		bottom: 0;
 		left: var(--offset);
 		width: var(--width);
