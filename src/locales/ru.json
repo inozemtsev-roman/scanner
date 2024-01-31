@@ -9,25 +9,25 @@
 		}
 	},
 	"button": {
-		"confirm": "Confirm fingerprint to continue",
+		"confirm": "Подтвердите отпечаток пальца",
 		"authenticate": "Идентифицировать"
 	},
 	"message": {
-		"timeout": "The fingerprint sensor is not responding. Try again later.",
-		"waiting": "Touch the fingerprint sensor",
-		"missed": "Fingerprint not recognized, try again."
+		"timeout": "Сканер отпечатков пальцев не реагирует. Подождите.",
+		"waiting": "Подтвердите отпечаток пальца",
+		"missed": "Отпечаток пальца не распознан. Попробуйте еще раз."
 	},
 	"settings": {
 		"username": {
 			"description": "Имя"
 		},
 		"contrast": {
-			"name": "Contrast mode",
-			"description": "Enable borders to increase visibility"
+			"name": "Контрастный режим",
+			"description": "Включить границы для улучшения видимости"
 		},
 		"cozy": {
-			"name": "Fingerprints Mode",
-			"description": "Enable fingerprints background"
+			"name": "Режим отпечатков пальцев",
+			"description": "Включить фон отпечатков пальцев"
 		}
 	},
 	"top": {
@@ -37,161 +37,161 @@
 	},
 	"items": {
 		"gift": {
-			"name": "Подарок",
-			"description": "Is a special item that players can receive when they move to a new level. This gift is a nice bonus that allows players to choose between digital keys or digital light bulbs as a reward.",
+			"name": "Вверх",
+			"description": "Это специальный жетон $UP, который игроки могут получить при переходе на новый уровень. Этот подарок является приятным бонусом, который позволяет игрокам выбирать между ключами или лампочками в качестве награды.",
 			"price": "Keys or 20-60",
 			"use": {
-				"absence": "You don't have any Gift"
+				"absence": "У тебя нет Up"
 			}
 		},
 		"Common": {
 			"name": "Привлекательный",
-			"description": "Counter 15 Rarity 23,51%",
+			"description": "Количество линий в отпечатке: 15. Редкость 23,51%",
 			"price": "3.809"
 		},
 		"Infrequent": {
 			"name": "Удивительно приятный",
-			"description": "Counter 16 Rarity 15,97%",
+			"description": "Количество линий в отпечатке: 16. Редкость 15,97%",
 			"price": "3.826"
 		},
 		"Extraordinary": {
 			"name": "Необыкновенно красивый",
-			"description": "Counter 14 Rarity 14,53%",
+			"description": "Количество линий в отпечатке: 14. Редкость 14,53%",
 			"price": "4.681"
 		},
 		"Specialized": {
 			"name": "Пленительный",
-			"description": "Counter 17 Rarity 9,87%",
+			"description": "Количество линий в отпечатке: 17. Редкость 9,87%",
 			"price": "4.756"
 		},
 		"Quirky": {
 			"name": "Очаровательный",
-			"description": "Counter 13 Rarity 8,98%",
+			"description": "Количество линий в отпечатке: 13. Редкость 8,98%",
 			"price": "4.768"
 		},
 		"Unheard": {
 			"name": "Впечатляющий",
-			"description": "Counter 18 Rarity 6,1%",
+			"description": "Количество линий в отпечатке: 18. Редкость 6,1%",
 			"price": "5.148"
 		},
 		"Inimitable": {
 			"name": "Восхитительный",
-			"description": "Counter 19 Rarity 3,77%",
+			"description": "Количество линий в отпечатке: 19. Редкость 3,77%",
 			"price": "6.507"
 		},
 		"Unconventional": {
 			"name": "Завораживающий",
-			"description": "Counter 12 Rarity 3,43%",
+			"description": "Количество линий в отпечатке: 12. Редкость 3,43%",
 			"price": "8.089"
 		},
 		"Uncommonplace": {
 			"name": "Удивительно ценный",
-			"description": "Counter 11 Rarity 2,38%",
+			"description": "Количество линий в отпечатке: 11. Редкость 2,38%",
 			"price": "8.679"
 		},
 		"Unparalleled": {
 			"name": "Интригующий",
-			"description": "Counter 20 Rarity 2,33%",
+			"description": "Количество линий в отпечатке: 20. Редкость 2,33%",
 			"price": "8.977"
 		},
 		"Remarkable": {
 			"name": "Необыкновенный",
-			"description": "Counter 10 Rarity 2,12%",
+			"description": "Количество линий в отпечатке: 10. Редкость 2,12%",
 			"price": "9.613"
 		},
 		"Rarefied": {
 			"name": "Прекрасный",
-			"description": "Counter 21 Rarity 1,44%",
+			"description": "Количество линий в отпечатке: 21. Редкость 1,44%",
 			"price": "10.926"
 		},
 		"Outstanding": {
 			"name": "Загадочный",
-			"description": "Counter 9 Rarity 1,31%",
+			"description": "Количество линий в отпечатке: 9. Редкость 1,31%",
 			"price": "16.091"
 		},
 		"Abnormal": {
 			"name": "Превосходный",
-			"description": "Counter 22 Rarity 0,89%",
+			"description": "Количество линий в отпечатке: 22. Редкость 0,89%",
 			"price": "18.228"
 		},
 		"Curious": {
 			"name": "Исключительный",
-			"description": "Counter 8 Rarity 0,81%",
+			"description": "Количество линий в отпечатке: 8. Редкость 0,81%",
 			"price": "24.325"
 		},
 		"Exceptionable": {
 			"name": "Чудесный",
-			"description": "Counter 23 Rarity 0,55%",
+			"description": "Количество линий в отпечатке: 23. Редкость 0,55%",
 			"price": "26.644"
 		},
 		"Peculiar": {
 			"name": "Трепетный",
-			"description": "Counter 7 Rarity 0,5%",
+			"description": "Количество линий в отпечатке: 7. Редкость 0,5%",
 			"price": "11.847"
 		},
 		"Unmatched": {
 			"name": "Уникально выразительный",
-			"description": "Counter 24 Rarity 0,34%",
+			"description": "Количество линий в отпечатке: 24. Редкость 0,34%",
 			"price": "11.978"
 		},
 		"Distinctive": {
 			"name": "Удивительный",
-			"description": "Counter 6 Rarity 0,31%",
+			"description": "Количество линий в отпечатке: 6. Редкость 0,31%",
 			"price": "17.923"
 		},
 		"Precious": {
 			"name": "Особенный",
-			"description": "Counter 25 Rarity 0,21%",
+			"description": "Количество линий в отпечатке: 25. Редкость 0,21%",
 			"price": "3.446"
 		},
 		"Exclusive": {
 			"name": "Специфический",
-			"description": "Counter 5 Rarity 0,19%",
+			"description": "Количество линий в отпечатке: 5. Редкость 0,19%",
 			"price": "40.631"
 		},
 		"Unprecedented": {
 			"name": "Необычный",
-			"description": "Counter 26 Rarity 0,13%",
+			"description": "Количество линий в отпечатке: 26. Редкость 0,13%",
 			"price": "54.89"
 		},
 		"Singular": {
 			"name": "Особый",
-			"description": "Counter 4 Rarity 0,12%",
+			"description": "Количество линий в отпечатке: 4. Редкость 0,12%",
 			"price": "84.505"
 		},
 		"Unusual": {
 			"name": "Отличительный",
-			"description": "Counter 27 Rarity 0,08%",
+			"description": "Количество линий в отпечатке: 27. Редкость 0,08%",
 			"price": "99.89"
 		},
 		"Exceptional": {
 			"name": "Неповторимый",
-			"description": "Counter 3 Rarity 0,07%",
+			"description": "Количество линий в отпечатке: 3. Редкость 0,07%",
 			"price": "157.033"
 		},
 		"Amazing": {
 			"name": "Индивидуальный",
-			"description": "Counter 28 Rarity 0,02%",
+			"description": "Количество линий в отпечатке: 28. Редкость 0,02%",
 			"price": "183.223"
 		},
 		"Scarce": {
 			"name": "Оригинальный",
-			"description": "Counter 1 Rarity 0,01%",
+			"description": "Количество линий в отпечатке: 1. Редкость 0,01%",
 			"price": "274.89"
 		},
 		"Uncommon": {
 			"name": "Эксклюзивный",
-			"description": "Counter 2 Rarity 0,01%",
+			"description": "Количество линий в отпечатке: 2. Редкость 0,01%",
 			"price": "274.89"
 		},
 		"Rare": {
 			"name": "Редкий",
-			"description": "Counter 29 Rarity 0,01%",
+			"description": "Количество линий в отпечатке: 29. Редкость 0,01%",
 			"price": "274.89"
 		},
 		"Unique": {
 			"name": "Уникальный",
-			"description": "Counter 30 Rarity 0,01%",
+			"description": "Количество линий в отпечатке: 30. Редкость 0,01%",
 			"price": "274.89"
 		}
 	},

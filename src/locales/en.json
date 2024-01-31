@@ -14,8 +14,8 @@
 		"authenticate": "Authenticate"
 	},
 	"message": {
-		"timeout": "The fingerprint sensor is not responding. Try again later.",
-		"waiting": "Touch the fingerprint sensor",
+		"timeout": "The fingerprint scanner is not responding. Try again later.",
+		"waiting": "Touch the fingerprint scanner",
 		"missed": "Fingerprint not recognized, try again."
 	},
 	"settings": {
