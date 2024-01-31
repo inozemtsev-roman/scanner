@@ -1,16 +1,16 @@
 {
-	"levelPopupTitle": "{{level}} level",
+	"levelPopupTitle": "{{level}} уровень",
 	"status": "status",
 	"api": {
-		"notEnoughBulbs": "Not enough bulbs",
-		"notEnoughKeys": "Not enough keys",
+		"notEnoughBulbs": "Не хватает лампочек",
+		"notEnoughKeys": "Не хватает ключей",
 		"catchFingerprint": {
-			"tooFast": "You are scanning too fast!"
+			"tooFast": "Вы сканируете слишком быстро!"
 		}
 	},
 	"button": {
 		"confirm": "Confirm fingerprint to continue",
-		"authenticate": "Authenticate"
+		"authenticate": "Идентифицировать"
 	},
 	"message": {
 		"timeout": "The fingerprint sensor is not responding. Try again later.",
@@ -19,7 +19,7 @@
 	},
 	"settings": {
 		"username": {
-			"description": "Username"
+			"description": "Имя"
 		},
 		"contrast": {
 			"name": "Contrast mode",
@@ -31,13 +31,13 @@
 		}
 	},
 	"top": {
-		"level": "Level",
-		"bulbs": "Bulbs",
-		"keys": "Keys"
+		"level": "Уровень",
+		"bulbs": "Лампочки",
+		"keys": "Ключи"
 	},
 	"items": {
 		"gift": {
-			"name": "Gift",
+			"name": "Подарок",
 			"description": "Is a special item that players can receive when they move to a new level. This gift is a nice bonus that allows players to choose between digital keys or digital light bulbs as a reward.",
 			"price": "Keys or 20-60",
 			"use": {
@@ -45,175 +45,175 @@
 			}
 		},
 		"Common": {
-			"name": "Привлекательный отпечаток",
+			"name": "Привлекательный",
 			"description": "Counter 15 Rarity 23,51%",
 			"price": "3.809"
 		},
 		"Infrequent": {
-			"name": "Удивительно приятный отпечаток",
+			"name": "Удивительно приятный",
 			"description": "Counter 16 Rarity 15,97%",
 			"price": "3.826"
 		},
 		"Extraordinary": {
-			"name": "Необыкновенно красивый отпечаток",
+			"name": "Необыкновенно красивый",
 			"description": "Counter 14 Rarity 14,53%",
 			"price": "4.681"
 		},
 		"Specialized": {
-			"name": "Пленительный отпечаток",
+			"name": "Пленительный",
 			"description": "Counter 17 Rarity 9,87%",
 			"price": "4.756"
 		},
 		"Quirky": {
-			"name": "Очаровательный отпечаток",
+			"name": "Очаровательный",
 			"description": "Counter 13 Rarity 8,98%",
 			"price": "4.768"
 		},
 		"Unheard": {
-			"name": "Впечатляющий отпечаток",
+			"name": "Впечатляющий",
 			"description": "Counter 18 Rarity 6,1%",
 			"price": "5.148"
 		},
 		"Inimitable": {
-			"name": "Восхитительный отпечаток",
+			"name": "Восхитительный",
 			"description": "Counter 19 Rarity 3,77%",
 			"price": "6.507"
 		},
 		"Unconventional": {
-			"name": "Завораживающий отпечаток",
+			"name": "Завораживающий",
 			"description": "Counter 12 Rarity 3,43%",
 			"price": "8.089"
 		},
 		"Uncommonplace": {
-			"name": "Удивительно ценный отпечаток",
+			"name": "Удивительно ценный",
 			"description": "Counter 11 Rarity 2,38%",
 			"price": "8.679"
 		},
 		"Unparalleled": {
-			"name": "Интригующий отпечаток",
+			"name": "Интригующий",
 			"description": "Counter 20 Rarity 2,33%",
 			"price": "8.977"
 		},
 		"Remarkable": {
-			"name": "Необыкновенный отпечаток",
+			"name": "Необыкновенный",
 			"description": "Counter 10 Rarity 2,12%",
 			"price": "9.613"
 		},
 		"Rarefied": {
-			"name": "Прекрасный отпечаток",
+			"name": "Прекрасный",
 			"description": "Counter 21 Rarity 1,44%",
 			"price": "10.926"
 		},
 		"Outstanding": {
-			"name": "Загадочный отпечаток",
+			"name": "Загадочный",
 			"description": "Counter 9 Rarity 1,31%",
 			"price": "16.091"
 		},
 		"Abnormal": {
-			"name": "Превосходный отпечаток",
+			"name": "Превосходный",
 			"description": "Counter 22 Rarity 0,89%",
 			"price": "18.228"
 		},
 		"Curious": {
-			"name": "Исключительный отпечаток",
+			"name": "Исключительный",
 			"description": "Counter 8 Rarity 0,81%",
 			"price": "24.325"
 		},
 		"Exceptionable": {
-			"name": "Чудесный отпечаток",
+			"name": "Чудесный",
 			"description": "Counter 23 Rarity 0,55%",
 			"price": "26.644"
 		},
 		"Peculiar": {
-			"name": "Трепетный отпечаток",
+			"name": "Трепетный",
 			"description": "Counter 7 Rarity 0,5%",
 			"price": "11.847"
 		},
 		"Unmatched": {
-			"name": "Уникально выразительный отпечаток",
+			"name": "Уникально выразительный",
 			"description": "Counter 24 Rarity 0,34%",
 			"price": "11.978"
 		},
 		"Distinctive": {
-			"name": "Удивительный отпечаток",
+			"name": "Удивительный",
 			"description": "Counter 6 Rarity 0,31%",
 			"price": "17.923"
 		},
 		"Precious": {
-			"name": "Особенный отпечаток",
+			"name": "Особенный",
 			"description": "Counter 25 Rarity 0,21%",
 			"price": "3.446"
 		},
 		"Exclusive": {
-			"name": "Специфический отпечаток",
+			"name": "Специфический",
 			"description": "Counter 5 Rarity 0,19%",
 			"price": "40.631"
 		},
 		"Unprecedented": {
-			"name": "Необычный отпечаток",
+			"name": "Необычный",
 			"description": "Counter 26 Rarity 0,13%",
 			"price": "54.89"
 		},
 		"Singular": {
-			"name": "Особый отпечаток",
+			"name": "Особый",
 			"description": "Counter 4 Rarity 0,12%",
 			"price": "84.505"
 		},
 		"Unusual": {
-			"name": "Отличительный отпечаток",
+			"name": "Отличительный",
 			"description": "Counter 27 Rarity 0,08%",
 			"price": "99.89"
 		},
 		"Exceptional": {
-			"name": "Неповторимый отпечаток",
+			"name": "Неповторимый",
 			"description": "Counter 3 Rarity 0,07%",
 			"price": "157.033"
 		},
 		"Amazing": {
-			"name": "Индивидуальный отпечаток",
+			"name": "Индивидуальный",
 			"description": "Counter 28 Rarity 0,02%",
 			"price": "183.223"
 		},
 		"Scarce": {
-			"name": "Оригинальный отпечаток",
+			"name": "Оригинальный",
 			"description": "Counter 1 Rarity 0,01%",
 			"price": "274.89"
 		},
 		"Uncommon": {
-			"name": "Эксклюзивный отпечаток",
+			"name": "Эксклюзивный",
 			"description": "Counter 2 Rarity 0,01%",
 			"price": "274.89"
 		},
 		"Rare": {
-			"name": "Редкий отпечаток",
+			"name": "Редкий",
 			"description": "Counter 29 Rarity 0,01%",
 			"price": "274.89"
 		},
 		"Unique": {
-			"name": "Уникальный отпечаток",
+			"name": "Уникальный",
 			"description": "Counter 30 Rarity 0,01%",
 			"price": "274.89"
 		}
 	},
 	"inventory": {
-		"sell": "Sell",
-		"sellItem": "Sell fingerprint",
-		"sellFor": "Sell for",
-		"back": "Back",
-		"use": "Use"
+		"sell": "Продать",
+		"sellItem": "Продажа отпечатка",
+		"sellFor": "Продать за",
+		"back": "Назад",
+		"use": "Использовать"
 	},
 	"home": {
-		"inventory": "Identification",
+		"inventory": "Идентификация",
 		"scanning": "Сканер",
-		"dailyBonus": "Earn",
-		"top": "Leaderboard",
+		"dailyBonus": "Получить",
+		"top": "Лига",
 		"settings": "Настройки",
 		"dailyBonusMessage": {
 			"collected": {
-				"text": "You received 40 bulbs! Come back tomorrow for a new reward."
+				"text": "Вы получили 40 лампочек! Приходите завтра за новой наградой."
 			},
 			"timeout": {
-				"text": "You have already collected a free daily bulbs today. Come back tomorrow for a new reward. "
+				"text": "Сегодня вы уже получили бесплатные лампочки. Приходите завтра за новой наградой."
 			}
 		},
 		"links": {
