@@ -86,7 +86,9 @@
 		font-weight: 500;
 
 		&.gg {
-			grid-column: span 1;
+			grid-column: span 3;
+			flex-direction: row;
+			aspect-ratio: 3/1;
 			gap: 1rem;
 			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
 
@@ -97,8 +99,10 @@
 		}
 
 		&.gh {
-			grid-column: span 1;
+			grid-column: span 3;
+			flex-direction: row;
 			gap: 1rem;
+			aspect-ratio: 3/1;
 			background: #24292f;
 
 			img {
