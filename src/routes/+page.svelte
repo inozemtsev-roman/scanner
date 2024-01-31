@@ -29,6 +29,7 @@
 	async function handleBonusCardClick() {
 		const data = await fetchData('collectDailyBonus')
 		window.Telegram.WebApp.showPopup({
+			title: $t('home.dailyBonus'),
 			message: data.collected ? $t('home.dailyBonusMessage.collected.text') : $t('home.dailyBonusMessage.timeout.text')
 		})
 	}
