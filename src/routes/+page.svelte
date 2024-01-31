@@ -91,10 +91,10 @@
 			aspect-ratio: 3/1;
 			gap: 1rem;
 			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
+			color: white;
 
 			img {
 				width: 2rem;
-				padding: 2px;
 			}
 		}
 
@@ -104,6 +104,7 @@
 			gap: 1rem;
 			aspect-ratio: 3/1;
 			background: #24292f;
+			color: white;
 
 			img {
 				width: 2rem;
