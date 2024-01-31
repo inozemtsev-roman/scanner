@@ -220,7 +220,8 @@
 			"getgems": "Getgems",
 			"vote": "Vote",
 			"spatial": "Hands",
-			"github": "Github"
+			"github": "GitHub",
+			"telegram": "Channel"
 		}
 	}
 }

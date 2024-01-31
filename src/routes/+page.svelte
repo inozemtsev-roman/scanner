@@ -56,6 +56,10 @@
 		<img src="/icons/gear.webp" alt="settings" />
 		{$t('home.settings')}
 	</a>
+	<a class="nav-card tg" href="https://t.me/ton_fingerprints" target="_blank" use:ripple>
+		<img src="/icons/telegram.webp" alt="getgems" />
+		{$t('home.links.telegram')}
+	</a>
 	<a class="nav-card gg" href="https://getgems.io/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/gg.webp" alt="getgems" />
 		{$t('home.links.getgems')}
@@ -85,29 +89,45 @@
 		border: none;
 		font-weight: 500;
 
-		&.gg {
-			grid-column: span 3;
+		&.tg {
+			grid-column: span 2;
 			flex-direction: row;
-			aspect-ratio: 3/1;
-			gap: 1rem;
-			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
+			aspect-ratio: 2/0.8;
+			gap: 0.6rem;
+			background: #0088cc;
 			color: white;
+			font-size: 0.8rem;
 
 			img {
-				width: 2rem;
+				width: 1.2rem;
+			}
+		}
+
+		&.gg {
+			grid-column: span 2;
+			flex-direction: row;
+			aspect-ratio: 2/0.8;
+			gap: 0.6rem;
+			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
+			color: white;
+			font-size: 0.8rem;
+
+			img {
+				width: 1.2rem;
 			}
 		}
 
 		&.gh {
-			grid-column: span 3;
+			grid-column: span 2;
 			flex-direction: row;
-			gap: 1rem;
-			aspect-ratio: 3/1;
+			gap: 0.6rem;
+			aspect-ratio: 2/0.8;
 			background: #24292f;
 			color: white;
+			font-size: 0.8rem;
 
 			img {
-				width: 2rem;
+				width: 0.2rem;
 			}
 		}
 
