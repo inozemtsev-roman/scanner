@@ -58,9 +58,11 @@
 	</a>
 	<a class="nav-card gg" href="https://getgems.io/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/gg.webp" alt="getgems" />
+		{$t('home.links.getgems')}
 	</a>
 	<a class="nav-card gh" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
+		{$t('home.links.github')}
 	</a>
 </div>
 
@@ -109,7 +111,7 @@
 			gap: 1rem;
 
 			img {
-				width: 2rem;
+				width: 3rem;
 			}
 		}
 
