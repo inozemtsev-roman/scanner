@@ -94,10 +94,10 @@
 			grid-column: span 2;
 			flex-direction: row;
 			aspect-ratio: 2/0.75;
-			gap: 0.6rem;
+			gap: 0.5rem;
 			background: #0088cc;
 			color: white;
-			font-size: 0.8rem;
+			font-size: 1rem;
 
 			img {
 				width: 1.2rem;
@@ -108,10 +108,10 @@
 			grid-column: span 2;
 			flex-direction: row;
 			aspect-ratio: 2/0.75;
-			gap: 0.6rem;
+			gap: 0.5rem;
 			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
 			color: white;
-			font-size: 0.8rem;
+			font-size: 1rem;
 
 			img {
 				width: 1.2rem;
@@ -121,11 +121,11 @@
 		&.gh {
 			grid-column: span 2;
 			flex-direction: row;
-			gap: 0.6rem;
+			gap: 0.5rem;
 			aspect-ratio: 2/0.75;
 			background: #24292f;
 			color: white;
-			font-size: 0.8rem;
+			font-size: 1rem;
 
 			img {
 				width: 1.2rem;

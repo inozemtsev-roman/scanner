@@ -45,152 +45,152 @@
 			}
 		},
 		"Common": {
-			"name": "Common fingerprint",
+			"name": "Привлекательный отпечаток",
 			"description": "Counter 15 Rarity 23,51%",
 			"price": "3.809"
 		},
 		"Infrequent": {
-			"name": "Infrequent fingerprint",
+			"name": "Удивительно приятный отпечаток",
 			"description": "Counter 16 Rarity 15,97%",
 			"price": "3.826"
 		},
 		"Extraordinary": {
-			"name": "Extraordinary fingerprint",
+			"name": "Необыкновенно красивый отпечаток",
 			"description": "Counter 14 Rarity 14,53%",
 			"price": "4.681"
 		},
 		"Specialized": {
-			"name": "Specialized fingerprint",
+			"name": "Пленительный отпечаток",
 			"description": "Counter 17 Rarity 9,87%",
 			"price": "4.756"
 		},
 		"Quirky": {
-			"name": "Quirky fingerprint",
+			"name": "Очаровательный отпечаток",
 			"description": "Counter 13 Rarity 8,98%",
 			"price": "4.768"
 		},
 		"Unheard": {
-			"name": "Unheard fingerprint",
+			"name": "Впечатляющий отпечаток",
 			"description": "Counter 18 Rarity 6,1%",
 			"price": "5.148"
 		},
 		"Inimitable": {
-			"name": "Inimitable fingerprint",
+			"name": "Восхитительный отпечаток",
 			"description": "Counter 19 Rarity 3,77%",
 			"price": "6.507"
 		},
 		"Unconventional": {
-			"name": "Unconventional fingerprint",
+			"name": "Завораживающий отпечаток",
 			"description": "Counter 12 Rarity 3,43%",
 			"price": "8.089"
 		},
 		"Uncommonplace": {
-			"name": "Uncommonplace fingerprint",
+			"name": "Удивительно ценный отпечаток",
 			"description": "Counter 11 Rarity 2,38%",
 			"price": "8.679"
 		},
 		"Unparalleled": {
-			"name": "Unparalleled fingerprint",
+			"name": "Интригующий отпечаток",
 			"description": "Counter 20 Rarity 2,33%",
 			"price": "8.977"
 		},
 		"Remarkable": {
-			"name": "Remarkable fingerprint",
+			"name": "Необыкновенный отпечаток",
 			"description": "Counter 10 Rarity 2,12%",
 			"price": "9.613"
 		},
 		"Rarefied": {
-			"name": "Rarefied fingerprint",
+			"name": "Прекрасный отпечаток",
 			"description": "Counter 21 Rarity 1,44%",
 			"price": "10.926"
 		},
 		"Outstanding": {
-			"name": "Outstanding fingerprint",
+			"name": "Загадочный отпечаток",
 			"description": "Counter 9 Rarity 1,31%",
 			"price": "16.091"
 		},
 		"Abnormal": {
-			"name": "Abnormal fingerprint",
+			"name": "Превосходный отпечаток",
 			"description": "Counter 22 Rarity 0,89%",
 			"price": "18.228"
 		},
 		"Curious": {
-			"name": "Curious fingerprint",
+			"name": "Исключительный отпечаток",
 			"description": "Counter 8 Rarity 0,81%",
 			"price": "24.325"
 		},
 		"Exceptionable": {
-			"name": "Exceptionable fingerprint",
+			"name": "Чудесный отпечаток",
 			"description": "Counter 23 Rarity 0,55%",
 			"price": "26.644"
 		},
 		"Peculiar": {
-			"name": "Peculiar fingerprint",
+			"name": "Трепетный отпечаток",
 			"description": "Counter 7 Rarity 0,5%",
 			"price": "11.847"
 		},
 		"Unmatched": {
-			"name": "Unmatched fingerprint",
+			"name": "Уникально выразительный отпечаток",
 			"description": "Counter 24 Rarity 0,34%",
 			"price": "11.978"
 		},
 		"Distinctive": {
-			"name": "Distinctive fingerprint",
+			"name": "Удивительный отпечаток",
 			"description": "Counter 6 Rarity 0,31%",
 			"price": "17.923"
 		},
 		"Precious": {
-			"name": "Precious fingerprint",
+			"name": "Особенный отпечаток",
 			"description": "Counter 25 Rarity 0,21%",
 			"price": "3.446"
 		},
 		"Exclusive": {
-			"name": "Exclusive fingerprint",
+			"name": "Специфический отпечаток",
 			"description": "Counter 5 Rarity 0,19%",
 			"price": "40.631"
 		},
 		"Unprecedented": {
-			"name": "Unprecedented fingerprint",
+			"name": "Необычный отпечаток",
 			"description": "Counter 26 Rarity 0,13%",
 			"price": "54.89"
 		},
 		"Singular": {
-			"name": "Singular fingerprint",
+			"name": "Особый отпечаток",
 			"description": "Counter 4 Rarity 0,12%",
 			"price": "84.505"
 		},
 		"Unusual": {
-			"name": "Unusual fingerprint",
+			"name": "Отличительный отпечаток",
 			"description": "Counter 27 Rarity 0,08%",
 			"price": "99.89"
 		},
 		"Exceptional": {
-			"name": "Exceptional fingerprint",
+			"name": "Неповторимый отпечаток",
 			"description": "Counter 3 Rarity 0,07%",
 			"price": "157.033"
 		},
 		"Amazing": {
-			"name": "Amazing fingerprint",
+			"name": "Индивидуальный отпечаток",
 			"description": "Counter 28 Rarity 0,02%",
 			"price": "183.223"
 		},
 		"Scarce": {
-			"name": "Scarce fingerprint",
+			"name": "Оригинальный отпечаток",
 			"description": "Counter 1 Rarity 0,01%",
 			"price": "274.89"
 		},
 		"Uncommon": {
-			"name": "Uncommon fingerprint",
+			"name": "Эксклюзивный отпечаток",
 			"description": "Counter 2 Rarity 0,01%",
 			"price": "274.89"
 		},
 		"Rare": {
-			"name": "Rare fingerprint",
+			"name": "Редкий отпечаток",
 			"description": "Counter 29 Rarity 0,01%",
 			"price": "274.89"
 		},
 		"Unique": {
-			"name": "Unique fingerprint",
+			"name": "Уникальный отпечаток",
 			"description": "Counter 30 Rarity 0,01%",
 			"price": "274.89"
 		}
@@ -204,10 +204,10 @@
 	},
 	"home": {
 		"inventory": "Identification",
-		"scanning": "Scanner",
+		"scanning": "Сканер",
 		"dailyBonus": "Earn",
 		"top": "Leaderboard",
-		"settings": "Settings",
+		"settings": "Настройки",
 		"dailyBonusMessage": {
 			"collected": {
 				"text": "You received 40 bulbs! Come back tomorrow for a new reward."
@@ -221,7 +221,7 @@
 			"vote": "Vote",
 			"spatial": "Hands",
 			"github": "GitHub",
-			"telegram": "Channel",
+			"telegram": "Канал",
 			"telegramln": "https://t.me/ton_fingerprints_ru"
 		}
 	}
