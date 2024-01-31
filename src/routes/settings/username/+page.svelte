@@ -49,7 +49,7 @@
 </script>
 
 <div class="block">
-	<span class="block-header">Set username</span>
+	<span class="block-header">$t('settings.set')</span>
 	<label class="input-wrapper">
 		@
 		<input

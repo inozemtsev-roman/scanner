@@ -28,8 +28,9 @@
 		},
 		"cozy": {
 			"name": "Fingerprints Mode",
-			"description": "Enable fingerprints background"
-		}
+			"description": "Enable NFT collection background"
+		},
+		"set": "Set username"
 	},
 	"top": {
 		"level": "Level",
