@@ -70,13 +70,6 @@
 	</a>
 </div>
 
-<div class="foot">
-	{$t('home.links.built')}
-	<a href="https://getgems.io/fingerprints" target="_blank" style="color: #2188ff; text-decoration: none;"
-		>TON Fingerprints</a
-	>
-</div>
-
 <style lang="scss">
 	@import '../styles/mixins';
 
@@ -180,18 +173,5 @@
 		background: #2188ff;
 		height: 0.25rem;
 		border-radius: 0.125rem;
-	}
-
-	.foot {
-		position: relative;
-		z-index: 10;
-		word-wrap: break-word;
-		min-width: 0;
-		max-width: 100%;
-		width: 100%;
-		color: var(--text);
-		text-align: center;
-		margin: 0 0 12px;
-		margin-top: 25%;
 	}
 </style>
