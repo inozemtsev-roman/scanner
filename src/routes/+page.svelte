@@ -92,8 +92,8 @@
 		&.tg {
 			grid-column: span 2;
 			flex-direction: row;
-			aspect-ratio: 2/0.75;
-			gap: 0.5rem;
+			aspect-ratio: auto;
+			gap: 1rem;
 			background: #0088cc;
 			color: white;
 			font-size: 1rem;
@@ -104,24 +104,24 @@
 		}
 
 		&.gg {
-			grid-column: span 2;
+			grid-column: span 1;
 			flex-direction: row;
-			aspect-ratio: 2/0.75;
-			gap: 0.5rem;
+			aspect-ratio: 1/1;
+			gap: 1rem;
 			background: linear-gradient(135deg, #5cc8fa 0%, #4398f7 100%);
 			color: white;
 			font-size: 1rem;
 
 			img {
-				width: 1.1rem;
+				width: 1.2rem;
 			}
 		}
 
 		&.gh {
-			grid-column: span 2;
+			grid-column: span 1;
 			flex-direction: row;
-			gap: 0.5rem;
-			aspect-ratio: 2/0.75;
+			gap: 1Srem;
+			aspect-ratio: 1/1;
 			background: #24292f;
 			color: white;
 			font-size: 1rem;
