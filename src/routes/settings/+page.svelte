@@ -84,6 +84,7 @@
 		color: var(--text);
 		text-align: center;
 		margin: 0 0 12px;
-		margin-top: 25%;
+		position: absolute;
+		bottom: 20px;
 	}
 </style>
