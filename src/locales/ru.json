@@ -225,7 +225,8 @@
 			"spatial": "Hands",
 			"github": "GitHub",
 			"telegram": "Канал",
-			"telegramln": "https://t.me/ton_fingerprints_ru"
+			"telegramln": "https://t.me/ton_fingerprints_ru",
+			"built": "Сделано с ❤️ от"
 		}
 	}
 }

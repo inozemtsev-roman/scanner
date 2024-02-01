@@ -71,9 +71,8 @@
 </div>
 
 <div class="foot">
-	Built with ❤️ by <a href="https://getgems.io/fingerprints" target="_blank" style="color: rgb(254, 184, 3);"
-		>TON Fingerprints</a
-	>
+	{$t('home.links.built')}
+	<a href="https://getgems.io/fingerprints" target="_blank" style="color: #2188ff;">TON Fingerprints</a>
 </div>
 
 <style lang="scss">
@@ -184,5 +183,12 @@
 	.foot {
 		position: relative;
 		z-index: 10;
+		word-wrap: break-word;
+		min-width: 0;
+		max-width: 100%;
+		width: 100%;
+		color: var(--text);
+		text-align: center;
+		margin: 0 0 12px;
 	}
 </style>
