@@ -2,7 +2,7 @@ import { json, type RequestEvent } from '@sveltejs/kit'
 import { database } from '$lib/server/database'
 import { usernameSchema } from '$lib/shared/zodSchemas'
 
-const dailyBonusBulbs = 40
+const dailyBonusBulbs = 33
 
 export async function POST(event: RequestEvent) {
 	const lastTimeCollected = event.locals.user.lastDailyBonus

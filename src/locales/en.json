@@ -214,7 +214,7 @@
 		"settings": "Settings",
 		"dailyBonusMessage": {
 			"collected": {
-				"text": "You received 40 bulbs! Come back tomorrow for a new reward."
+				"text": "You received 33 bulbs! Come back tomorrow for a new reward."
 			},
 			"timeout": {
 				"text": "You have already collected a free daily bulbs today. Come back tomorrow for a new reward. "
