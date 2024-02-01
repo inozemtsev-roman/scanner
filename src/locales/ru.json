@@ -196,17 +196,17 @@
 		}
 	},
 	"inventory": {
-		"sell": "Продать",
-		"sellItem": "Продажа отпечатка",
-		"sellFor": "Продать за",
+		"sell": "Обмен",
+		"sellItem": "Обмен отпечатка",
+		"sellFor": "Обменять за",
 		"back": "Назад",
 		"use": "Использовать"
 	},
 	"home": {
-		"inventory": "Идентификация",
+		"inventory": "Биометрия",
 		"scanning": "Сканер",
-		"dailyBonus": "Получить",
-		"top": "Лига",
+		"dailyBonus": "Бонус",
+		"top": "Таблица лидеров",
 		"settings": "Настройки",
 		"dailyBonusMessage": {
 			"collected": {

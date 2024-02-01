@@ -198,16 +198,16 @@
 		}
 	},
 	"inventory": {
-		"sell": "Sell",
-		"sellItem": "Sell fingerprint",
-		"sellFor": "Sell for",
+		"sell": "Swap",
+		"sellItem": "Swap fingerprint",
+		"sellFor": "Swap for",
 		"back": "Back",
 		"use": "Use"
 	},
 	"home": {
-		"inventory": "Identification",
+		"inventory": "Biometrics",
 		"scanning": "Scanner",
-		"dailyBonus": "Earn",
+		"dailyBonus": "Bonus",
 		"top": "Leaderboard",
 		"settings": "Settings",
 		"dailyBonusMessage": {
