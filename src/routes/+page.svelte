@@ -70,6 +70,12 @@
 	</a>
 </div>
 
+<div class="foot">
+	Built with ❤️ by <a href="https://getgems.io/fingerprints" target="_blank" style="color: rgb(254, 184, 3);"
+		>TON Fingerprints</a
+	>
+</div>
+
 <style lang="scss">
 	@import '../styles/mixins';
 
@@ -173,5 +179,10 @@
 		background: #2188ff;
 		height: 0.25rem;
 		border-radius: 0.125rem;
+	}
+
+	.foot {
+		position: relative;
+		z-index: 10;
 	}
 </style>
