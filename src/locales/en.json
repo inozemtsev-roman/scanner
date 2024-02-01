@@ -206,6 +206,8 @@
 	},
 	"home": {
 		"inventory": "Identification",
+		"message1": "You don't have this fingerprint",
+		"message2": "",
 		"scanning": "Scanner",
 		"dailyBonus": "Bonus",
 		"top": "Leaderboard",

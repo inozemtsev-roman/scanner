@@ -2,6 +2,7 @@ import { error, json, type RequestEvent } from '@sveltejs/kit'
 import { database } from '$lib/server/database'
 import { z } from 'zod'
 import { items } from '$lib/shared/items'
+import { t } from '$lib/shared/localization'
 
 const sellItemSchema = z.object({
 	item: z.string(),
@@ -37,7 +38,7 @@ export async function POST(event: RequestEvent) {
 	})
 
 	if (!inventoryItem) {
-		throw error(402, { message: "You don't have this fingerprint" })
+		throw error(402, { message: $t('home.message1') })
 	}
 
 	if (body.data.quantity > inventoryItem.quantity) {
@@ -74,4 +75,7 @@ export async function POST(event: RequestEvent) {
 			bulbs: event.locals.user.bulbs + item.price * body.data.quantity
 		}
 	})
+}
+function $t(arg0: string): string {
+	throw new Error('Function not implemented.')
 }
