@@ -5,6 +5,7 @@
 	import { fetchData } from '$lib/client/fetchData'
 	import { usernameSchema } from '$lib/shared/zodSchemas'
 	import { onMount } from 'svelte'
+	import { t } from '$lib/shared/localization'
 
 	let usernameValue: string = $userData?.username
 	let availabilityPromise: Promise<boolean | null>
@@ -49,7 +50,7 @@
 </script>
 
 <div class="block">
-	<span class="block-header">$t('settings.set')</span>
+	<span class="block-header">{$t('settings.set')}</span>
 	<label class="input-wrapper">
 		@
 		<input
