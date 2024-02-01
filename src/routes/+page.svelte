@@ -72,7 +72,9 @@
 
 <div class="foot">
 	{$t('home.links.built')}
-	<a href="https://getgems.io/fingerprints" target="_blank" style="color: #2188ff;">TON Fingerprints</a>
+	<a href="https://getgems.io/fingerprints" target="_blank" style="color: #2188ff; text-decoration: none;"
+		>TON Fingerprints</a
+	>
 </div>
 
 <style lang="scss">
