@@ -115,7 +115,7 @@
 			font-size: 1rem;
 
 			img {
-				width: 1.2rem;
+				width: 1.1rem;
 			}
 		}
 
