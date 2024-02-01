@@ -42,7 +42,7 @@ export async function POST(event: RequestEvent) {
 	}
 
 	if (body.data.quantity > inventoryItem.quantity) {
-		throw error(402, { message: "You don't have that many of this fingerprint" })
+		throw error(402, { message: $t('home.message2') })
 	}
 
 	await database.inventoryItem.update({
