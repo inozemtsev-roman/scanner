@@ -92,7 +92,7 @@
 		&.tg {
 			grid-column: span 2;
 			flex-direction: row;
-			aspect-ratio: auto;
+			aspect-ratio: initial;
 			gap: 1rem;
 			background: #0088cc;
 			color: white;
