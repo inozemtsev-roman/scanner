@@ -5,7 +5,7 @@ import { scanDrop } from '$lib/scanDrop'
 import { giveUserItem, giveUserXp } from '$lib/server/user'
 
 const xpReward = 1
-const catchPrice = 2
+const catchPrice = 3
 const cooldown = 10_000
 const waitMinTime = 5_000
 
