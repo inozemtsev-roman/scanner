@@ -36,8 +36,8 @@
 
 <div class="foot">
 	{$t('home.links.built')}
-	<a href="https://getgems.io/fingerprints" target="_blank" style="color: #2188ff; text-decoration: none;"
-		>TON Fingerprints</a
+	<a href="https://t.me/dao_verify_bot" target="_blank" style="color: #2188ff; text-decoration: none;"
+		>DAO Fingerprints</a
 	>
 </div>
 

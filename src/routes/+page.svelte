@@ -120,7 +120,7 @@
 		&.gh {
 			grid-column: span 1;
 			flex-direction: row;
-			gap: 1Srem;
+			gap: 1rem;
 			aspect-ratio: 1/1;
 			background: #24292f;
 			color: white;
