@@ -7,7 +7,7 @@ import { giveUserItem, giveUserXp } from '$lib/server/user'
 const xpReward = 1
 const catchPrice = 3
 const cooldown = 10_000
-const waitMinTime = 6_000
+const waitMinTime = 15_000
 
 export async function POST(event: RequestEvent) {
 	const { t, user, initData } = event.locals
