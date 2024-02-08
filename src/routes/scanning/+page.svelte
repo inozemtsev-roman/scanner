@@ -86,10 +86,10 @@
 
 							timeout = setTimeout(() => {
 								scanningState = 'idle'
-							}, 1_000)
+							}, 15_000)
 						}, 7_000)
 					}, 5_000)
-				}, 15_000 + Math.random() * 10_000)
+				}, 1_000 + Math.random() * 10_000)
 			}}
 		>
 			{$t('button.confirm')}
