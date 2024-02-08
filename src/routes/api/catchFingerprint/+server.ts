@@ -5,7 +5,7 @@ import { scanDrop } from '$lib/scanDrop'
 import { giveUserItem, giveUserXp } from '$lib/server/user'
 
 const xpReward = 1
-const catchPrice = 3
+const catchPrice = 5
 const cooldown = 10_000
 const waitMinTime = 15_000
 
@@ -51,7 +51,7 @@ export async function POST(event: RequestEvent) {
 	return json({
 		...itemCatched,
 		_updates: {
-			bulbs: event.locals.user.bulbs - 2,
+			bulbs: event.locals.user.bulbs - 5,
 			level: newLevelData?.level,
 			xp: newLevelData?.xp,
 			lastTimeScanned
