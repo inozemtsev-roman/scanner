@@ -87,7 +87,7 @@
 							timeout = setTimeout(() => {
 								scanningState = 'idle'
 							}, 15_000)
-						}, 3_000)
+						}, 7_000)
 					}, 3_000)
 				}, 15_000 + Math.random() * 10_000)
 			}}
