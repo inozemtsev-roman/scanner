@@ -54,7 +54,7 @@
 		{$t('home.top')}
 	</a>
 	<a class="nav-card small" href="/settings" use:ripple>
-		<img src="/icons/gear.webp" alt="settings" />
+		<img src="/icons/gear_an.webp" alt="settings" />
 		{$t('home.settings')}
 	</a>
 
