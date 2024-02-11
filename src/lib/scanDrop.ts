@@ -1,168 +1,168 @@
 export interface ScanDrop {
 	itemId: string
 	weight: number
-	isJunk: boolean
+	isFailure: boolean
 }
 
 export const scanDrop: ScanDrop[] = [
 	{
 		itemId: 'Unique',
 		weight: 0.01,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Rare',
 		weight: 0.01,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Uncommon',
 		weight: 0.01,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Scarce',
 		weight: 0.01,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Amazing',
 		weight: 0.02,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Exceptional',
 		weight: 0.07,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Unusual',
 		weight: 0.08,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Singular',
 		weight: 0.12,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Unprecedented',
 		weight: 0.13,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Exclusive',
 		weight: 0.19,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Precious',
 		weight: 0.21,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Distinctive',
 		weight: 0.31,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Unmatched',
 		weight: 0.34,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Peculiar',
 		weight: 0.5,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Exceptionable',
 		weight: 0.55,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Curious',
 		weight: 0.81,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Abnormal',
 		weight: 0.89,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Outstanding',
 		weight: 1.31,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Rarefied',
 		weight: 1.44,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Remarkable',
 		weight: 2.12,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Unparalleled',
 		weight: 2.33,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Uncommonplace',
 		weight: 2.38,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Unconventional',
 		weight: 3.43,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Inimitable',
 		weight: 3.77,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Unheard',
 		weight: 6.1,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Quirky',
 		weight: 8.98,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Specialized',
 		weight: 9.87,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Extraordinary',
 		weight: 14.53,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Infrequent',
 		weight: 15.97,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'Common',
 		weight: 23.51,
-		isJunk: false
+		isFailure: false
 	},
 	{
 		itemId: 'facquire',
 		weight: 20,
-		isJunk: true
+		isFailure: true
 	},
 	{
 		itemId: 'fenroll',
 		weight: 20,
-		isJunk: true
+		isFailure: true
 	}
 ]

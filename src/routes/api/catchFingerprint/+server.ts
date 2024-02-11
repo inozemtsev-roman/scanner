@@ -28,7 +28,7 @@ export async function POST(event: RequestEvent) {
 
 	let newLevelData
 
-	if (!itemCatched.isJunk) {
+	if (!itemCatched.isFailure) {
 		giveUserItem(initData.user.id, itemCatched.itemId)
 
 		newLevelData = await giveUserXp(initData.user.id, xpReward)

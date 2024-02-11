@@ -36,7 +36,7 @@
 	}
 
 	function caughtItemTransition(node: HTMLElement) {
-		if (currentDrop?.isJunk) {
+		if (currentDrop?.isFailure) {
 			return fly(node, { y: 64 })
 		}
 		return flyIntoInventory(node, { duration: 750 })
@@ -58,7 +58,7 @@
 		in:fly={{ y: -32 }}
 		out:caughtItemTransition
 	>
-		{#if !currentDrop?.isJunk}
+		{#if !currentDrop?.isFailure}
 			<img class="rays" src="rays.webp" alt="" />
 			<img class="rays1" src="rays1.webp" alt="" />
 			<img class="rays2" src="rays2.webp" alt="" />
