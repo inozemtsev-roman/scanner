@@ -41,7 +41,7 @@
 		{$t('home.inventory')}
 	</a>
 	<a class="nav-card" href="/scanning" use:ripple>
-		<img src="/icons/Index.webp" alt="scanning" />
+		<img src="/icons/finger.webp" alt="scanning" />
 		{$t('home.scanning')}
 		<span class="progress" style:width={`${(scanningTimeRemained / 10000) * 100}%`} />
 	</a>

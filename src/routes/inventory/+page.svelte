@@ -240,11 +240,6 @@
 		color: var(--text);
 	}
 
-	.item-getgems {
-		text-decoration: solid;
-		gap: 1rem;
-	}
-
 	.item-actions {
 		display: grid;
 		margin-top: 2rem;
