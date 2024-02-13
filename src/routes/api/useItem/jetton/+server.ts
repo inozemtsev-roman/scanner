@@ -8,7 +8,8 @@ const possibleDrops = [
 	{ bulbs: 50 },
 	{ bulbs: 60 },
 	{ keys: 2 },
-	{ keys: 5 }
+	{ keys: 5 },
+	{ keys: 7 }
 ]
 
 export async function POST(event: RequestEvent) {
