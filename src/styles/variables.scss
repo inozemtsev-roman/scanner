@@ -1,7 +1,7 @@
 :root {
 	--font: 'Inter', 'Segoe UI', sans-serif;
 
-	--background: var(--tg-theme-bg-color 0.33);
+	--background: var(--tg-theme-bg-color) 0.33;
 	--background-secondary: var(--tg-theme-secondary-bg-color, #000000);
 	--foreground: var(--tg-theme-text-color, #222222);
 	--text: var(--tg-theme-hint-color, #999999);
@@ -19,7 +19,7 @@
 }
 
 body.dark {
-	--background: var(--tg-theme-bg-color 0.33);
+	--background: var(--tg-theme-bg-color) 0.33;
 	--background-secondary: var(--tg-theme-secondary-bg-color, #000000);
 	--foreground: var(--tg-theme-text-color, #ffffff);
 	--text: var(--tg-theme-hint-color, #868686);
