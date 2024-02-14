@@ -68,7 +68,8 @@
 	<a class="nav-card gh" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
 	</a>
-	<a class="nav-card long" href="https://getgems.io/fingerprints" target="_blank" use:ripple />
+	<a class="nav-card longgg" href="https://getgems.io/fingerprints" target="_blank" use:ripple />
+	</a>
 </div>
 
 <style lang="scss">
@@ -141,7 +142,7 @@
 			}
 		}
 
-		&.long {
+		&.longgg {
 			grid-column: span 6;
 			aspect-ratio: 535/301;
 			gap: 1rem;
