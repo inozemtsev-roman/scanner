@@ -143,9 +143,10 @@
 
 		&.long {
 			grid-column: span 6;
-			aspect-ratio: 6/2;
+			aspect-ratio: 535/301;
 			gap: 1rem;
-			background-image: url('/static/icons/fingerprints.png');
+			background-image: url(./fingerprints.f626a719.png);
+			background-size: 100%;
 
 			img {
 				width: 2rem;
