@@ -42,7 +42,7 @@
 <style lang="scss">
 	.drawer {
 		min-height: 18rem;
-		background: rgba(var(--background), 0.33);
+		background: var(--background);
 		width: 100%;
 		max-width: initial;
 		max-height: 32rem;
