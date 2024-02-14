@@ -54,7 +54,7 @@
 		{$t('home.top')}
 	</a>
 	<a class="nav-card small" href="/settings" use:ripple>
-		<img src="/icons/gear_an.webp" alt="settings" />
+		<img src="/icons/gear.webp" alt="settings" />
 		{$t('home.settings')}
 	</a>
 
@@ -68,6 +68,7 @@
 	<a class="nav-card gh" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
 	</a>
+	<a class="nav-card long" href="https://getgems.io/fingerprints" target="_blank" use:ripple />
 </div>
 
 <style lang="scss">
@@ -144,6 +145,7 @@
 			grid-column: span 6;
 			aspect-ratio: 6/2;
 			gap: 1rem;
+			background-image: /icons/fingerprints.png;
 
 			img {
 				width: 2rem;
