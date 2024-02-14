@@ -145,7 +145,7 @@
 			grid-column: span 6;
 			aspect-ratio: 6/2;
 			gap: 1rem;
-			background-image: /icons/fingerprints.png;
+			background-image: url('/static/icons/fingerprints.png');
 
 			img {
 				width: 2rem;
