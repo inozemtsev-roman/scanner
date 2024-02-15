@@ -11,7 +11,7 @@
 
 html,
 body {
-	background: var(--background-secondary);
+	background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/sn-fingerprints_1.jpg');
 	color: var(--foreground);
 	margin: 0;
 	padding: 0;

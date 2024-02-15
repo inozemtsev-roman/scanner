@@ -39,8 +39,7 @@
 	.tabs {
 		height: 2.75rem;
 		width: 100%;
-		background: rgba(var(--background));
-		backdrop-filter: blur(20px);
+		background: var(--background);
 		display: flex;
 		overflow-x: scroll;
 		position: relative;
