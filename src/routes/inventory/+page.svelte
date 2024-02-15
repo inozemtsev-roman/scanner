@@ -95,7 +95,7 @@
 											if (!itemSelected) return
 											sellPageOpened = true
 										}}
-										variant="secondary"
+										variant="primary"
 									>
 										{$t('inventory.sell')}
 									</Button>
