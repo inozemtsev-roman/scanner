@@ -41,7 +41,7 @@
 
 <style lang="scss">
 	.drawer {
-		min-height: 18rem;
+		mni-height: 18rem;
 		background: rgba(var(--background));
 		backdrop-filter: blur(20px);
 		width: 100%;
