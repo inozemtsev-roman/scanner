@@ -48,6 +48,7 @@
 		background: var(--text);
 		border-radius: 0.5rem;
 		transition: 0.2s;
+		background-color: #818181;
 	}
 
 	.checkbox {

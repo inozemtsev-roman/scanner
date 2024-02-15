@@ -24,10 +24,10 @@
 		},
 		"contrast": {
 			"name": "Contrast mode",
-			"description": "Enable borders to increase visibility"
+			"description": "Enable white borders to increase visibility"
 		},
 		"cozy": {
-			"name": "Fingerprints Mode",
+			"name": "Color Mode",
 			"description": "Enable background"
 		},
 		"set": "Set username"
