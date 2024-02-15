@@ -13,7 +13,8 @@ html,
 body {
 html, body {
 	background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/1678539069133.jpeg');
-	background-size: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 	background-position: center;
 	color: var(--foreground);
 	margin: 0;
