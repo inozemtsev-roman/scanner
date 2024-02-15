@@ -4,7 +4,7 @@
 	--background: var(--tg-theme-bg-color, #FFFFFF33);
 	--background-secondary: var(--tg-theme-secondary-bg-color, #000000);
 	--foreground: var(--tg-theme-text-color, #222222);
-	--text: var(--tg-theme-hint-color, #000000);
+	--text: var(--tg-theme-hint-color, #ffffff);
 	--accent: var(--tg-theme-button-color, #2188ff);
 	--accent-foreground: var(--tg-theme-button-text-color, #ffffff);
 	--link: var(--tg-theme-link-color, #2188ff);
@@ -22,7 +22,7 @@ body.dark {
 	--background: var(--tg-theme-bg-color, #18181933);
 	--background-secondary: var(--tg-theme-secondary-bg-color, #000000);
 	--foreground: var(--tg-theme-text-color, #ffffff);
-	--text: var(--tg-theme-hint-color, #ffffff);
+	--text: var(--tg-theme-hint-color, #000000);
 	--accent: var(--tg-theme-button-color, #2188ff);
 	--accent-foreground: var(--tg-theme-button-text-color, #ffffff);
 	--link: var(--tg-theme-link-color, #2188ff);
