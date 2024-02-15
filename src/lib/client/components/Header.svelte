@@ -99,6 +99,8 @@
 		color: var(--foreground);
 		font-size: 1rem;
 		border-radius: 0.25rem;
+		background: rgba(var(--background));
+		backdrop-filter: blur(20px);
 	}
 
 	.progress {
