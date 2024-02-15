@@ -12,7 +12,7 @@
 html,
 body {
 html, body {
-	background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/16785390691332.jpg');
+	background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/Metaverse.png');
 	background-size: cover;
 	background-position: center;
 	color: var(--foreground);
@@ -35,7 +35,7 @@ body {
 
 	&.cozy {
 		main {
-			background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/Metaverse.png');
+			background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/main_bg.png');
 			background-size: cover;
 			background-position: center;
 		}
