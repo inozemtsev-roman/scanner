@@ -14,7 +14,6 @@ body {
 html, body {
 	background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/16785390691332.jpg');
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: center;
 	color: var(--foreground);
 	margin: 0;
@@ -36,7 +35,7 @@ body {
 
 	&.cozy {
 		main {
-			background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/sn-fingerprints_2.jpg');
+			background: linear-gradient(to bottom, transparent, var(--background-secondary) 85%), url('/Metaverse.png');
 			background-size: cover;
 			background-position: center;
 		}
