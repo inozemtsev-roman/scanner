@@ -43,7 +43,7 @@
 	.drawer {
 		min-height: 18rem;
 		background: rgba(var(--background));
-		backdrop-filter: blur(50px);
+		backdrop-filter: blur(20px);
 		width: 100%;
 		max-width: initial;
 		max-height: 32rem;
