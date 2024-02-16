@@ -26,7 +26,7 @@
 	webApp.BackButton.show()
 	webApp.BackButton.onClick(() => goto('./'))
 	webApp.MainButton.hide()
-	webApp.MainButton.setText('Change username')
+	webApp.MainButton.setText($t('settings.set'))
 	webApp.MainButton.color = getComputedStyle(document.documentElement).getPropertyValue('--success')
 	webApp.MainButton.onClick(async () => {
 		await fetchData('changeUsername', {
