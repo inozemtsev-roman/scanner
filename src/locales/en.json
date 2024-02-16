@@ -24,13 +24,14 @@
 		},
 		"contrast": {
 			"name": "Contrast mode",
-			"description": "Enable white borders to increase visibility"
+			"description": "Enable to increase visibility"
 		},
 		"cozy": {
-			"name": "Color Mode",
+			"name": "Background",
 			"description": "Enable background"
 		},
-		"set": "Set username"
+		"set": "Set username",
+		"desc": "You can choose your username on Fingerprints Scanner or use your Telegram one. You can use a-z, 0-9 and underscores. Minimum length is 5 characters."
 	},
 	"top": {
 		"level": "Level",

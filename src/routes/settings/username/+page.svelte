@@ -80,8 +80,7 @@
 	</Await>
 {/if}
 <p class="hint">
-	You can choose your username on Fingerprints Scanner or use your Telegram one. You can use a-z, 0-9 and underscores.
-	Minimum length is 5 characters.
+	{$t('settings.desc')}
 </p>
 
 <style lang="scss">
