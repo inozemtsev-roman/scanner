@@ -1,5 +1,7 @@
 {
 	"levelPopupTitle": "{{level}} уровень",
+	"xp": "XP (Очков опыта)",
+	"lvl": "Ваш текущий уровень:",
 	"status": "status",
 	"api": {
 		"notEnoughBulbs": "Не хватает лампочек",

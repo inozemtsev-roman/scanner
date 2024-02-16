@@ -1,5 +1,6 @@
 {
 	"levelPopupTitle": "{{level}} level",
+	"xp": "XP (Experience Points)",
 	"lvl": "You current level:",
 	"status": "status",
 	"api": {
