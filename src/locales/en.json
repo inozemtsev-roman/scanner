@@ -31,7 +31,10 @@
 			"description": "Enable background"
 		},
 		"set": "Set username",
-		"desc": "You can choose your username on Fingerprints Scanner or use your Telegram one. You can use a-z, 0-9 and underscores. Minimum length is 5 characters."
+		"desc": "You can choose your username or use your Telegram one. You can use a-z, 0-9 and underscores. Minimum length is 5 characters.",
+		"check": "Checking username...",
+		"ava": "is available.",
+		"taken": "is already taken."
 	},
 	"top": {
 		"level": "Level",
