@@ -223,7 +223,7 @@
 				"text": "You received 33 bulbs! Come back tomorrow for a new reward."
 			},
 			"timeout": {
-				"text": "Come back tomorrow to get a new reward."
+				"text": "The bonus has already been received. Come back after a while to receive the next reward. The reward is accrued every 24 hours."
 			}
 		},
 		"links": {
