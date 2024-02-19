@@ -124,7 +124,7 @@
 	<div class="scanning-action">{$t('message.timeout')}</div>
 {:else if scanningState === 'waiting'}
 	<div class="animation">
-		<LottiePlayer src="/animations/scan-double2.json" loop autoplay width={220} />
+		<LottiePlayer src="/animations/scan-double.json" loop autoplay width={220} />
 	</div>
 	<div class="scanning-action">{$t('message.waiting')}</div>
 {:else if scanningState === 'missed'}
