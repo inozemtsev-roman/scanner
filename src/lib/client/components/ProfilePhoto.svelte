@@ -29,7 +29,7 @@
 
 	div.profile-photo {
 		background-image: url(/static/icons/fng.png);
-		background-size: cover;
+		background-size: contain;
 		background-position: center center;
 		font-weight: 600;
 		display: flex;
