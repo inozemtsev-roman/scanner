@@ -243,7 +243,6 @@
 
 	.item-actions {
 		display: grid;
-		background: var(--background-secondary);
 		margin-top: 2rem;
 		grid-auto-flow: column;
 		grid-auto-columns: minmax(0, 2fr);
