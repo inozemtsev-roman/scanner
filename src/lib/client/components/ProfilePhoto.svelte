@@ -15,9 +15,7 @@
 		style:--size={size}
 	/>
 {:else}
-	<div class="profile-photo" style:--size={size}>
-		{user?.username ? user?.username[0] : 'u'}
-	</div>
+	<div class="profile-photo" style:--size={size} />
 {/if}
 
 <style lang="scss">
