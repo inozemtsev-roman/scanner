@@ -56,7 +56,7 @@
 	// Variants
 
 	.secondary {
-		background: var(--background-secondary);
+		background: var(--muted);
 		color: var(--foreground);
 	}
 
