@@ -56,8 +56,8 @@
 	// Variants
 
 	.secondary {
-		background: #434343;
-		color: White;
+		background: var(--foreground);
+		color: var(--text);
 	}
 
 	// Sizes
