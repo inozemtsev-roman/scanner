@@ -28,7 +28,7 @@
 	}
 
 	div.profile-photo {
-		background: var(--muted);
+		background: var(--background);
 		font-weight: 500;
 		display: flex;
 		align-items: center;
