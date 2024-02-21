@@ -28,9 +28,8 @@
 	}
 
 	div.profile-photo {
-		background: var(--background-secondary);
 		background-image: url(/static/icons/fng.png);
-		font-weight: 800;
+		font-weight: 700;
 		display: flex;
 		align-items: center;
 		justify-content: center;
