@@ -57,7 +57,7 @@
 
 	.secondary {
 		background: var(--foreground);
-		color: var(--text);
+		color: var(--background);
 	}
 
 	// Sizes
