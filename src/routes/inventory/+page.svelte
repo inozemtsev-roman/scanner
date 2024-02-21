@@ -192,6 +192,7 @@
 		height: 1.5rem;
 		min-width: 1.5rem;
 		background: var(--text);
+		background-color: #2188ff;
 		border-radius: 0.75rem;
 		font-weight: 500;
 		display: flex;
