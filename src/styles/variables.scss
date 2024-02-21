@@ -9,7 +9,7 @@
 	--accent-foreground: var(--tg-theme-button-text-color, #ffffff);
 	--link: var(--tg-theme-link-color, #2188ff);
 
-	--muted: color-mix(in srgb, var(--background-secondary), var(--text) 33%);
+	--muted: color-mix(in srgb, var(--ripple-color), var(--text) 33%);
 
 	--danger: #f56058;
 	--success: #31b545;
@@ -27,7 +27,7 @@ body.dark {
 	--accent-foreground: var(--tg-theme-button-text-color, #ffffff);
 	--link: var(--tg-theme-link-color, #2188ff);
 
-	--muted: color-mix(in srgb, var(--background-secondary), var(--text) 25%);
+	--muted: color-mix(in srgb, var(--ripple-color), var(--text) 25%);
 
 	--danger: #f16d66;
 	--success: #31b545;
