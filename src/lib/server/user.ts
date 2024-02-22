@@ -1,5 +1,6 @@
 import { getXpForNextLevel } from '../shared/leveling'
 import { database } from './database'
+import { random } from './random'
 
 export async function giveUserXp(userId: number, xp: number) {
 	const user = await database.user.findUnique({
@@ -61,4 +62,19 @@ export async function giveUserItem(userId: number, itemId: string, quantity: num
 			}
 		}
 	})
+}
+
+export function getLuck(userId: number) {
+	const maxDelta = 0.1
+	const today = new Date()
+	today.setUTCHours(0, 0, 0, 0)
+	const dateString = today.toLocaleString('en-US', {
+		month: '2-digit',
+		day: '2-digit',
+		year: '2-digit'
+	})
+	const seed = userId.toString() + dateString
+	const randomValue = random(seed)
+	const dailyLuck = 1 - maxDelta + randomValue * maxDelta * 2
+	return dailyLuck
 }
