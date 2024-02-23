@@ -59,10 +59,10 @@
 		out:caughtItemTransition
 	>
 		{#if !currentDrop?.isFailure}
-			<img class="rays" src="rays.webp" alt="" />
-			<img class="rays1" src="rays1.webp" alt="" />
-			<img class="rays2" src="rays2.webp" alt="" />
-			<img class="rays3" src="rays3.webp" alt="" />
+			<img class="rays" src="rays.webp" alt="rays" />
+			<img class="rays1" src="rays1.webp" alt="rays1" />
+			<img class="rays2" src="rays2.webp" alt="rays2" />
+			<img class="rays3" src="rays3.webp" alt="rays3" />
 		{/if}
 		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} height="100" loading="lazy" />
 	</button>
@@ -168,8 +168,8 @@
 
 	.rays {
 		position: absolute;
-		left: calc(50% - 8rem);
-		top: calc(50% - 8rem);
+		left: calc(30% - 8rem);
+		top: calc(30% - 8rem);
 		z-index: -1;
 		animation: rotate 8s linear infinite;
 	}
