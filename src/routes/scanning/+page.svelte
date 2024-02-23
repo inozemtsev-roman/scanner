@@ -168,8 +168,9 @@
 
 	.rays {
 		position: absolute;
-		left: calc(30% - 8rem);
-		top: calc(30% - 8rem);
+		height: 75%;
+		left: calc(50% - 8rem);
+		top: calc(50% - 8rem);
 		z-index: -1;
 		animation: rotate 8s linear infinite;
 	}
@@ -185,6 +186,7 @@
 
 	.rays1 {
 		position: absolute;
+		height: 75%;
 		left: calc(50% - 8rem);
 		top: calc(50% - 8rem);
 		z-index: -1;
@@ -202,6 +204,7 @@
 
 	.rays2 {
 		position: absolute;
+		height: 75%;
 		left: calc(50% - 8rem);
 		top: calc(50% - 8rem);
 		z-index: -1;
@@ -219,6 +222,7 @@
 
 	.rays3 {
 		position: absolute;
+		height: 75%;
 		left: calc(50% - 8rem);
 		top: calc(50% - 8rem);
 		z-index: -1;
