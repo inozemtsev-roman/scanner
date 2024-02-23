@@ -64,7 +64,7 @@
 			<img class="rays2" src="rays2.webp" alt="" />
 			<img class="rays3" src="rays3.webp" alt="" />
 		{/if}
-		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} height="110" loading="lazy" />
+		<img src={`items/${currentDrop.itemId}.webp`} alt={currentDrop.itemId} height="100" loading="lazy" />
 	</button>
 {/if}
 
@@ -143,7 +143,7 @@
 		transition: none;
 		background: none;
 		border: none;
-		transition: 0.5s ease-in;
+		transition: 5.5s ease-in;
 	}
 
 	.scanning-action {
