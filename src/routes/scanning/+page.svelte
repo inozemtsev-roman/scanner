@@ -9,6 +9,7 @@
 	import type { User } from '@prisma/client'
 	import { LottiePlayer } from '@lottiefiles/svelte-lottie-player'
 	import { clientLanguage, t, userLanguage } from '$lib/shared/localization'
+	import Analytics from '$lib/analytics.svelte'
 
 	const webApp = window.Telegram.WebApp
 
@@ -47,6 +48,8 @@
 		myData = data
 	})
 </script>
+
+<Analytics />
 
 {#if scanningState === 'caught' && currentDrop}
 	<button

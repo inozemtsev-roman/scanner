@@ -6,6 +6,7 @@
 	import { usernameSchema } from '$lib/shared/zodSchemas'
 	import { onMount } from 'svelte'
 	import { t } from '$lib/shared/localization'
+	import Analytics from '$lib/analytics.svelte'
 
 	let usernameValue: string = $userData?.username
 	let availabilityPromise: Promise<boolean | null>
@@ -48,6 +49,8 @@
 		return res.usernameAvailable
 	}
 </script>
+
+<Analytics />
 
 <div class="block">
 	<span class="block-header">{$t('settings.set')}</span>

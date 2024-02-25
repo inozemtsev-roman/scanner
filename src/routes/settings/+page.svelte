@@ -4,12 +4,15 @@
 	import { ripple } from '$lib/client/actions'
 	import Toggle from '../../lib/client/components/Toggle.svelte'
 	import { clientLanguage, t, userLanguage } from '$lib/shared/localization'
+	import Analytics from '$lib/analytics.svelte'
 
 	const webApp = window.Telegram.WebApp
 	webApp.BackButton.show()
 	webApp.BackButton.onClick(() => goto('/'))
 	webApp.MainButton.hide()
 </script>
+
+<Analytics />
 
 <div class="block">
 	<a href="/settings/username" class="cell" use:ripple>
