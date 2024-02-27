@@ -72,6 +72,7 @@
 		<img src="/icons/github.webp" alt="github" />
 	</a>
 	<a class="nav-card longgg" href="https://getgems.io/fingerprints" target="_blank" use:ripple />
+	</a>
 </div>
 
 <style lang="scss">
@@ -148,7 +149,7 @@
 			grid-column: span 6;
 			aspect-ratio: 535/301;
 			gap: 1rem;
-			background-image: url(/static/icons/fingerprint.png);
+			background-image: url(/static/icons/	);
 			background-size: 100%;
 
 			img {
