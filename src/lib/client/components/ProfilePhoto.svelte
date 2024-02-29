@@ -22,7 +22,7 @@
 	.profile-photo {
 		width: var(--size, 2rem);
 		height: var(--size, 2rem);
-		border-radius: 50%;
+		border-radius: 12px;
 	}
 
 	div.profile-photo {
