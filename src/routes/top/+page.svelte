@@ -209,6 +209,6 @@
 		left: 1rem;
 		right: 0;
 		height: 1px;
-		background: var(--border-color);
+		// background: var(--border-color);
 	}
 </style>
