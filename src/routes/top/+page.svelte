@@ -141,6 +141,9 @@
 			width: 1.5rem;
 			height: 1.5rem;
 			content: '🥇';
+			font-size: 1.5rem;
+			position: relative;
+			left: -5px;
 		}
 
 		&:nth-child(2) .place {
@@ -153,6 +156,9 @@
 			width: 1.5rem;
 			height: 1.5rem;
 			content: '🥈';
+			font-size: 1.5rem;
+			position: relative;
+			left: -5px;
 		}
 
 		&:nth-child(3) .place {
@@ -165,6 +171,9 @@
 			width: 1.5rem;
 			height: 1.5rem;
 			content: '🥉';
+			font-size: 1.5rem;
+			position: relative;
+			left: -5px;
 		}
 	}
 
