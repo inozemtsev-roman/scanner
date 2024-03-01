@@ -20,8 +20,8 @@
 
 <style lang="scss">
 	.profile-photo {
-		width: var(--size, 2rem);
-		height: var(--size, 2rem);
+		width: var(--size, 2.7rem);
+		height: var(--size, 2.7rem);
 		border-radius: 12px;
 	}
 
