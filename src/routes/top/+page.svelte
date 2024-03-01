@@ -135,6 +135,7 @@
 			background: #d4af37;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
+			content: '🥇';
 		}
 
 		&:nth-child(2) .place {
