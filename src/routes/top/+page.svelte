@@ -48,7 +48,6 @@
 						<span class="profile-photo" />
 						<span class="username" style:width={Math.random() * 5 + 3 + 'rem'} />
 						<span class="stats" style:width={Math.random() + 1 + 'rem'} />
-						<div class="divider" />
 					</div>
 				{/each}
 			</svelte:fragment>
@@ -105,9 +104,9 @@
 		}
 
 		.profile-photo {
-			width: 2rem;
-			height: 2rem;
-			border-radius: 50%;
+			width: 2.7rem;
+			height: 2.7rem;
+			border-radius: 12px;
 		}
 	}
 
