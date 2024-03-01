@@ -137,6 +137,9 @@
 			color: white;
 			content: '\1F947';
 		}
+		&:nth-child(-n + 3)::after {
+			content: '🥇';
+		}
 
 		&:nth-child(2) .place {
 			background: #c0c0c0;
