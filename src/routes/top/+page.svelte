@@ -135,7 +135,6 @@
 			background: #d4af37;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
-			display: none;
 			content: '\1F947';
 		}
 
