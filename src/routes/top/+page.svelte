@@ -151,6 +151,10 @@
 		}
 	}
 
+	.place:nth-child(1)::before {
+		content: '\1F947';
+	}
+
 	.place {
 		font-size: 1rem;
 		font-weight: 600;
