@@ -131,7 +131,7 @@
 			display: none;
 		}
 
-		&:nth-child(1)::before {
+		&:nth-child(1) .place ::before {
 			content: '🥇';
 		}
 
