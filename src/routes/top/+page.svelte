@@ -131,7 +131,12 @@
 			display: none;
 		}
 
-		&:nth-child(1) .place ::before {
+		&:nth-child(1) .place {
+			background: #d4af37;
+			border: 1px solid rgba(0, 0, 0, 0.05);
+			color: white;
+		}
+		&:nth-child(1)::before {
 			content: '🥇';
 		}
 
