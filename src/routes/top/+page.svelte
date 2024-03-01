@@ -135,9 +135,9 @@
 			background: #d4af37;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
-			content: '\1F947';
+			visibility: hidden;
 		}
-		&:nth-child(-n + 3)::after {
+		&:nth-child(1)::before {
 			content: '🥇';
 		}
 
