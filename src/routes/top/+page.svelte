@@ -135,8 +135,11 @@
 			background: #d4af37;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
+			display: none;
 		}
 		&:nth-child(1)::before {
+			width: 1.5rem;
+			height: 1.5rem;
 			content: '🥇';
 		}
 
@@ -144,12 +147,24 @@
 			background: #c0c0c0;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
+			display: none;
+		}
+		&:nth-child(2)::before {
+			width: 1.5rem;
+			height: 1.5rem;
+			content: '🥈';
 		}
 
 		&:nth-child(3) .place {
 			background: #cd7f32;
 			border: 1px solid rgba(0, 0, 0, 0.05);
 			color: white;
+			display: none;
+		}
+		&:nth-child(3)::before {
+			width: 1.5rem;
+			height: 1.5rem;
+			content: '🥉';
 		}
 	}
 
