@@ -164,6 +164,13 @@
 
 	.item-skeleton {
 		@include skeleton;
+		aspect-ratio: 1/1;
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		align-items: center;
+		justify-content: center;
+		border: none;
 	}
 
 	.item-card {
