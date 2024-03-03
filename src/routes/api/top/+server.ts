@@ -26,7 +26,7 @@ export async function POST(event: RequestEvent) {
 async function getTopByFilter(orderBy: Prisma.UserFindManyArgs['orderBy']) {
 	return await database.user.findMany({
 		orderBy,
-		take: 100,
+		take: 1000,
 		select: {
 			username: true,
 			level: true,
