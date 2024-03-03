@@ -5,7 +5,7 @@ export const bot = new Client({
 })
 
 export async function getUserProfilePhoto(userId: number) {
-	const { photos } = await bot.getUserProfilePhotos(userId, { limit: 100 })
+	const { photos } = await bot.getUserProfilePhotos(userId, { limit: 1000 })
 	if (!photos.length) return ''
 	const photo = photos[0][0]
 	const file = await bot.getFile(photo.fileId)
