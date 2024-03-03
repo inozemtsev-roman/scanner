@@ -120,6 +120,7 @@
 
 		&.self {
 			color: #2188ff;
+			font-weight: bold;
 			--ripple-color: color-mix(in srgb, #2188ff 15%, transparent);
 
 			.place {
@@ -191,7 +192,6 @@
 	}
 
 	.username {
-		font-weight: 400;
 		margin-left: -0.25rem;
 	}
 
