@@ -51,7 +51,7 @@ export async function POST(event: RequestEvent) {
 	return json({
 		...itemCatched,
 		_updates: {
-			bulbs: event.locals.user.bulbs - 5,
+			bulbs: event.locals.user.bulbs - 8,
 			level: newLevelData?.level,
 			xp: newLevelData?.xp,
 			lastTimeScanned
