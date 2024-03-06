@@ -39,7 +39,7 @@ export async function POST(event: RequestEvent) {
 	await database.user.update({
 		data: {
 			bulbs: {
-				decrement: 2
+				decrement: 10
 			},
 			lastTimeScanned
 		},
