@@ -71,7 +71,7 @@
 	<a class="nav-card gh" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
 	</a>
-	<a class="nav-card mint" href="/" target="_blank" use:ripple>
+	<a class="nav-card mint" href="/" use:ripple>
 		<img src="/icons/Robot.webp" alt="mint" />
 		{$t('home.links.mint')}
 	</a>
