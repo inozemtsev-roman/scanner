@@ -117,7 +117,6 @@
 			aspect-ratio: 2/0.88;
 			gap: 0.5rem;
 			color: var(--foreground);
-			color: white;
 			font-size: 1rem;
 
 			img {
