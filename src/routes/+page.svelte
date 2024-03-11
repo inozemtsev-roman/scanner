@@ -72,7 +72,7 @@
 		<img src="/icons/github.webp" alt="github" />
 	</a>
 	<a class="nav-card dao" href="@dao_verify_bot" use:ripple>
-		<img src="/icons/Robot.webp" alt="dao" />
+		<img src="/icons/dao.webp" alt="dao" />
 		{$t('home.links.dao')}
 	</a>
 	<a class="nav-card longgg" href="https://getgems.io/fingerprints" target="_blank" use:ripple />
