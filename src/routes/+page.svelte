@@ -71,6 +71,10 @@
 	<a class="nav-card gh" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
 	</a>
+	<a class="nav-card mint" href="/" target="_blank" use:ripple>
+		<img src="/icons/Robot.webp" alt="mint" />
+		{$t('home.links.mint')}
+	</a>
 	<a class="nav-card longgg" href="https://getgems.io/fingerprints" target="_blank" use:ripple />
 </div>
 
@@ -99,6 +103,21 @@
 			aspect-ratio: 2/0.88;
 			gap: 0.5rem;
 			background: #0088cc;
+			color: white;
+			font-size: 1rem;
+
+			img {
+				width: 1.2rem;
+			}
+		}
+
+		&.mint {
+			opacity: 0.5;
+			grid-column: span 2;
+			flex-direction: row;
+			aspect-ratio: 2/0.88;
+			gap: 0.5rem;
+			background: #000000;
 			color: white;
 			font-size: 1rem;
 
