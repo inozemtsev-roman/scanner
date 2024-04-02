@@ -193,6 +193,7 @@
 
 	.username {
 		margin-left: -0.25rem;
+		font-size: 0.875rem;
 	}
 
 	.stats {
