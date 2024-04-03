@@ -55,7 +55,7 @@
 		border: none;
 		font-family: var(--font);
 		font-size: 0.9375rem;
-		font-weight: 500;
+		font-weight: 900;
 		display: flex;
 		align-items: center;
 		justify-content: center;

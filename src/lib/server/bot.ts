@@ -26,7 +26,7 @@ bot.on('message', async (message) => {
 					new InlineKeyboardButton({
 						text: 'Launch Fingerprints Scanner',
 						webApp: {
-							url: 'https://scanner.mir.one/'
+							url: 'https://scanner.mir.one'
 						}
 					})
 				]
