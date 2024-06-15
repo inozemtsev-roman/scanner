@@ -71,7 +71,7 @@
 	<a class="nav-card gh" href="https://github.com/mir-one/fingerprints" target="_blank" use:ripple>
 		<img src="/icons/github.webp" alt="github" />
 	</a>
-	<a class="nav-card dao" href="https://t.me/dao_verify_bot" use:ripple>
+	<a class="nav-card dao" href="https://t.me/ton_fingerprints_dao_bot" use:ripple>
 		<img src="/icons/dao.webp" alt="dao" />
 		{$t('home.links.dao')}
 	</a>
